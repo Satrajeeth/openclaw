@@ -1020,6 +1020,12 @@ importers:
         specifier: workspace:*
         version: link:../../packages/plugin-sdk
 
+  extensions/travel-recommend:
+    dependencies:
+      zod:
+        specifier: ^4.3.6
+        version: 4.3.6
+
   extensions/twitch:
     dependencies:
       '@twurple/api':

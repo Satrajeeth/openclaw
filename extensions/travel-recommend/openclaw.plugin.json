@@ -1,0 +1,9 @@
+{
+  "id": "travel-recommend",
+  "description": "Travel recommendation engine plugin",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
