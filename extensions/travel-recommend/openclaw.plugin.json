@@ -4,6 +4,15 @@
   "configSchema": {
     "type": "object",
     "additionalProperties": false,
-    "properties": {}
+    "properties": {
+      "storePath": {
+        "type": "string",
+        "description": "Path to SQLite database file"
+      },
+      "webhookSecret": {
+        "type": "string",
+        "description": "Secret for webhook authentication"
+      }
+    }
   }
 }
