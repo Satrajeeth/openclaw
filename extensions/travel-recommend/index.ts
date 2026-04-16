@@ -1,5 +1,5 @@
 import { definePluginEntry } from "./api.js";
-import { ConfigSchema } from "./src/config.js";
+import { ConfigSchema, type TravelPluginConfig } from "./src/config.js";
 import { TravelStore } from "./src/store.js";
 
 declare module "openclaw/plugin-sdk/core" {
@@ -14,7 +14,7 @@ export default definePluginEntry({
   description: "Travel recommendation engine plugin",
   configSchema: ConfigSchema as any,
   register(api) {
-    const config = api.config;
+    const config = api.pluginConfig as TravelPluginConfig;
 
     // Initialize database
     const store = new TravelStore(config);
