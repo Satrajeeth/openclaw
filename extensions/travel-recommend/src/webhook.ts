@@ -1,5 +1,5 @@
+import type { IncomingMessage, ServerResponse } from "node:http";
 import { z } from "zod";
-import { createWebhookRoute } from "../runtime-api.js";
 import { sanitizeText } from "./sanitize.js";
 import { TravelStore } from "./store.js";
 
@@ -22,20 +22,28 @@ const PayloadSchema = z.object({
 });
 
 export function createTravelWebhook(store: TravelStore, secret: string) {
-  return createWebhookRoute({
+  return {
     path: "/travel-ingest",
+    auth: "none" as const,
 
-    async handler(req, res) {
+    async handler(req: IncomingMessage, res: ServerResponse) {
       try {
         // Basic auth check
         const auth = req.headers["x-webhook-secret"];
         if (auth !== secret) {
-          res.status(401).send("Unauthorized");
+          res.writeHead(401);
+          res.end("Unauthorized");
           return;
         }
 
-        const parsed = PayloadSchema.parse(req.body);
+        // Read body
+        const chunks: Buffer[] = [];
+        for await (const chunk of req) {
+          chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk));
+        }
+        const body = JSON.parse(Buffer.concat(chunks).toString());
 
+        const parsed = PayloadSchema.parse(body);
         const now = Date.now();
 
         for (const item of parsed.items) {
@@ -56,11 +64,13 @@ export function createTravelWebhook(store: TravelStore, secret: string) {
           });
         }
 
-        res.send({ success: true, count: parsed.items.length });
+        res.writeHead(200, { "Content-Type": "application/json" });
+        res.end(JSON.stringify({ success: true, count: parsed.items.length }));
       } catch (err) {
         console.error(err);
-        res.status(400).send("Invalid payload");
+        res.writeHead(400);
+        res.end("Invalid payload");
       }
     },
-  });
+  };
 }

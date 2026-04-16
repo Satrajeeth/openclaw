@@ -23,13 +23,9 @@ export default definePluginEntry({
     // 1. Initialize the Store (Database)
     const store = new TravelStore(config);
 
-    // 2. Attach store to the plugin state for use in other parts of the app
-    api.state.store = store;
-
-    // 3. Register the Webhook route
-    // Note: Ensure createTravelWebhook returns a valid route handler
+    // 2. Register the Webhook route
     const webhook = createTravelWebhook(store, config.webhookSecret);
-    api.registerRoute(webhook);
+    api.registerHttpRoute(webhook);
 
     console.log("Travel Recommend Plugin initialized successfully with Webhook support");
   },
