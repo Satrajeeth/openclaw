@@ -6,29 +6,4 @@ pnpm add zod
 pnpm add better-sqlite3
 
 pnpm tsgo
-pnpm check //need to run int he root folder 
 
-pnpm add -D @types/node @types/better-sqlite3
-
-  cd /media/jap/Data\ Store/Kirael/openclaw
-  pnpm openclaw config set plugins.entries.travel-recommend.config.webhookSecret "test@123"
-  pnpm openclaw config set plugins.entries.travel-recommend.config.storePath "./travel.db" 
-  pnpm openclaw gateway run --port 3000 
-
-pnpm openclaw config set plugins.entries.travel-recommend.enabled true
-  pnpm openclaw config set gateway.mode local 
-  pnpm openclaw gateway run --port 3000   
-curl -X POST http://localhost:3000/travel-ingest \
-  -H "Content-Type: application/json" \
-  -H "x-webhook-secret: test@123" \
-  -d '{
-    "items": [
-      {
-        "id": "1",
-        "category": "restaurant",
-        "name": "Test Restaurant",
-        "region": "Andhra",
-        "summary": "Good food"
-      }
-    ]
-  }'
