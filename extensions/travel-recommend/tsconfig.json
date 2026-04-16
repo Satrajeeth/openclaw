@@ -1,14 +1,27 @@
 {
   "compilerOptions": {
+    "paths": {
+      "openclaw": [
+        "../../dist/index.d.ts"
+      ],
+      "openclaw/*": [
+        "../../dist/*.d.ts"
+      ]
+    },
     "allowImportingTsExtensions": true,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["ES2023"],
+    "lib": [
+      "ES2023"
+    ],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
+    "types": [
+      "node"
+    ],
     "noEmit": true,
     "noEmitOnError": true,
     "resolveJsonModule": true,
@@ -16,6 +29,11 @@
     "strict": true,
     "target": "es2023"
   },
-  "include": ["./**/*"],
-  "exclude": ["node_modules", "dist"]
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }

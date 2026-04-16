@@ -7,3 +7,5 @@ pnpm add better-sqlite3
 
 pnpm tsgo
 pnpm check
+
+pnpm add -D @types/node @types/better-sqlite3

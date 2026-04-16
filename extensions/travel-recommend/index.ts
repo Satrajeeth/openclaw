@@ -1,6 +1,6 @@
-import { definePluginEntry } from "./api";
-import { ConfigSchema } from "./src/config";
-import { TravelStore } from "./src/store";
+import { definePluginEntry } from "./api.js";
+import { ConfigSchema } from "./src/config.js";
+import { TravelStore } from "./src/store.js";
 
 declare module "openclaw/plugin-sdk/core" {
   interface PluginState {
@@ -9,9 +9,8 @@ declare module "openclaw/plugin-sdk/core" {
 }
 
 export default definePluginEntry({
-  configSchema: ConfigSchema,
-
-  async init(ctx) {
+  configSchema: ConfigSchema as any,
+  async onBootstrap(ctx: any) {
     const config = ctx.config;
 
     // Initialize database

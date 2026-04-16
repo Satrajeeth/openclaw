@@ -1,6 +1,6 @@
 import Database from "better-sqlite3";
 import path from "path";
-import { TravelPluginConfig } from "./config";
+import { TravelPluginConfig } from "./config.js";
 
 export class TravelStore {
   private db: Database.Database;
