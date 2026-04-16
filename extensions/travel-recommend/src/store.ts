@@ -1,19 +1,17 @@
-import type Database from "better-sqlite3";
+import { createRequire } from "node:module";
 import path from "path";
 import { TravelPluginConfig } from "./config.js";
 
+const require = createRequire(import.meta.url);
+const Database = require("better-sqlite3");
+
 export class TravelStore {
-  private db!: Database.Database;
+  private db: InstanceType<typeof Database>;
 
-  private constructor() {}
-
-  static async create(config: TravelPluginConfig): Promise<TravelStore> {
-    const { default: BetterSqlite3 } = await import("better-sqlite3");
-    const store = new TravelStore();
+  constructor(config: TravelPluginConfig) {
     const dbPath = path.resolve(config.storePath);
-    store.db = new BetterSqlite3(dbPath);
-    store.init();
-    return store;
+    this.db = new Database(dbPath);
+    this.init();
   }
 
   private init() {
@@ -46,7 +44,6 @@ export class TravelStore {
     `);
   }
 
-  // Insert or update item
   upsertItem(item: Record<string, unknown>) {
     const stmt = this.db.prepare(`
       INSERT INTO travel_items (
@@ -76,7 +73,6 @@ export class TravelStore {
     stmt.run(item);
   }
 
-  // Basic search (we'll upgrade later)
   search(query: { category?: string; region?: string; limit?: number }) {
     const { category, region, limit = 5 } = query;
 
