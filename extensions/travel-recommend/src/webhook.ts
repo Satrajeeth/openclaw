@@ -24,7 +24,7 @@ const PayloadSchema = z.object({
 export function createTravelWebhook(store: TravelStore, secret: string) {
   return {
     path: "/travel-ingest",
-    auth: "none" as const,
+    auth: "plugin" as const,
 
     async handler(req: IncomingMessage, res: ServerResponse) {
       try {
