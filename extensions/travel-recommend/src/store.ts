@@ -1,15 +1,19 @@
-import Database from "better-sqlite3";
+import type Database from "better-sqlite3";
 import path from "path";
 import { TravelPluginConfig } from "./config.js";
 
 export class TravelStore {
-  private db: Database.Database;
+  private db!: Database.Database;
 
-  constructor(config: TravelPluginConfig) {
+  private constructor() {}
+
+  static async create(config: TravelPluginConfig): Promise<TravelStore> {
+    const { default: BetterSqlite3 } = await import("better-sqlite3");
+    const store = new TravelStore();
     const dbPath = path.resolve(config.storePath);
-    this.db = new Database(dbPath);
-
-    this.init();
+    store.db = new BetterSqlite3(dbPath);
+    store.init();
+    return store;
   }
 
   private init() {

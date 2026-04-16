@@ -21,7 +21,7 @@ export default definePluginEntry({
     const config = api.pluginConfig as TravelPluginConfig;
 
     // 1. Initialize the Store (Database)
-    const store = new TravelStore(config);
+    const store = await TravelStore.create(config);
 
     // 2. Register the Webhook route
     const webhook = createTravelWebhook(store, config.webhookSecret);
