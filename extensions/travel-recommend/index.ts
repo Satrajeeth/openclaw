@@ -9,15 +9,15 @@ declare module "openclaw/plugin-sdk/core" {
 }
 
 export default definePluginEntry({
+  id: "travel-recommend",
+  name: "Travel Recommend",
+  description: "Travel recommendation engine plugin",
   configSchema: ConfigSchema as any,
-  async onBootstrap(ctx: any) {
-    const config = ctx.config;
+  register(api) {
+    const config = api.config;
 
     // Initialize database
     const store = new TravelStore(config);
-
-    // Store it in context for later use
-    ctx.state.store = store;
 
     console.log("Travel Recommend Plugin initialized");
   },
