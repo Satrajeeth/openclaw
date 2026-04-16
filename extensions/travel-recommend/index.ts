@@ -12,12 +12,12 @@ export default definePluginEntry({
   id: "travel-recommend",
   name: "Travel Recommend",
   description: "Travel recommendation engine plugin",
-  configSchema: ConfigSchema as any,
+  configSchema: ConfigSchema as unknown as import("openclaw/plugin-sdk/core").OpenClawPluginConfigSchema,
   register(api) {
     const config = api.pluginConfig as TravelPluginConfig;
 
     // Initialize database
-    const store = new TravelStore(config);
+    const _store = new TravelStore(config);
 
     console.log("Travel Recommend Plugin initialized");
   },

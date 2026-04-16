@@ -43,7 +43,7 @@ export class TravelStore {
   }
 
   // Insert or update item
-  upsertItem(item: any) {
+  upsertItem(item: Record<string, unknown>) {
     const stmt = this.db.prepare(`
       INSERT INTO travel_items (
         id, category, name, region, city, country,
@@ -77,7 +77,7 @@ export class TravelStore {
     const { category, region, limit = 5 } = query;
 
     let sql = `SELECT * FROM travel_items WHERE 1=1`;
-    const params: any = {};
+    const params: Record<string, string | number> = {};
 
     if (category) {
       sql += ` AND category = @category`;
