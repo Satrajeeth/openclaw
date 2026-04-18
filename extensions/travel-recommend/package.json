@@ -1,16 +1,33 @@
 {
   "name": "@openclaw/travel-recommend",
-  "version": "0.0.1",
+  "version": "2026.4.6",
   "private": true,
+  "description": "Travel recommendation engine plugin with webhook ingestion",
   "type": "module",
-  "main": "index.ts",
   "dependencies": {
     "better-sqlite3": "^12.9.0",
-    "zod": "^4.3.6",
-    "openclaw": "workspace:*"
+    "zod": "^4.3.6"
   },
   "devDependencies": {
+    "@openclaw/plugin-sdk": "workspace:*",
     "@types/better-sqlite3": "^7.6.13",
-    "@types/node": "^25.5.2"
+    "@types/node": "^25.5.2",
+    "openclaw": "workspace:*"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.4.6"
+  },
+  "peerDependenciesMeta": {
+    "openclaw": {
+      "optional": true
+    }
+  },
+  "openclaw": {
+    "bundle": {
+      "stageRuntimeDependencies": true
+    },
+    "extensions": [
+      "./index.ts"
+    ]
   }
 }
