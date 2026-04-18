@@ -23,7 +23,7 @@ export default definePluginEntry({
       try {
         store.deleteExpired(Date.now());
       } catch (err) {
-        api.logger.warn?.("travel-recommend: TTL sweep failed", { err: String(err) });
+        api.logger.warn?.(`travel-recommend: TTL sweep failed: ${String(err)}`);
       }
     }, config.ttlSweepIntervalMs);
     sweep.unref?.();
