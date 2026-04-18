@@ -1,12 +1,18 @@
 import { z } from "zod";
 
+const DEFAULT_TTL_SWEEP_INTERVAL_MS = 6 * 60 * 60 * 1000;
+const DEFAULT_MAX_INGEST_ITEMS = 5_000;
+
 export const ConfigSchema = z.object({
   storePath: z.string().default("./travel.db"),
   webhookSecret: z.string().min(1),
 
-  // optional (for future use)
+  maxResults: z.number().int().positive().default(5),
+  ttlSweepIntervalMs: z.number().int().positive().default(DEFAULT_TTL_SWEEP_INTERVAL_MS),
+  maxIngestItems: z.number().int().positive().default(DEFAULT_MAX_INGEST_ITEMS),
+
+  // reserved for future use
   embeddingProvider: z.string().optional(),
-  maxResults: z.number().default(5),
 });
 
 export type TravelPluginConfig = z.infer<typeof ConfigSchema>;
