@@ -24,7 +24,6 @@ function createReq(options: {
   (req as unknown as { destroy: () => void; destroyed: boolean }).destroyed = false;
   (req as unknown as { destroy: () => void; destroyed: boolean }).destroy = () => {
     (req as unknown as { destroyed: boolean }).destroyed = true;
-    req.emit("close");
   };
   const bodyBuf = options.body
     ? Buffer.isBuffer(options.body)

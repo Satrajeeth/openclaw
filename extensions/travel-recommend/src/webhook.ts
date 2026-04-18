@@ -85,7 +85,9 @@ export function createTravelWebhook(store: TravelStore, config: TravelPluginConf
           profile: "post-auth",
           invalidJsonMessage: "invalid request body",
         });
-        if (!body.ok) return;
+        if (!body.ok) {
+          return;
+        }
 
         const parsed = PayloadSchema.safeParse(body.value);
         if (!parsed.success) {
@@ -105,8 +107,11 @@ export function createTravelWebhook(store: TravelStore, config: TravelPluginConf
         const rejected: { id?: string; reason: string }[] = [];
         for (const item of parsed.data.items) {
           const row = toTravelRow(item, now);
-          if (row) rows.push(row);
-          else rejected.push({ id: item.id, reason: "invalid_after_sanitize" });
+          if (row) {
+            rows.push(row);
+          } else {
+            rejected.push({ id: item.id, reason: "invalid_after_sanitize" });
+          }
         }
 
         const count = store.upsertBatch(rows);
