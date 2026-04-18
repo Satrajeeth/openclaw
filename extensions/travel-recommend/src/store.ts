@@ -130,10 +130,14 @@ export class TravelStore {
   }
 
   upsertBatch(items: TravelItem[]): number {
-    if (items.length === 0) return 0;
+    if (items.length === 0) {
+      return 0;
+    }
     const stmt = this.upsertStmt;
     const tx = this.db.transaction((rows: TravelItem[]) => {
-      for (const row of rows) stmt.run(row);
+      for (const row of rows) {
+        stmt.run(row);
+      }
     });
     tx(items);
     return items.length;
@@ -215,6 +219,8 @@ function toFtsQuery(raw: string): string {
     .split(/\s+/u)
     .map((t) => t.replace(/["']/g, "").trim())
     .filter(Boolean);
-  if (tokens.length === 0) return "";
+  if (tokens.length === 0) {
+    return "";
+  }
   return tokens.map((t) => `"${t}"*`).join(" ");
 }

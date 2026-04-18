@@ -18,16 +18,23 @@ function createReq(options: {
   req.url = "/travel-ingest";
   req.headers = {
     "content-type": "application/json",
-    ...(options.headers ?? {}),
+    ...options.headers,
   };
   req.socket = { remoteAddress: "127.0.0.1" } as MockReq["socket"];
+  (req as unknown as { destroy: () => void; destroyed: boolean }).destroyed = false;
+  (req as unknown as { destroy: () => void; destroyed: boolean }).destroy = () => {
+    (req as unknown as { destroyed: boolean }).destroyed = true;
+    req.emit("close");
+  };
   const bodyBuf = options.body
     ? Buffer.isBuffer(options.body)
       ? options.body
       : Buffer.from(options.body)
     : undefined;
   void Promise.resolve().then(() => {
-    if (bodyBuf) req.emit("data", bodyBuf);
+    if (bodyBuf) {
+      req.emit("data", bodyBuf);
+    }
     req.emit("end");
   });
   return req;

@@ -129,9 +129,13 @@ export function createTravelWebhook(store: TravelStore, config: TravelPluginConf
 
 function toTravelRow(item: IngestItem, now: number): TravelItem | null {
   const name = sanitizeText(item.name, 200);
-  if (!name) return null;
+  if (!name) {
+    return null;
+  }
   const category = sanitizeText(item.category, 64);
-  if (!category) return null;
+  if (!category) {
+    return null;
+  }
   return {
     id: item.id,
     category,
@@ -150,13 +154,17 @@ function toTravelRow(item: IngestItem, now: number): TravelItem | null {
 }
 
 function headerValue(raw: string | string[] | undefined): string {
-  if (Array.isArray(raw)) return raw[0]?.trim() ?? "";
+  if (Array.isArray(raw)) {
+    return raw[0]?.trim() ?? "";
+  }
   return typeof raw === "string" ? raw.trim() : "";
 }
 
 function formatZodError(error: z.ZodError): string {
   const first = error.issues[0];
-  if (!first) return "invalid request";
+  if (!first) {
+    return "invalid request";
+  }
   const path = first.path.length > 0 ? `${first.path.join(".")}: ` : "";
   return `${path}${first.message}`;
 }

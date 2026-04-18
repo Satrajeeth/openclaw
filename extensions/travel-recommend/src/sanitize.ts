@@ -3,7 +3,9 @@
 const CONTROL_FORMAT_SEPARATOR = /[\p{Cc}\p{Cf}\u2028\u2029]/gu;
 
 export function sanitizeText(input: string | undefined | null, maxLength = 500): string {
-  if (!input) return "";
+  if (!input) {
+    return "";
+  }
   const stripped = input.replace(CONTROL_FORMAT_SEPARATOR, "").trim();
   return stripped.slice(0, maxLength);
 }
@@ -19,7 +21,9 @@ export function wrapUntrustedTravelBlock(params: {
     .map((line) => line.replace(CONTROL_FORMAT_SEPARATOR, ""))
     .join("\n")
     .trim();
-  if (!sanitized) return "";
+  if (!sanitized) {
+    return "";
+  }
   const maxChars =
     typeof params.maxChars === "number" && params.maxChars > 0 ? params.maxChars : 0;
   const capped = maxChars > 0 && sanitized.length > maxChars ? sanitized.slice(0, maxChars) : sanitized;

@@ -1,5 +1,5 @@
 import { definePluginEntry } from "./api.js";
-import { ConfigSchema, type TravelPluginConfig } from "./src/config.js";
+import { ConfigSchema } from "./src/config.js";
 import { TravelStore } from "./src/store.js";
 import { createTravelDetailTool, createTravelRecommendTool } from "./src/tools.js";
 import { createTravelWebhook } from "./src/webhook.js";
@@ -11,7 +11,7 @@ export default definePluginEntry({
   configSchema: ConfigSchema as unknown as import("openclaw/plugin-sdk/core").OpenClawPluginConfigSchema,
 
   register(api) {
-    const config = ConfigSchema.parse(api.pluginConfig ?? {}) as TravelPluginConfig;
+    const config = ConfigSchema.parse(api.pluginConfig ?? {});
 
     const store = new TravelStore(config);
 

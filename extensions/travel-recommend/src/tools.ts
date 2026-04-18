@@ -144,7 +144,9 @@ export function createTravelDetailTool(store: TravelStore): AnyAgentTool {
 }
 
 function clampLimit(raw: number | undefined): number {
-  if (raw === undefined || !Number.isFinite(raw)) return DEFAULT_LIMIT;
+  if (raw === undefined || !Number.isFinite(raw)) {
+    return DEFAULT_LIMIT;
+  }
   return Math.min(MAX_LIMIT, Math.max(1, Math.floor(raw)));
 }
 
@@ -161,7 +163,9 @@ function renderCardsAsUntrustedBlock(cards: TravelCard[]): string {
       .filter(Boolean)
       .join(" — ");
     lines.push(header);
-    if (card.summary) lines.push(card.summary);
+    if (card.summary) {
+      lines.push(card.summary);
+    }
   });
   return wrapUntrustedTravelBlock({
     label: "Travel recommendations",

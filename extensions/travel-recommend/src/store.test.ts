@@ -88,7 +88,7 @@ describe("TravelStore", () => {
       makeItem({ id: "dead", name: "Dead", expires_at: now - 1 }),
     ]);
     const live = store.search({ limit: 10, now });
-    expect(live.map((r) => r.id).sort()).toEqual(["live"]);
+    expect(live.map((r) => r.id).toSorted()).toEqual(["live"]);
     expect(store.deleteExpired(now)).toBe(1);
     expect(store.getById("dead")).toBeNull();
   });

@@ -35,7 +35,9 @@ function makeItem(overrides: Partial<TravelItem> = {}): TravelItem {
 }
 
 function assertSchemaHasNoUnions(schema: unknown, path = "$") {
-  if (!schema || typeof schema !== "object") return;
+  if (!schema || typeof schema !== "object") {
+    return;
+  }
   const s = schema as Record<string, unknown>;
   for (const key of ["anyOf", "oneOf", "allOf"]) {
     expect(s[key], `${path}.${key} should not be present`).toBeUndefined();
@@ -45,7 +47,9 @@ function assertSchemaHasNoUnions(schema: unknown, path = "$") {
       assertSchemaHasNoUnions(v, `${path}.${k}`);
     }
   }
-  if (s.items) assertSchemaHasNoUnions(s.items, `${path}[]`);
+  if (s.items) {
+    assertSchemaHasNoUnions(s.items, `${path}[]`);
+  }
 }
 
 function asText(result: { content: readonly { type: string; text?: string }[] }): string {
@@ -68,7 +72,7 @@ describe("createTravelRecommendTool", () => {
     const store = openStore();
     store.upsertBatch([makeItem({ id: "t1", name: "Tirupati", summary: "Hilltop temple" })]);
     const tool = createTravelRecommendTool(store);
-    const result = await tool.execute!("call-1", { query: "temple" });
+    const result = await tool.execute("call-1", { query: "temple" });
     const text = asText(result);
     expect(text).toContain("<untrusted-text>");
     expect(text).toContain("</untrusted-text>");
@@ -88,7 +92,7 @@ describe("createTravelRecommendTool", () => {
       }),
     ]);
     const tool = createTravelRecommendTool(store);
-    const result = await tool.execute!("call-1", { query: "temple" });
+    const result = await tool.execute("call-1", { query: "temple" });
     const text = asText(result);
     expect(text).toContain("&lt;/untrusted-text&gt;");
     expect(text.match(/<\/untrusted-text>/g)).toHaveLength(1);
@@ -97,7 +101,7 @@ describe("createTravelRecommendTool", () => {
   it("returns an empty-results block when nothing matches", async () => {
     const store = openStore();
     const tool = createTravelRecommendTool(store);
-    const result = await tool.execute!("call-1", { query: "nothing" });
+    const result = await tool.execute("call-1", { query: "nothing" });
     expect(asText(result)).toContain("(no matching items)");
     expect((result.details as { count: number }).count).toBe(0);
   });
@@ -107,7 +111,7 @@ describe("createTravelDetailTool", () => {
   it("returns a not-found result for an unknown id", async () => {
     const store = openStore();
     const tool = createTravelDetailTool(store);
-    const result = await tool.execute!("call-1", { id: "missing" });
+    const result = await tool.execute("call-1", { id: "missing" });
     expect((result.details as { found: boolean }).found).toBe(false);
   });
 
@@ -117,7 +121,7 @@ describe("createTravelDetailTool", () => {
       makeItem({ id: "t1", detail_json: JSON.stringify({ hours: "6am-9pm" }) }),
     ]);
     const tool = createTravelDetailTool(store);
-    const result = await tool.execute!("call-1", { id: "t1" });
+    const result = await tool.execute("call-1", { id: "t1" });
     const details = result.details as { found: boolean; item: { detail: { hours?: string } } };
     expect(details.found).toBe(true);
     expect(details.item.detail.hours).toBe("6am-9pm");
