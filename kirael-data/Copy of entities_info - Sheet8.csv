@@ -1,0 +1,1361 @@
+entity_id,item_id,item_name,price,timing,item type,signature dish
+1,1,Sarva Darshanam,Free,,darshan,FALSE
+1,2,Special Entry Darshanam (SED),200,,darshan,FALSE
+1,3,VIP Break Darshanam/Supadham,250,,darshan,FALSE
+1,4,Suprabhatham,50,4.30 AM,seva,FALSE
+1,5,Padmavathi Parinayam (Kalyanotsavam),500,10.00 AM - 11.00 AM,seva,FALSE
+1,6,Astadala Pada Padmaradhana seva,300,7.00 AM- 7.30 AM,seva,FALSE
+1,7,Tiruppavada seva,1000,7.00 AM - 7.30 AM,seva,FALSE
+1,8,Vastralankarana Seva,"10,000",5.30 AM - 7.00 AM,seva,FALSE
+1,9,Abhishekam,500,5.30 AM - 7.00 AM,seva,FALSE
+1,10,Lakshmi Puja,100,9.30 AM - 10.00 AM,seva,FALSE
+1,11,Pushpanjali Seva,300,7.00 AM - 7.30 AM,seva,FALSE
+1,12,Anna Prasadam,Free,11:00 AM – 4:00 PM,prasadam,FALSE
+1,13,Anna Prasadam,Free,6:30 PM – 9:30 PM ​,prasadam,FALSE
+1,14,Naivedyam,Free,6:30 AM–7:30 AM,prasadam,FALSE
+1,15,Naivedyam,Free,5:45 PM –7:00 PM,prasadam,FALSE
+2,16,Spl. Entrance,5,,darshan,FALSE
+2,17,Quick Dharshan,20,,darshan,FALSE
+2,18,Suprabhatham,10,5:00 AM - 5:30 AM,seva,FALSE
+2,19,Thomala Seva,10,6:30AM - 7:00 AM,seva,FALSE
+2,20,Archanananthara Darsanam,10,8:00 AM - 8:30 AM,seva,FALSE
+2,21,Ekanthaseva,10,9:00 PM,seva,FALSE
+2,22,Anna Prasadam,Free,11:00 AM – 4:00 PM,prasadam,FALSE
+2,23,Naivedyam,Free,8:45 AM –9:30 AM,prasadam,FALSE
+2,24,Naivedyam,Free,12:30 PM –1:15 PM,prasadam,FALSE
+2,25,Naivedyam,Free,4:45 PM–6:00 PM,prasadam,FALSE
+3,26,Sarva Darshan (general),Free,15–45 minutes,darshan,FALSE
+3,27,Abhisheka Anantara / Special Entrance darshan (linked with paid sevas),Free,20–40 minutes,darshan,FALSE
+3,28,Suprabhata Seva,10,5:00 AM – 5:30 AM​,seva,FALSE
+3,29,Abhishekam (morning),50,5:30 AM – 6:30 AM​,seva,FALSE
+3,30,Abhisheka Anantara Darshanam,2,6:30 AM​,seva,FALSE
+3,31,Sahasranama Archana / Darshanam,5,4:30 PM –5:00 PM​,seva,FALSE
+3,32,Abhishekam (evening),50,4:00 PM – 4:30 PM​,seva,FALSE
+3,33,Archana / Harathi,5,8:00 PM​,seva,FALSE
+3,34,Ekantha Seva,10,8:00 PM – 8:15 PM​,seva,FALSE
+3,35,Anna Prasadam,Free,5:00 AM – 3:30 PM,prasadam,FALSE
+3,36,Anna Prasadam,Free,5:00 PM – 10:30 PM ​,prasadam,FALSE
+4,37,Sarva Darshan (general),Free,20–45 minutes,darshan,FALSE
+4,38,"Darshan via/after specific sevas (e.g., Suprabhata, Archana)",Free,20–40 minutes,darshan,FALSE
+4,39,Suprabhata Seva / Suprabhatham,15,5:00AM – 5:30 AM​,seva,FALSE
+4,40,Suprabhata Darshanam,Free,5:30AM – 6:00 AM​,seva,FALSE
+4,41,Sarva Darshan (morning session),Free,6:00AM - 12:00 PM​,seva,FALSE
+4,42,Thomala Seva,15,8:00AM – 8:45 AM​,seva,FALSE
+4,43,Sahasranama Archana,35,8:45AM – 9:15 AM​,seva,FALSE
+4,44,Archana Anantara Darshanam,Free,9:15AM – 10:00 AM​,seva,FALSE
+4,45,Ekantha Seva,15,8:45AM – 9:00 PM,seva,FALSE
+4,46,"pulihora, sweet pongal/laddu",Free,8:45AM–11:00 AM,prasadam,FALSE
+4,47,"pulihora, sweet pongal/laddu",Free,7:00AM–8:30 PM,prasadam,FALSE
+5,48,Sarva Darshan (general queue),Free,15–40 minutes,darshan,FALSE
+5,49,Darshan with seva (after poojas like Abhishekam / Alankarana etc.),Free,20–45 minutes,darshan,FALSE
+5,50,Archana,10,6:00AM-8:30PM,seva,FALSE
+5,51,Pongali Taligaradhana,20,6:00AM-8:30PM,seva,FALSE
+5,52,Vahana Pooja (2-wheeler),50,6:00AM-8:30PM,seva,FALSE
+5,53,Vahana Pooja (4-wheeler),100,6:00AM-8:30PM,seva,FALSE
+5,54,Abhishekam,300,7:00 AM – 8:00 AM​,seva,FALSE
+5,55,Kumkum Archana,151,11:00 AM - 6:00 PM​,seva,FALSE
+5,56,Chandi Homam,501,9:00 AM – 11:30 AM,seva,FALSE
+5,57,Alankarana Seva Darshan,Free,10:30 AM​,seva,FALSE
+5,58,"Usual prasadam includes pongal/pongali, pulihora and other offerings",Free,8:30AM–10:30 AM,prasadam,FALSE
+5,59,"Usual prasadam includes pongal/pongali, pulihora and other offerings",Free,6:30AM–8:30 PM,prasadam,FALSE
+6,60,Sarva Darshan (general darshan),Free,15–40 minutes,darshan,FALSE
+6,61,Suprabhata Seva,15,5:30 AM.​,seva,FALSE
+6,62,Nivedana (morning),,6:00 AM – 6:45 AM.​,seva,FALSE
+6,63,Sarva Darshan,Free,6:45 AM – 11:30 AM; 4:30 PM – 6:00 PM.​,seva,FALSE
+6,64,Archana + Nivedana,10–50,11:30 AM – 12:00 PM.​,seva,FALSE
+6,65,Evening Nivedana,,6:00 PM – 6:30 PM.​,seva,FALSE
+6,66,Evening Sarva Darshan,Free,6:30 PM – 8:30 PM.​,seva,FALSE
+6,67,Ekanta Seva (closing),,8:30 PM,seva,FALSE
+6,68,Standard temple prasadam (Naivedyam) such as pulihora/sweet offerings,,6:45AM–11:30 AM,prasadam,FALSE
+6,69,Standard temple prasadam (Naivedyam) such as pulihora/sweet offerings,,11:30AM–12:00PM,prasadam,FALSE
+7,70,General darshan during open hours,Free,20–30 minutes,darshan,FALSE
+7,71,"Darshan during major aartis (Mangala, Gaura, Sayana, etc.)",Free,30–45 minutes,darshan,FALSE
+7,72,Mangala Aarti,Free,4:15 AM.​,seva,FALSE
+7,73,Mantra / Japa meditation,Free,5:00AM–7:30 AM.​,seva,FALSE
+7,74,Darshana / Morning Aarti,Free,7:30AM–8:30 AM,seva,FALSE
+7,75,Srimad Bhagavatam / Gita class,Free,8:20AM–9:00 AM,seva,FALSE
+7,76,Raj Bhoga Aarti,Free,12:30 PM.​,seva,FALSE
+7,77,Tulasi / Gaura Aarti,Free,6:30PM–7:30 PM.​,seva,FALSE
+7,78,Sayana Aarti,Free,8:15PM–8:30 PM.​,seva,FALSE
+7,79,Breakfast prasadam,,8:30 AM,prasadam,FALSE
+7,80,Lunch prasadam,,1:00 PM,prasadam,FALSE
+7,81,Dinner prasadam,,8:30 PM,prasadam,FALSE
+8,82,Sarva Darshan (general),Free,15–30​ minutes,darshan,FALSE
+8,83,Darshan after special abhishekam,Free,20–40 minutes,darshan,FALSE
+8,84,Three daily archana / nivedana,,5:30AM-12:00PM,seva,FALSE
+8,85,Friday Suprabhata Abhishekam,Free,5:30 AM,seva,FALSE
+8,86,Special Shravana Abhishekam,Free,,seva,FALSE
+8,87,Tiruppongam / other naivedyam,Free,,prasadam,FALSE
+8,88,Free distribution,Free,8:00 AM,prasadam,FALSE
+9,89,Sarva Darshan,Free,10 – 30 minutes,darshan,FALSE
+9,90,Abhishekam,Free,,seva,FALSE
+9,91,Special Abhishekam,Free,,seva,FALSE
+9,92,"Offerings (coconuts, garlands)",Free,,seva,FALSE
+10,93,Sarva Darshan (general),Free,30–45 minutes,darshan,FALSE
+10,94,Sheegra Darshan,5,20–30 minutes.​,darshan,FALSE
+10,95,Ekantha Seva Darshan,10,15 minutes​,darshan,FALSE
+10,96,Viswaroopa Darshan,Free,5:30AM–6:00 AM,seva,FALSE
+10,97,Kalyanotsavam (daily marriage),500,11:00 AM–12:00 PM,seva,FALSE
+10,98,Ekantha Seva,10,8:00PM–8:30 PM.,seva,FALSE
+10,99,Anna prasadam (free meals),Free,10:30 AM -7:00 PM),Prasadam,FALSE
+10,100,Naivedyam offerings,Free,8:00 AM,Prasadam,FALSE
+11,101,Sarva Darshan (general),Free,30–40 minutes,darshan,FALSE
+11,102,Post‑abhishekam darshan,Free,20–30 minutes,darshan,FALSE
+11,103,Suprabhatham,,5:45AM–6:15 AM.​,seva,FALSE
+11,104,Thomala / Archana / Harathi,5,6:15 AM–10:30 AM.​,seva,FALSE
+11,105,Sarva Darshan,Free,11:00 AM–5:30 PM 6:00PM–7:30 PM.​,seva,FALSE
+11,106,Ekantha Seva,,7:45AM–8:00 PM.,seva,FALSE
+11,107,Abhishekam (Garudalwar),30,8:00 AM.​,seva,FALSE
+11,108,Abhishekam (Swamy/Padmavathi),30,7:00AM–10:30 AM.​,seva,FALSE
+11,109,Unjal Seva,,6:00 PM.​,seva,FALSE
+11,110,Abhishekam (Anjaneya),30,8:00AM–9:00 AM.​,seva,FALSE
+11,111,Kalyanotsavam,300,11:00 AM,seva,FALSE
+11,112,Anna prasadam (free meals),,10:30 AM,,FALSE
+11,113,Anna prasadam (free meals),,7:00 PM,,FALSE
+11,114,Naivedyam offerings,,8:00 AM,,FALSE
+11,115,Naivedyam offerings,,7:00 PM,,FALSE
+12,116,Sarva Darshan (general),Free,10–20 minutes,darshan,FALSE
+12,117,Abhishekam to parivara devathas,,6:00AM–7:00 AM.​,seva,FALSE
+12,118,Abhishekam to Swamy & Amma,,7:00AM–9:00 AM.​,seva,FALSE
+12,119,Sarva Darshan,Free,7:00 AM–7:30 PM,seva,FALSE
+12,120,Naivedyam (morning),,11:30 AM.​,seva,FALSE
+12,121,Deeparadhana & Naivedyam (evening),,4:30 PM.​,seva,FALSE
+12,122,Naivedyam & Ekantha Seva (closing),,7:30 PM,seva,FALSE
+12,123,Naivedyam prasadam (small),,11:30 AM,prasadam,FALSE
+12,124,Naivedyam prasadam (small),,4:30 PM,prasadam,FALSE
+13,125,Sarva Darshan (general),Free,5–15 minutes,darshan,FALSE
+13,126,Abhishekam,,6:00 AM,seva,FALSE
+13,127,Archana / Rudrabhishekam,,,seva,FALSE
+13,128,Naivedyam prasadam,,7:00 AM,prasadam,FALSE
+14,129,Sarva Darshan,Free,5–10 minutes,darshan,FALSE
+14,130,Archana / kumkum pooja,10–50,6:00AM-4:30PM,seva,FALSE
+14,131,Special abhishekam,100,,seva,FALSE
+14,132,Kumkum / vibhuti,,10:00 AM​,prasadam,FALSE
+14,133,Festival offerings,,,prasadam,FALSE
+15,134,Sarva Darshan (free),Free,1.5-2.5 hours,darshan,FALSE
+15,135,Special Entry Darshan,Rs 50,1–2 hours,darshan,FALSE
+15,136,Suprabhata Seva,Free,5:30 AM,seva,FALSE
+15,137,Rudrabhishekam,300,6:30 AM – 8:00 AM,seva,FALSE
+15,138,Archana,50,8:00 AM – 12:00 PM,seva,FALSE
+15,139,Naga Pratishta Pooja,600,10:00 AM – 11:00 AM,seva,FALSE
+15,140,Somavara Abhishekam,200,,seva,FALSE
+15,141,Rahu–Ketu Pooja,500 – 1500,6:00 AM – 6:00 PM,seva,FALSE
+15,142,Pradosha Pooja,150,,seva,FALSE
+15,143,Laksha Bilwarchana,1000,,seva,FALSE
+15,144,Ganapathi Homam,800,,seva,FALSE
+15,145,Laddu / teertham,,8:00 AM,prasadam,FALSE
+15,146,Annadanam (free meals),,,prasadam,FALSE
+16,147,Sarva Darshan,Free,15–90 minutes,darshan,FALSE
+16,148,Athi Seegra Darshanam,150,,darshan,FALSE
+16,149,Nijaroopa Darshanam,100,,darshan,FALSE
+16,150,Seegra Darshanam,100,10–20 min​utes,darshan,FALSE
+16,151,Suprabhatham / Bindu Theertha,551,4:00AM–5:00 AM.​,seva,FALSE
+16,152,Nijaroopa Darshanam,,"5:00AM–5:30 AM, 4:30PM–5:00 PM.​",seva,FALSE
+16,153,Special Abhishekam,,5:30AM–6:00 AM,seva,FALSE
+16,154,Ksheerabhishekam (Palabhishekam),200,"7:30AM–8:00 AM, 5:45PM–6:15 PM.​",seva,FALSE
+16,155,Panchamrutha Abhishekam,700,6:00 AM,seva,FALSE
+16,156,Kalyanotsavam,616,11:00 AM–12:00 PM.​,seva,FALSE
+16,157,Maha Harathi,200,6:15–6:45 PM.​,seva,FALSE
+16,158,Ekantha Seva,,9:00–9:30 PM.​,seva,FALSE
+16,159,Poolangi Seva,-,9:00AM–9:30 AM,seva,FALSE
+16,160,Laddu (2 nos) + Brass Dollar,,,prasadam,FALSE
+16,161,Annadanam (free meals),,,prasadam,FALSE
+17,162,General darshan,Free,5–15 minutes,darshan,FALSE
+17,163,Abhishekam,,8:00AM–10:00 AM,seva,FALSE
+17,164,Archana,,4:30 PM,seva,FALSE
+17,165,Special poojas,,,seva,FALSE
+17,166,Kumkum/vibhuti,,,prasadam,FALSE
+18,167,General Darshan,Free,1.5–3 hours,darshan,FALSE
+18,168,Abhishekam Darshan,100,4–8 AM,darshan,FALSE
+18,169,Abhishekam Pooja,4000,4:00AM–8:00 AM,seva,FALSE
+18,170,Pushpa Alankara Seva,2000–3000,4:30AM–7:30 AM.​,seva,FALSE
+18,171,Sri Vastram Seva,10000,7:00AM–8:00 AM.​,seva,FALSE
+18,172,Swarna Pushpa Archana,1500,8:00 AM–8:00 PM.​,seva,FALSE
+18,173,Veda Parayana Seva,250,8:00 AM–6:00 PM.​,seva,FALSE
+18,174,Maha Aarti,500,6:00PM–7:00 PM.​,seva,FALSE
+18,175,Godhana Seva,50000,10:00 AM–4:00 PM.​,seva,FALSE
+18,176,Go Pooja Seva,300,6:00 PM,seva,FALSE
+18,177,Annadanam (free meals),,8:00 AM–8:00 PM,prasadam,FALSE
+18,178,Laddu / kumkum offerings,,6:30 PM,prasadam,FALSE
+19,179,Sarva Darshan,Free,30 minutes–2 hours.​,darshan,FALSE
+19,180,Quick Darshan,20,20–40 minutes,darshan,FALSE
+19,181,Viswaroopa Darshan,,5:45AM–6:00 AM.​,seva,FALSE
+19,182,Kalasandhi Pooja,,8:00 AM.​,seva,FALSE
+19,183,Uchikala Pooja,,12:00 PM.​,seva,FALSE
+19,184,Sayaradcha Pooja,,5:00 PM.​,seva,FALSE
+19,185,Ardha Jama Pooja,,6:00 PM.​,seva,FALSE
+19,186,Palliyarai Pooja,,8:45 PM.​,seva,FALSE
+19,187,Abhishekam,1500,8:00 AM,seva,FALSE
+19,188,Annadanam (free meals),,,prasadam,FALSE
+19,189,Pongal/sweets,,7:00 PM,prasadam,FALSE
+68,190,Avakai Chicken Biryani [1000 Ml],319,11:00 AM to 11:00 PM,menu,FALSE
+68,191,Avakai Mutton Biryani [1000 Ml],359,11:00 AM to 11:00 PM,menu,FALSE
+68,192,Avakai Prawns Biryani [1000 Ml],359,11:00 AM to 11:00 PM,menu,FALSE
+68,193,Chicken Fry Piece Biryani,319,11:00 AM to 11:00 PM,menu,FALSE
+68,194,Chicken Joint Biryani,369,11:00 AM to 11:00 PM,menu,FALSE
+68,195,Chicken Keema Biryani,319,11:00 AM to 11:00 PM,menu,FALSE
+68,196,Chicken Tikka Biryani,339,11:00 AM to 11:00 PM,menu,FALSE
+68,197,Egg Biryani,249,11:00 AM to 11:00 PM,menu,FALSE
+68,198,Gongura Chicken Biryani,319,11:00 AM to 11:00 PM,menu,FALSE
+68,199,Gongura Mutton Biryani,399,11:00 AM to 11:00 PM,menu,FALSE
+68,200,Hyderabadi Chicken Biryani,299,11:00 AM to 11:00 PM,menu,FALSE
+68,201,Hyderabadi Double Masala Chicken Biryani,299,11:00 AM to 11:00 PM,menu,FALSE
+68,202,Mixed Mughlai Biryani,399,11:00 AM to 11:00 PM,menu,FALSE
+68,203,Mughlai Chicken Biryani,349,11:00 AM to 11:00 PM,menu,TRUE
+68,204,Mughlai Mutton Biryani [1000 Ml],399,11:00 AM to 11:00 PM,menu,FALSE
+68,205,Mughlai Prawns Biryani [1000 Ml],399,11:00 AM to 11:00 PM,menu,FALSE
+68,206,Mutton Fry Piece Biryani,399,11:00 AM to 11:00 PM,menu,FALSE
+68,207,Mutton Keema Biryani,399,11:00 AM to 11:00 PM,menu,FALSE
+68,208,Prawns Fry Piece Biryani,399,11:00 AM to 11:00 PM,menu,FALSE
+68,209,Special Chicken Biryani,339,11:00 AM to 11:00 PM,menu,FALSE
+68,210,Special Fish Biryani,359,11:00 AM to 11:00 PM,menu,FALSE
+68,211,Special Mutton Biryani,399,11:00 AM to 11:00 PM,menu,FALSE
+68,212,Special Prawns Biriyani,399,11:00 AM to 11:00 PM,menu,FALSE
+68,213,Ulavacharu Chicken Biryani,349,11:00 AM to 11:00 PM,menu,FALSE
+68,214,Ulavacharu Mutton Biryani,399,11:00 AM to 11:00 PM,menu,FALSE
+68,215,Chicken Lollipop Biryani,329,11:00 AM to 11:00 PM,menu,FALSE
+68,216,Hyderabadi Mutton Dum Biryani,399,11:00 AM to 11:00 PM,menu,FALSE
+68,217,Potlam Biryani,429,11:00 AM to 11:00 PM,menu,FALSE
+68,218,Tandoori Chicken Biryani,329,11:00 AM to 11:00 PM,menu,FALSE
+68,219,Guttivankaya Biryani,249,11:00 AM to 11:00 PM,menu,FALSE
+68,220,Mushroom Biryani,269,11:00 AM to 11:00 PM,menu,TRUE
+68,221,Special Paneer Biryani,299,11:00 AM to 11:00 PM,menu,FALSE
+68,222,Ulavacharu Veg Biryani,289,11:00 AM to 11:00 PM,menu,FALSE
+68,223,Veg Biryani,249,11:00 AM to 11:00 PM,menu,FALSE
+68,224,Veg Pulao,249,11:00 AM to 11:00 PM,menu,FALSE
+68,225,Dal Rice,209,11:00 AM to 11:00 PM,menu,FALSE
+68,226,Curd Rice,139,11:00 AM to 11:00 PM,menu,FALSE
+68,227,AP Chicken Dry [Bone],269,11:00 AM to 11:00 PM,menu,FALSE
+68,228,AP Mutton Dry [Bone],399,11:00 AM to 11:00 PM,menu,FALSE
+68,229,AP Prawns Dry,399,11:00 AM to 11:00 PM,menu,FALSE
+68,230,Apollo Chicken [Boneless],309,11:00 AM to 11:00 PM,menu,FALSE
+68,231,Apollo Fish,349,11:00 AM to 11:00 PM,menu,FALSE
+68,232,Boneless Chicken Fry,309,11:00 AM to 11:00 PM,menu,FALSE
+68,233,Boneless Chicken Majestic,319,11:00 AM to 11:00 PM,menu,FALSE
+68,234,Butter Garlic Chicken,309,11:00 AM to 11:00 PM,menu,FALSE
+68,235,Chicken 555,319,11:00 AM to 11:00 PM,menu,FALSE
+68,236,Chicken 64 [750 Ml],369,11:00 AM to 11:00 PM,menu,FALSE
+68,237,Chicken 65,309,11:00 AM to 11:00 PM,menu,FALSE
+68,238,Chicken 88 With Bone,299,11:00 AM to 11:00 PM,menu,FALSE
+68,239,Chicken Finger,279,11:00 AM to 11:00 PM,menu,FALSE
+68,240,Chicken Fry [Bone],279,11:00 AM to 11:00 PM,menu,FALSE
+68,241,Chicken Kabab [Boneless],309,11:00 AM to 11:00 PM,menu,FALSE
+68,242,Chicken Maharaja [Boneless],309,11:00 AM to 11:00 PM,menu,FALSE
+68,243,Chicken Pepper Fry [Boneless],309,11:00 AM to 11:00 PM,menu,FALSE
+68,244,Chicken Rayalaseema Dry [Boneless],289,11:00 AM to 11:00 PM,menu,FALSE
+68,245,Chicken Roast [Boneless],309,11:00 AM to 11:00 PM,menu,FALSE
+68,246,Chicken Roast [Bone],279,11:00 AM to 11:00 PM,menu,FALSE
+68,247,Chicken Salt And Pepper,309,11:00 AM to 11:00 PM,menu,FALSE
+68,248,Chinese Finger Chicken,309,11:00 AM to 11:00 PM,menu,FALSE
+68,249,Double Star Chicken With Bone,319,11:00 AM to 11:00 PM,menu,FALSE
+68,250,Finger Fish,349,11:00 AM to 11:00 PM,menu,FALSE
+68,251,Fish 2000,329,11:00 AM to 11:00 PM,menu,FALSE
+68,252,Fish Fry,349,11:00 AM to 11:00 PM,menu,FALSE
+68,253,Fish Roast [Boneless],349,11:00 AM to 11:00 PM,menu,FALSE
+68,254,Gongura Chicken Dry,309,11:00 AM to 11:00 PM,menu,FALSE
+68,255,Gongura Mutton Dry,359,11:00 AM to 11:00 PM,menu,FALSE
+68,256,Half Wings With Bone,359,11:00 AM to 11:00 PM,menu,FALSE
+68,257,Hot Garlic Butter Chicken,309,11:00 AM to 11:00 PM,menu,FALSE
+68,258,Lemon Chicken [750 Ml],349,11:00 AM to 11:00 PM,menu,FALSE
+68,259,Mongolian Chicken Dry,269,11:00 AM to 11:00 PM,menu,FALSE
+68,260,Mutton 65,399,11:00 AM to 11:00 PM,menu,FALSE
+68,261,Mutton Fry [Bone],359,11:00 AM to 11:00 PM,menu,FALSE
+68,262,Mutton Fry [Boneless],399,11:00 AM to 11:00 PM,menu,FALSE
+68,263,Mutton Maharaja [Boneless],359,11:00 AM to 11:00 PM,menu,FALSE
+68,264,Mutton Rayalaseema Dry,399,11:00 AM to 11:00 PM,menu,FALSE
+68,265,Mutton Roast [Boneless],349,11:00 AM to 11:00 PM,menu,FALSE
+68,266,Mutton Roast [Bone],399,11:00 AM to 11:00 PM,menu,FALSE
+68,267,Mutton Salt And Pepper,389,11:00 AM to 11:00 PM,menu,FALSE
+68,268,Prawns Fry,359,11:00 AM to 11:00 PM,menu,FALSE
+68,269,Prawns Pepper Fry,349,11:00 AM to 11:00 PM,menu,FALSE
+68,270,Prawns Pepper Roast,399,11:00 AM to 11:00 PM,menu,FALSE
+68,271,Prawns Roast,399,11:00 AM to 11:00 PM,menu,FALSE
+68,272,Red Pepper Chicken,309,11:00 AM to 11:00 PM,menu,FALSE
+68,273,T9 Special Chicken Dry,329,11:00 AM to 11:00 PM,menu,FALSE
+68,274,Thai Chicken Dry,309,11:00 AM to 11:00 PM,menu,FALSE
+68,275,Chicken Drums Of Heaven,359,11:00 AM to 11:00 PM,menu,FALSE
+68,276,Chicken Drumstick Full Dry,339,11:00 AM to 11:00 PM,menu,FALSE
+68,277,Chicken Lollypop [Saucy] With Bone,339,11:00 AM to 11:00 PM,menu,FALSE
+68,278,Chicken Manchurian,309,11:00 AM to 11:00 PM,menu,FALSE
+68,279,Chilli Chicken,309,11:00 AM to 11:00 PM,menu,FALSE
+68,280,Chilli Fish,339,11:00 AM to 11:00 PM,menu,FALSE
+68,281,Chilli Mutton,389,11:00 AM to 11:00 PM,menu,FALSE
+68,282,Chilli Prawns,389,11:00 AM to 11:00 PM,menu,FALSE
+68,283,Dragon Chicken,309,11:00 AM to 11:00 PM,menu,FALSE
+68,284,Ginger Chicken Dry,309,11:00 AM to 11:00 PM,menu,FALSE
+68,285,Ginger Mutton Dry,389,11:00 AM to 11:00 PM,menu,FALSE
+68,286,Loose Prawns,399,11:00 AM to 11:00 PM,menu,TRUE
+68,287,Schezwan Chicken,309,11:00 AM to 11:00 PM,menu,FALSE
+68,288,Aloo 65,239,11:00 AM to 11:00 PM,menu,FALSE
+68,289,Baby Corn 65,249,11:00 AM to 11:00 PM,menu,FALSE
+68,290,Baby Corn Salt And Pepper,249,11:00 AM to 11:00 PM,menu,FALSE
+68,291,Crispy Corn,199,11:00 AM to 11:00 PM,menu,FALSE
+68,292,Gobhi Salt And Pepper,239,11:00 AM to 11:00 PM,menu,FALSE
+68,293,Gobi 65,229,11:00 AM to 11:00 PM,menu,FALSE
+68,294,Kaju Salt And Pepper,269,11:00 AM to 11:00 PM,menu,FALSE
+68,295,Mushroom Fry Semi Gravy,289,11:00 AM to 11:00 PM,menu,FALSE
+68,296,Mushroom Pepper Fry,289,11:00 AM to 11:00 PM,menu,FALSE
+68,297,Mushroom Roast,289,11:00 AM to 11:00 PM,menu,FALSE
+68,298,Mushroom Salt And Pepper,289,11:00 AM to 11:00 PM,menu,FALSE
+68,299,Paneer 65,289,11:00 AM to 11:00 PM,menu,FALSE
+68,300,Paneer Fry [Semi Gravy],289,11:00 AM to 11:00 PM,menu,FALSE
+68,301,Paneer Salt And Pepper,289,11:00 AM to 11:00 PM,menu,FALSE
+68,302,Veg 65,239,11:00 AM to 11:00 PM,menu,FALSE
+68,303,Baby Corn Manchurian,249,11:00 AM to 11:00 PM,menu,FALSE
+68,304,Chilli Baby Corn,249,11:00 AM to 11:00 PM,menu,FALSE
+68,305,Chilli Gobi,239,11:00 AM to 11:00 PM,menu,FALSE
+68,306,Chilli Mushroom,289,11:00 AM to 11:00 PM,menu,FALSE
+68,307,Chilli Paneer,289,11:00 AM to 11:00 PM,menu,FALSE
+68,308,Gobi Manchurian,229,11:00 AM to 11:00 PM,menu,FALSE
+68,309,Mushroom Manchurian,289,11:00 AM to 11:00 PM,menu,FALSE
+68,310,Paneer Manchurian,289,11:00 AM to 11:00 PM,menu,FALSE
+68,311,Schezwan Gobi,239,11:00 AM to 11:00 PM,menu,FALSE
+68,312,Schezwan Mushroom,289,11:00 AM to 11:00 PM,menu,FALSE
+68,313,Veg Manchurian,229,11:00 AM to 11:00 PM,menu,FALSE
+68,314,Chicken Tikka,339,11:00 AM to 11:00 PM,menu,FALSE
+68,315,Kalmi Kabab With Bone,289,11:00 AM to 11:00 PM,menu,FALSE
+68,316,Reshmi Kabab,299,11:00 AM to 11:00 PM,menu,FALSE
+68,317,Tandoori Chicken With Bone,349,11:00 AM to 11:00 PM,menu,FALSE
+68,318,Tangdi Kabab With Bone,289,11:00 AM to 11:00 PM,menu,FALSE
+68,319,Chilli Egg,199,11:00 AM to 11:00 PM,menu,FALSE
+68,320,Egg 65,199,11:00 AM to 11:00 PM,menu,FALSE
+68,321,Egg Burji,199,11:00 AM to 11:00 PM,menu,FALSE
+68,322,Omelette,129,11:00 AM to 11:00 PM,menu,FALSE
+68,323,Aloo Gobi Masala,249,11:00 AM to 11:00 PM,menu,FALSE
+68,324,Aloo Palak,249,11:00 AM to 11:00 PM,menu,FALSE
+68,325,Aloo Paneer Curry,289,11:00 AM to 11:00 PM,menu,FALSE
+68,326,Aloo Tomato Curry,249,11:00 AM to 11:00 PM,menu,FALSE
+68,327,Baby Corn Masala,269,11:00 AM to 11:00 PM,menu,FALSE
+68,328,Butter Mushroom Masala,289,11:00 AM to 11:00 PM,menu,FALSE
+68,329,Capsicum Masala,249,11:00 AM to 11:00 PM,menu,FALSE
+68,330,Dal Fry,199,11:00 AM to 11:00 PM,menu,FALSE
+68,331,Dal Tadka,199,11:00 AM to 11:00 PM,menu,FALSE
+68,332,Kadai Kaju Gobi Masala,269,11:00 AM to 11:00 PM,menu,FALSE
+68,333,Kadai Mushroom,269,11:00 AM to 11:00 PM,menu,FALSE
+68,334,Kadai Vegetable,249,11:00 AM to 11:00 PM,menu,FALSE
+68,335,Kaju Masala,289,11:00 AM to 11:00 PM,menu,FALSE
+68,336,Kaju Mushroom Curry,299,11:00 AM to 11:00 PM,menu,FALSE
+68,337,Kaju Paneer Curry,299,11:00 AM to 11:00 PM,menu,FALSE
+68,338,Kaju Tomato Curry,289,11:00 AM to 11:00 PM,menu,FALSE
+68,339,Methi Chaman,289,11:00 AM to 11:00 PM,menu,FALSE
+68,340,Mixed Veg Curry,249,11:00 AM to 11:00 PM,menu,FALSE
+68,341,Mushroom Masala,289,11:00 AM to 11:00 PM,menu,FALSE
+68,342,Palak Paneer,289,11:00 AM to 11:00 PM,menu,FALSE
+68,343,Paneer Butter Masala,289,11:00 AM to 11:00 PM,menu,FALSE
+68,344,Paneer Chatpata,289,11:00 AM to 11:00 PM,menu,FALSE
+68,345,Paneer Hyderabadi,289,11:00 AM to 11:00 PM,menu,FALSE
+68,346,Paneer Kadai,269,11:00 AM to 11:00 PM,menu,FALSE
+68,347,Paneer Shahi Kurma,289,11:00 AM to 11:00 PM,menu,FALSE
+68,348,Plain Palak,199,11:00 AM to 11:00 PM,menu,FALSE
+68,349,Tomato Curry,249,11:00 AM to 11:00 PM,menu,FALSE
+68,350,Veg Chatpata,229,11:00 AM to 11:00 PM,menu,FALSE
+68,351,Veg Hyderabadi,249,11:00 AM to 11:00 PM,menu,FALSE
+68,352,Veg Jaipuri,249,11:00 AM to 11:00 PM,menu,FALSE
+68,353,Veg Kolhapuri,249,11:00 AM to 11:00 PM,menu,FALSE
+68,354,Ginger Mushroom Curry,269,11:00 AM to 11:00 PM,menu,FALSE
+68,355,AP Chicken Curry,269,11:00 AM to 11:00 PM,menu,FALSE
+68,356,AP Mutton Curry [Bone],399,11:00 AM to 11:00 PM,menu,FALSE
+68,357,Boneless Chicken Chettinad Curry,309,11:00 AM to 11:00 PM,menu,FALSE
+68,358,Butter Chicken Masala,309,11:00 AM to 11:00 PM,menu,FALSE
+68,359,Butter Prawns Masala,359,11:00 AM to 11:00 PM,menu,FALSE
+68,360,Chicken Afghani With Bone,279,11:00 AM to 11:00 PM,menu,FALSE
+68,361,Chicken Curry With Bone,279,11:00 AM to 11:00 PM,menu,FALSE
+68,362,Chicken Hyderabadi With Bone,289,11:00 AM to 11:00 PM,menu,FALSE
+68,363,Chicken Kolhapuri [Boneless],309,11:00 AM to 11:00 PM,menu,FALSE
+68,364,Chicken Mughlai,279,11:00 AM to 11:00 PM,menu,FALSE
+68,365,Chicken Navabi [Boneless],309,11:00 AM to 11:00 PM,menu,FALSE
+68,366,Chicken Rajadhani [Boneless],309,11:00 AM to 11:00 PM,menu,FALSE
+68,367,Chicken Rayalaseema Curry [Boneless],309,11:00 AM to 11:00 PM,menu,FALSE
+68,368,Chicken Tikka Masala [Boneless],329,11:00 AM to 11:00 PM,menu,FALSE
+68,369,Egg Masala,239,11:00 AM to 11:00 PM,menu,FALSE
+68,370,Fish Masala [Boneless],329,11:00 AM to 11:00 PM,menu,FALSE
+68,371,Gongora Chicken Curry With Bone,289,11:00 AM to 11:00 PM,menu,FALSE
+68,372,Kadai Chicken With Bone,269,11:00 AM to 11:00 PM,menu,FALSE
+68,373,Kadai Fish [Boneless],349,11:00 AM to 11:00 PM,menu,FALSE
+68,374,Kadai Mutton [Bone],359,11:00 AM to 11:00 PM,menu,FALSE
+68,375,Kadai Prawns Masala,399,11:00 AM to 11:00 PM,menu,FALSE
+68,376,Kaju Chicken Curry [Boneless],319,11:00 AM to 11:00 PM,menu,FALSE
+68,377,Methi Chicken Curry [Boneless],309,11:00 AM to 11:00 PM,menu,FALSE
+68,378,Mutton Curry With Bone,399,11:00 AM to 11:00 PM,menu,FALSE
+68,379,Mutton Keema Curry,399,11:00 AM to 11:00 PM,menu,FALSE
+68,380,Mutton Keema Fry,399,11:00 AM to 11:00 PM,menu,FALSE
+68,381,Mutton Masala [Boneless],359,11:00 AM to 11:00 PM,menu,FALSE
+68,382,Mutton Rayalaseema Curry [Boneless],359,11:00 AM to 11:00 PM,menu,FALSE
+68,383,Mutton Roganjosh [Bone],359,11:00 AM to 11:00 PM,menu,FALSE
+68,384,Prawns Masala,399,11:00 AM to 11:00 PM,menu,FALSE
+68,385,Punjabi Chicken With Bone,289,11:00 AM to 11:00 PM,menu,FALSE
+68,386,Tomato Egg Curry,239,11:00 AM to 11:00 PM,menu,FALSE
+68,387,Ginger Chicken Curry,309,11:00 AM to 11:00 PM,menu,FALSE
+68,388,Ginger Prawns Curry,359,11:00 AM to 11:00 PM,menu,FALSE
+68,389,Tandoori Chicken Masala,329,11:00 AM to 11:00 PM,menu,FALSE
+68,390,Bucket Chicken Biryani [Serves 6-8],"1,499.00",11:00 AM to 11:00 PM,menu,FALSE
+68,391,Chicken Family Pack Biryani [Serves 4],999,11:00 AM to 11:00 PM,menu,FALSE
+68,392,Chicken Fry Piece Biryani [Family Pack],"1,149.00",11:00 AM to 11:00 PM,menu,FALSE
+68,393,Mutton Fry Piece Biryani [Family Pack],"1,299.00",11:00 AM to 11:00 PM,menu,FALSE
+68,394,Special Chicken Biryani [Family Pack],"1,199.00",11:00 AM to 11:00 PM,menu,FALSE
+68,395,Special Mutton Biryani [Family Pack],"1,349.00",11:00 AM to 11:00 PM,menu,FALSE
+68,396,Veg Biryani [Family Pack],799,11:00 AM to 11:00 PM,menu,FALSE
+68,397,Bucket Mutton Biryani [Serves 6-8],"1,699.00",11:00 AM to 11:00 PM,menu,FALSE
+68,398,Mutton Family Pack Biryani [Serves 4],"1,299.00",11:00 AM to 11:00 PM,menu,FALSE
+68,399,Apricot Delight,199,11:00 AM to 11:00 PM,menu,FALSE
+68,400,Black Current Ice Cream,139,11:00 AM to 11:00 PM,menu,FALSE
+68,401,Butterscoth Ice Cream,149,11:00 AM to 11:00 PM,menu,FALSE
+68,402,Chocolate Ice Cream,139,11:00 AM to 11:00 PM,menu,FALSE
+68,403,Death By Chocolate,269,11:00 AM to 11:00 PM,menu,FALSE
+68,404,Double Ka Meetha,199,11:00 AM to 11:00 PM,menu,FALSE
+68,405,Fruit Salad,199,11:00 AM to 11:00 PM,menu,FALSE
+68,406,Kaju Kiss Miss Ice Cream,149,11:00 AM to 11:00 PM,menu,FALSE
+68,407,Love With Boat Ice Cream,269,11:00 AM to 11:00 PM,menu,FALSE
+68,408,Mango Ice Cream,139,11:00 AM to 11:00 PM,menu,FALSE
+68,409,Perfect Chemistry Ice Cream,269,11:00 AM to 11:00 PM,menu,FALSE
+68,410,Pista Ice Cream,149,11:00 AM to 11:00 PM,menu,FALSE
+68,411,Strawberry Ice Cream,139,11:00 AM to 11:00 PM,menu,FALSE
+68,412,Vanilla Ice Cream,139,11:00 AM to 11:00 PM,menu,FALSE
+68,413,Double Ka Meetha With Ice Cream,249,11:00 AM to 11:00 PM,menu,FALSE
+68,414,Fruit Salad With Ice Cream,259,11:00 AM to 11:00 PM,menu,FALSE
+68,415,T9 Special Ice Cream [6 Flavours],349,11:00 AM to 11:00 PM,menu,FALSE
+68,416,Chocolate Milk Shake,149,11:00 AM to 11:00 PM,menu,FALSE
+68,417,Vanilla Milk Shake,149,11:00 AM to 11:00 PM,menu,FALSE
+68,418,Mango Milk Shake,169,11:00 AM to 11:00 PM,menu,FALSE
+68,419,Butterscotch Milk Shake,169,11:00 AM to 11:00 PM,menu,FALSE
+68,420,Chocolate Milk Shake With Ice Cream,169,11:00 AM to 11:00 PM,menu,FALSE
+68,421,Butter Milk,49,11:00 AM to 11:00 PM,menu,FALSE
+68,422,Fresh Lime Soda,59,11:00 AM to 11:00 PM,menu,FALSE
+68,423,Salt/Sweet Lassi,79,11:00 AM to 11:00 PM,menu,FALSE
+68,424,Blue Lagoon Mocktail,149,11:00 AM to 11:00 PM,menu,FALSE
+68,425,Virgin Mint Mocktail,129,11:00 AM to 11:00 PM,menu,FALSE
+68,426,Apple/Grape/Mosambi Juice,109,11:00 AM to 11:00 PM,menu,FALSE
+68,427,Chicken Fried Rice,259,11:00 AM to 11:00 PM,menu,FALSE
+68,428,Egg Fried Rice,229,11:00 AM to 11:00 PM,menu,FALSE
+68,429,Mix Non Veg Fried Rice,329,11:00 AM to 11:00 PM,menu,FALSE
+68,430,Mutton Fried Rice,329,11:00 AM to 11:00 PM,menu,FALSE
+68,431,Prawns Fried Rice,329,11:00 AM to 11:00 PM,menu,FALSE
+68,432,Vegetable Fried Rice,219,11:00 AM to 11:00 PM,menu,FALSE
+68,433,Paneer Fried Rice,269,11:00 AM to 11:00 PM,menu,FALSE
+68,434,Mushroom Fried Rice,269,11:00 AM to 11:00 PM,menu,FALSE
+68,435,Chicken Soft Noodles,269,11:00 AM to 11:00 PM,menu,FALSE
+68,436,Veg Soft Noodles,229,11:00 AM to 11:00 PM,menu,FALSE
+68,437,Mixed Non Veg Noodles,299,11:00 AM to 11:00 PM,menu,FALSE
+68,438,Veg Manchow Soup,139,11:00 AM to 11:00 PM,menu,FALSE
+68,439,Hot And Sour Veg,139,11:00 AM to 11:00 PM,menu,FALSE
+68,440,Chicken Manchow,159,11:00 AM to 11:00 PM,menu,FALSE
+68,441,Mutton Soup,159,11:00 AM to 11:00 PM,menu,FALSE
+68,442,Hot And Sour Chicken Soup,159,11:00 AM to 11:00 PM,menu,FALSE
+69,443,Chicken Joint Biryani And Apollo Chicken,629,11:00 AM to 12:00 PM,menu,FALSE
+69,444,Chicken Mughlai Biryani And Chicken Drums Of Heaven,659,11:00 AM to 12:00 PM,menu,FALSE
+69,445,Hyderabadi Chicken Dum Biryani And Chicken Roast,549,11:00 AM to 12:00 PM,menu,FALSE
+69,446,Hyderabadi Chicken Dum Biryani And Chilli Chicken,659,11:00 AM to 12:00 PM,menu,FALSE
+69,447,Special Chicken Biryani With Chicken Lollipop [6 Pieces],659,11:00 AM to 12:00 PM,menu,FALSE
+69,448,Cream Of Mushroom,139,11:00 AM to 12:00 PM,menu,FALSE
+69,449,Cream Of Tomato,139,11:00 AM to 12:00 PM,menu,FALSE
+69,450,Ginger Garlic Soup,139,11:00 AM to 12:00 PM,menu,FALSE
+69,451,Hot And Sour Vegetable,139,11:00 AM to 12:00 PM,menu,FALSE
+69,452,Sweet Corn Vegetable,139,11:00 AM to 12:00 PM,menu,FALSE
+69,453,Veg Clear Soup,139,11:00 AM to 12:00 PM,menu,FALSE
+69,454,Veg Manchow Soup,139,11:00 AM to 12:00 PM,menu,FALSE
+69,455,Veg Tomyum Soup,129,11:00 AM to 12:00 PM,menu,FALSE
+69,456,Chicken Clear Soup,159,11:00 AM to 12:00 PM,menu,FALSE
+69,457,Chicken Manchow,159,11:00 AM to 12:00 PM,menu,FALSE
+69,458,Chicken Noodles Soup,159,11:00 AM to 12:00 PM,menu,FALSE
+69,459,Chicken Tomyum Soup,159,11:00 AM to 12:00 PM,menu,FALSE
+69,460,Coriander Chicken Soup,159,11:00 AM to 12:00 PM,menu,FALSE
+69,461,Garlic Chicken Soup,159,11:00 AM to 12:00 PM,menu,FALSE
+69,462,Hot And Sour Chicken Soup,159,11:00 AM to 12:00 PM,menu,FALSE
+69,463,Mutton Soup,159,11:00 AM to 12:00 PM,menu,FALSE
+69,464,Sweet Corn Chicken Soup,159,11:00 AM to 12:00 PM,menu,FALSE
+69,465,Thai Chicken Soup,159,11:00 AM to 12:00 PM,menu,FALSE
+69,466,Aloo 65,239,11:00 AM to 12:00 PM,menu,FALSE
+69,467,Baby Corn 65,249,11:00 AM to 12:00 PM,menu,FALSE
+69,468,Baby Corn Manchurian,249,11:00 AM to 12:00 PM,menu,FALSE
+69,469,Baby Corn Salt And Pepper,249,11:00 AM to 12:00 PM,menu,FALSE
+69,470,Chilli Baby Corn,249,11:00 AM to 12:00 PM,menu,FALSE
+69,471,Chilli Gobi,239,11:00 AM to 12:00 PM,menu,FALSE
+69,472,Chilli Mushroom,289,11:00 AM to 12:00 PM,menu,FALSE
+69,473,Chilli Paneer,289,11:00 AM to 12:00 PM,menu,FALSE
+69,474,Gobhi Salt And Pepper,239,11:00 AM to 12:00 PM,menu,FALSE
+69,475,Gobi 65,229,11:00 AM to 12:00 PM,menu,FALSE
+69,476,Gobi Manchurian,229,11:00 AM to 12:00 PM,menu,FALSE
+69,477,Kaju Salt And Pepper,269,11:00 AM to 12:00 PM,menu,FALSE
+69,478,Mushroom Fry Semi Gravy,289,11:00 AM to 12:00 PM,menu,FALSE
+69,479,Mushroom Manchurian,289,11:00 AM to 12:00 PM,menu,FALSE
+69,480,Mushroom Pepper Fry,289,11:00 AM to 12:00 PM,menu,FALSE
+69,481,Mushroom Roast,289,11:00 AM to 12:00 PM,menu,FALSE
+69,482,Mushroom Salt And Pepper,289,11:00 AM to 12:00 PM,menu,FALSE
+69,483,Paneer 65,289,11:00 AM to 12:00 PM,menu,FALSE
+69,484,Paneer Fry [Semi Gravy],289,11:00 AM to 12:00 PM,menu,FALSE
+69,485,Paneer Manchurian,289,11:00 AM to 12:00 PM,menu,FALSE
+69,486,Paneer Salt And Pepper,289,11:00 AM to 12:00 PM,menu,FALSE
+69,487,Veg 65,239,11:00 AM to 12:00 PM,menu,FALSE
+69,488,Veg Manchurian,229,11:00 AM to 12:00 PM,menu,FALSE
+69,489,Chicken Tikka,339,11:00 AM to 12:00 PM,menu,FALSE
+69,490,Kalmi Kabab With Bone,289,11:00 AM to 12:00 PM,menu,FALSE
+69,491,Reshmi Kabab,299,11:00 AM to 12:00 PM,menu,FALSE
+69,492,Tandoori Chicken With Bone,349,11:00 AM to 12:00 PM,menu,FALSE
+69,493,Tangdi Kabab With Bone,289,11:00 AM to 12:00 PM,menu,FALSE
+69,494,Chilli Egg,199,11:00 AM to 12:00 PM,menu,FALSE
+69,495,Egg 65,199,11:00 AM to 12:00 PM,menu,FALSE
+69,496,Egg Burji,199,11:00 AM to 12:00 PM,menu,FALSE
+69,497,Omelette,129,11:00 AM to 12:00 PM,menu,FALSE
+69,498,AP Chicken Dry [Bone],309,11:00 AM to 12:00 PM,menu,FALSE
+69,499,AP Mutton Dry [Bone],359,11:00 AM to 12:00 PM,menu,FALSE
+69,500,AP Prawns Dry,399,11:00 AM to 12:00 PM,menu,FALSE
+69,501,Apollo Chicken [Boneless],309,11:00 AM to 12:00 PM,menu,FALSE
+69,502,Apollo Fish,349,11:00 AM to 12:00 PM,menu,FALSE
+69,503,Boneless Chicken Fry,309,11:00 AM to 12:00 PM,menu,FALSE
+69,504,Boneless Chicken Majestic,319,11:00 AM to 12:00 PM,menu,FALSE
+69,505,Butter Garlic Chicken,309,11:00 AM to 12:00 PM,menu,FALSE
+69,506,Chicken 555,319,11:00 AM to 12:00 PM,menu,FALSE
+69,507,Chicken 64 [750 Ml],369,11:00 AM to 12:00 PM,menu,FALSE
+69,508,Chicken 65,309,11:00 AM to 12:00 PM,menu,FALSE
+69,509,Chicken 88 With Bone,299,11:00 AM to 12:00 PM,menu,FALSE
+69,510,Chicken Drums Of Heaven,359,11:00 AM to 12:00 PM,menu,FALSE
+69,511,Chicken Drumstick Full Dry,359,11:00 AM to 12:00 PM,menu,FALSE
+69,512,Chicken Finger,279,11:00 AM to 12:00 PM,menu,FALSE
+69,513,Chicken Fry [Bone],279,11:00 AM to 12:00 PM,menu,FALSE
+69,514,Chicken Kabab [Boneless],309,11:00 AM to 12:00 PM,menu,FALSE
+69,515,Chicken Lollypop [Saucy] With Bone,349,11:00 AM to 12:00 PM,menu,FALSE
+69,516,Chicken Maharaja [Boneless],309,11:00 AM to 12:00 PM,menu,FALSE
+69,517,Chicken Manchurian,309,11:00 AM to 12:00 PM,menu,FALSE
+69,518,Chicken Pepper Fry [Boneless],309,11:00 AM to 12:00 PM,menu,FALSE
+69,519,Chicken Rayalaseema Dry [Boneless],289,11:00 AM to 12:00 PM,menu,FALSE
+69,520,Chicken Roast [Boneless],309,11:00 AM to 12:00 PM,menu,FALSE
+69,521,Chicken Roast [Bone],279,11:00 AM to 12:00 PM,menu,FALSE
+69,522,Chicken Salt And Pepper,309,11:00 AM to 12:00 PM,menu,FALSE
+69,523,Chilli Chicken,309,11:00 AM to 12:00 PM,menu,FALSE
+69,524,Chilli Fish,339,11:00 AM to 12:00 PM,menu,FALSE
+69,525,Chilli Mutton,389,11:00 AM to 12:00 PM,menu,FALSE
+69,526,Chilli Prawns,389,11:00 AM to 12:00 PM,menu,FALSE
+69,527,Chinese Finger Chicken,309,11:00 AM to 12:00 PM,menu,FALSE
+69,528,Double Star Chicken With Bone,319,11:00 AM to 12:00 PM,menu,FALSE
+69,529,Dragon Chicken,309,11:00 AM to 12:00 PM,menu,FALSE
+69,530,Finger Fish,349,11:00 AM to 12:00 PM,menu,FALSE
+69,531,Fish 2000,329,11:00 AM to 12:00 PM,menu,FALSE
+69,532,Fish Fry,349,11:00 AM to 12:00 PM,menu,FALSE
+69,533,Fish Roast [Boneless],349,11:00 AM to 12:00 PM,menu,FALSE
+69,534,Ginger Chicken Dry,309,11:00 AM to 12:00 PM,menu,FALSE
+69,535,Ginger Mutton Dry,389,11:00 AM to 12:00 PM,menu,FALSE
+69,536,Gongura Chicken Dry,309,11:00 AM to 12:00 PM,menu,FALSE
+69,537,Gongura Mutton Dry,359,11:00 AM to 12:00 PM,menu,FALSE
+69,538,Half Wings With Bone,359,11:00 AM to 12:00 PM,menu,FALSE
+69,539,Hot Garlic Butter Chicken,309,11:00 AM to 12:00 PM,menu,FALSE
+69,540,Lemon Chicken [750 Ml],349,11:00 AM to 12:00 PM,menu,FALSE
+69,541,Loose Prawns,399,11:00 AM to 12:00 PM,menu,FALSE
+69,542,Mongolian Chicken Dry,269,11:00 AM to 12:00 PM,menu,FALSE
+69,543,Mutton 65,399,11:00 AM to 12:00 PM,menu,FALSE
+69,544,Mutton Fry [Bone],399,11:00 AM to 12:00 PM,menu,FALSE
+69,545,Mutton Fry [Boneless],399,11:00 AM to 12:00 PM,menu,FALSE
+69,546,Mutton Maharaja [Boneless],359,11:00 AM to 12:00 PM,menu,FALSE
+69,547,Mutton Rayalaseema Dry,399,11:00 AM to 12:00 PM,menu,FALSE
+69,548,Mutton Roast [Boneless],349,11:00 AM to 12:00 PM,menu,FALSE
+69,549,Mutton Roast [Bone],399,11:00 AM to 12:00 PM,menu,FALSE
+69,550,Mutton Salt And Pepper,389,11:00 AM to 12:00 PM,menu,FALSE
+69,551,Prawns Fry,399,11:00 AM to 12:00 PM,menu,FALSE
+69,552,Prawns Pepper Fry,349,11:00 AM to 12:00 PM,menu,FALSE
+69,553,Prawns Pepper Roast,399,11:00 AM to 12:00 PM,menu,FALSE
+69,554,Prawns Roast,399,11:00 AM to 12:00 PM,menu,FALSE
+69,555,Red Pepper Chicken,309,11:00 AM to 12:00 PM,menu,FALSE
+69,556,T9 Special Chicken Dry,329,11:00 AM to 12:00 PM,menu,FALSE
+69,557,Thai Chicken Dry,309,11:00 AM to 12:00 PM,menu,FALSE
+69,558,Aloo Gobi Masala,249,11:00 AM to 12:00 PM,menu,FALSE
+69,559,Aloo Palak,249,11:00 AM to 12:00 PM,menu,FALSE
+69,560,Aloo Paneer Curry,289,11:00 AM to 12:00 PM,menu,FALSE
+69,561,Aloo Tomato Curry,249,11:00 AM to 12:00 PM,menu,FALSE
+69,562,Baby Corn Masala,249,11:00 AM to 12:00 PM,menu,FALSE
+69,563,Butter Mushroom Masala,289,11:00 AM to 12:00 PM,menu,FALSE
+69,564,Capsicum Masala,249,11:00 AM to 12:00 PM,menu,FALSE
+69,565,Dal Fry,199,11:00 AM to 12:00 PM,menu,FALSE
+69,566,Dal Tadka,199,11:00 AM to 12:00 PM,menu,FALSE
+69,567,Ginger Mushroom Curry,289,11:00 AM to 12:00 PM,menu,FALSE
+69,568,Kadai Kaju Gobi Masala,289,11:00 AM to 12:00 PM,menu,FALSE
+69,569,Kadai Mushroom,269,11:00 AM to 12:00 PM,menu,FALSE
+69,570,Kadai Vegetable,249,11:00 AM to 12:00 PM,menu,FALSE
+69,571,Kaju Masala [Serves 1],289,11:00 AM to 12:00 PM,menu,FALSE
+69,572,Kaju Mushroom Curry,299,11:00 AM to 12:00 PM,menu,FALSE
+69,573,Kaju Paneer Curry,299,11:00 AM to 12:00 PM,menu,FALSE
+69,574,Kaju Tomato Curry,289,11:00 AM to 12:00 PM,menu,FALSE
+69,575,Methi Chaman,289,11:00 AM to 12:00 PM,menu,FALSE
+69,576,Mixed Veg Curry,249,11:00 AM to 12:00 PM,menu,FALSE
+69,577,Mushroom Masala,289,11:00 AM to 12:00 PM,menu,FALSE
+69,578,Palak Paneer,289,11:00 AM to 12:00 PM,menu,FALSE
+69,579,Paneer Butter Masala,289,11:00 AM to 12:00 PM,menu,FALSE
+69,580,Paneer Chatpata,289,11:00 AM to 12:00 PM,menu,FALSE
+69,581,Paneer Hyderabadi,289,11:00 AM to 12:00 PM,menu,FALSE
+69,582,Paneer Kadai,289,11:00 AM to 12:00 PM,menu,FALSE
+69,583,Paneer Shahi Kurma,289,11:00 AM to 12:00 PM,menu,FALSE
+69,584,Plain Palak,199,11:00 AM to 12:00 PM,menu,FALSE
+69,585,Tomato Curry,249,11:00 AM to 12:00 PM,menu,FALSE
+69,586,Veg Chatpata,249,11:00 AM to 12:00 PM,menu,FALSE
+69,587,Veg Hyderabadi,249,11:00 AM to 12:00 PM,menu,FALSE
+69,588,Veg Jaipuri,249,11:00 AM to 12:00 PM,menu,FALSE
+69,589,Veg Kolhapuri,249,11:00 AM to 12:00 PM,menu,FALSE
+69,590,AP Chicken Curry,289,11:00 AM to 12:00 PM,menu,FALSE
+69,591,AP Mutton Curry [Bone],399,11:00 AM to 12:00 PM,menu,FALSE
+69,592,Chicken Afghani With Bone,309,11:00 AM to 12:00 PM,menu,FALSE
+69,593,Boneless Chicken Chettinad Curry,309,11:00 AM to 12:00 PM,menu,FALSE
+69,594,Butter Chicken Masala,309,11:00 AM to 12:00 PM,menu,FALSE
+69,595,Butter Prawns Masala,359,11:00 AM to 12:00 PM,menu,FALSE
+69,596,Chicken Curry With Bone,279,11:00 AM to 12:00 PM,menu,FALSE
+69,597,Chicken Hyderabadi With Bone,289,11:00 AM to 12:00 PM,menu,FALSE
+69,598,Chicken Kolhapuri [Boneless],309,11:00 AM to 12:00 PM,menu,FALSE
+69,599,Chicken Mughlai Curry,279,11:00 AM to 12:00 PM,menu,FALSE
+69,600,Chicken Navabi [Boneless],309,11:00 AM to 12:00 PM,menu,FALSE
+69,601,Chicken Rajadhani [Boneless],309,11:00 AM to 12:00 PM,menu,FALSE
+69,602,Chicken Rayalaseema Curry [Boneless],309,11:00 AM to 12:00 PM,menu,FALSE
+69,603,Chicken Tikka Masala [Boneless],329,11:00 AM to 12:00 PM,menu,FALSE
+69,604,Egg Keema Curry,209,11:00 AM to 12:00 PM,menu,FALSE
+69,605,Egg Masala,239,11:00 AM to 12:00 PM,menu,FALSE
+69,606,Fish Masala [Boneless],349,11:00 AM to 12:00 PM,menu,FALSE
+69,607,Ginger Chicken Curry,309,11:00 AM to 12:00 PM,menu,FALSE
+69,608,Ginger Prawns Curry,399,11:00 AM to 12:00 PM,menu,FALSE
+69,609,Gongora Chicken Curry With Bone,289,11:00 AM to 12:00 PM,menu,FALSE
+69,610,Kadai Chicken With Bone,279,11:00 AM to 12:00 PM,menu,FALSE
+69,611,Kadai Fish [Boneless],349,11:00 AM to 12:00 PM,menu,FALSE
+69,612,Kadai Mutton [Bone],399,11:00 AM to 12:00 PM,menu,FALSE
+69,613,Kadai Prawns Masala,399,11:00 AM to 12:00 PM,menu,FALSE
+69,614,Kaju Chicken Curry [Boneless],319,11:00 AM to 12:00 PM,menu,FALSE
+69,615,Methi Chicken Curry [Boneless],309,11:00 AM to 12:00 PM,menu,FALSE
+69,616,Mutton Curry With Bone,399,11:00 AM to 12:00 PM,menu,FALSE
+69,617,Mutton Keema Curry,399,11:00 AM to 12:00 PM,menu,FALSE
+69,618,Mutton Keema Fry,399,11:00 AM to 12:00 PM,menu,FALSE
+69,619,Mutton Masala [Boneless],399,11:00 AM to 12:00 PM,menu,FALSE
+69,620,Mutton Rayalaseema Curry [Boneless],399,11:00 AM to 12:00 PM,menu,FALSE
+69,621,Mutton Roganjosh [Bone],399,11:00 AM to 12:00 PM,menu,FALSE
+69,622,Prawns Masala,399,11:00 AM to 12:00 PM,menu,FALSE
+69,623,Punjabi Chicken With Bone,289,11:00 AM to 12:00 PM,menu,FALSE
+69,624,Tandoori Chicken Masala,329,11:00 AM to 12:00 PM,menu,FALSE
+69,625,Tomato Egg Curry,239,11:00 AM to 12:00 PM,menu,FALSE
+69,626,Aloo Porota,64,11:00 AM to 12:00 PM,menu,FALSE
+69,627,Butter Kulcha,54,11:00 AM to 12:00 PM,menu,FALSE
+69,628,1 Butter Naan,55,11:00 AM to 12:00 PM,menu,FALSE
+69,629,1 Butter Roti,49,11:00 AM to 12:00 PM,menu,FALSE
+69,630,1 Garlic Naan,64,11:00 AM to 12:00 PM,menu,FALSE
+69,631,Keema Naan,99,11:00 AM to 12:00 PM,menu,FALSE
+69,632,Kulcha,44,11:00 AM to 12:00 PM,menu,FALSE
+69,633,Methi Porota,69,11:00 AM to 12:00 PM,menu,FALSE
+69,634,1 Plain Naan,49,11:00 AM to 12:00 PM,menu,FALSE
+69,635,1 Roti,44,11:00 AM to 12:00 PM,menu,FALSE
+69,636,Stuffed Naan,79,11:00 AM to 12:00 PM,menu,FALSE
+69,637,Tandoori Porota,65,11:00 AM to 12:00 PM,menu,FALSE
+69,638,Curd Rice,139,11:00 AM to 12:00 PM,menu,FALSE
+69,639,Dal Rice,219,11:00 AM to 12:00 PM,menu,FALSE
+69,640,Guttivankaya Biryani,249,11:00 AM to 12:00 PM,menu,FALSE
+69,641,Mushroom Biryani,269,11:00 AM to 12:00 PM,menu,FALSE
+69,642,Special Paneer Biryani,299,11:00 AM to 12:00 PM,menu,FALSE
+69,643,Ulavacharu Veg Biryani,289,11:00 AM to 12:00 PM,menu,FALSE
+69,644,Veg Biryani,249,11:00 AM to 12:00 PM,menu,FALSE
+69,645,Veg Pulao,249,11:00 AM to 12:00 PM,menu,FALSE
+69,646,Avakai Chicken Biryani [1000 Ml],319,11:00 AM to 12:00 PM,menu,FALSE
+69,647,Avakai Mutton Biryani [1000 Ml],359,11:00 AM to 12:00 PM,menu,FALSE
+69,648,Avakai Prawns Biryani [1 Litre],359,11:00 AM to 12:00 PM,menu,FALSE
+69,649,Chicken Fry Piece Biryani,319,11:00 AM to 12:00 PM,menu,FALSE
+69,650,yes,369,11:00 AM to 12:00 PM,menu,FALSE
+69,651,Chicken Keema Biryani,359,11:00 AM to 12:00 PM,menu,FALSE
+69,652,Chicken Lollipop Biryani,329,11:00 AM to 12:00 PM,menu,FALSE
+69,653,Chicken Tikka Biryani,339,11:00 AM to 12:00 PM,menu,FALSE
+69,654,Double Masala Hyderabadi Chicken Biryani,299,11:00 AM to 12:00 PM,menu,FALSE
+69,655,Egg Biryani,249,11:00 AM to 12:00 PM,menu,FALSE
+69,656,Gongura Chicken Biryani [1000 Ml],319,11:00 AM to 12:00 PM,menu,FALSE
+69,657,Gongura Mutton Biryani,399,11:00 AM to 12:00 PM,menu,FALSE
+69,658,Hyderabadi Chicken Dum Biryani [1000 Ml],299,11:00 AM to 12:00 PM,menu,FALSE
+69,659,Hyderabadi Mutton Dum Biryani,399,11:00 AM to 12:00 PM,menu,FALSE
+69,660,Mixed Mughlai Biryani,399,11:00 AM to 12:00 PM,menu,FALSE
+69,661,Mughlai Chicken Biryani [1000 Ml],349,11:00 AM to 12:00 PM,menu,FALSE
+69,662,Mughlai Mutton Biryani [1000 Ml],399,11:00 AM to 12:00 PM,menu,FALSE
+69,663,Mughlai Prawns Biryani [1000 Ml],399,11:00 AM to 12:00 PM,menu,FALSE
+69,664,yes,399,11:00 AM to 12:00 PM,menu,FALSE
+69,665,Mutton Keema Biryani,399,11:00 AM to 12:00 PM,menu,FALSE
+69,666,Prawns Fry Piece Biryani,399,11:00 AM to 12:00 PM,menu,FALSE
+69,667,Special Chicken Biryani,339,11:00 AM to 12:00 PM,menu,FALSE
+69,668,Special Fish Biryani [1000 Ml],359,11:00 AM to 12:00 PM,menu,FALSE
+69,669,Special Mutton Biryani,399,11:00 AM to 12:00 PM,menu,FALSE
+69,670,Special Prawns Biriyani,399,11:00 AM to 12:00 PM,menu,FALSE
+69,671,Tandoori Chicken Biryani,329,11:00 AM to 12:00 PM,menu,FALSE
+69,672,Ulavacharu Chicken Biryani,349,11:00 AM to 12:00 PM,menu,TRUE
+69,673,Ulavacharu Mutton Biryani,399,11:00 AM to 12:00 PM,menu,FALSE
+69,674,Bucket Mutton Biryani [Serves 6-8],"1,699.00",11:00 AM to 12:00 PM,menu,FALSE
+69,675,Family Pack Fry Piece Chicken Biryani,"1,149.00",11:00 AM to 12:00 PM,menu,FALSE
+69,676,Family Pack Mutton Fry Piece Biryani,"1,299.00",11:00 AM to 12:00 PM,menu,FALSE
+69,677,Family Pack Special Mutton Biryani,"1,349.00",11:00 AM to 12:00 PM,menu,FALSE
+69,678,Family Pack Veg Biryani,799,11:00 AM to 12:00 PM,menu,FALSE
+69,679,Mutton Family Pack Biryani [Serves 4],"1,299.00",11:00 AM to 12:00 PM,menu,FALSE
+69,680,Baby Corn Fried Rice,249,11:00 AM to 12:00 PM,menu,FALSE
+69,681,Ghee Fried Rice,229,11:00 AM to 12:00 PM,menu,FALSE
+69,682,Gobi Fried Rice,229,11:00 AM to 12:00 PM,menu,FALSE
+69,683,Jeera Rice,219,11:00 AM to 12:00 PM,menu,FALSE
+69,684,Kaju Fried Rice,269,11:00 AM to 12:00 PM,menu,FALSE
+69,685,Kaju Paneer Fried Rice,279,11:00 AM to 12:00 PM,menu,FALSE
+69,686,Mix Veg Fried Rice,219,11:00 AM to 12:00 PM,menu,FALSE
+69,687,Mushroom Fried Rice,269,11:00 AM to 12:00 PM,menu,FALSE
+69,688,Paneer Fried Rice,269,11:00 AM to 12:00 PM,menu,FALSE
+69,689,Thai Veg Fried Rice,219,11:00 AM to 12:00 PM,menu,FALSE
+69,690,Vegetable Fried Rice,219,11:00 AM to 12:00 PM,menu,FALSE
+69,691,Chicken Fried Rice,259,11:00 AM to 12:00 PM,menu,FALSE
+69,692,Egg Fried Rice,219,11:00 AM to 12:00 PM,menu,FALSE
+69,693,Kaju Chicken Fried Rice,309,11:00 AM to 12:00 PM,menu,FALSE
+69,694,Mix Non Veg Fried Rice,399,11:00 AM to 12:00 PM,menu,FALSE
+69,695,Mutton Fried Rice,329,11:00 AM to 12:00 PM,menu,FALSE
+69,696,Prawns Fried Rice,349,11:00 AM to 12:00 PM,menu,FALSE
+69,697,Singapore Chicken Fried Rice,259,11:00 AM to 12:00 PM,menu,FALSE
+69,698,Special Chicken Fried Rice,309,11:00 AM to 12:00 PM,menu,FALSE
+69,699,Special Mutton Fried Rice,399,11:00 AM to 12:00 PM,menu,FALSE
+69,700,Special Prawns Fried Rice,349,11:00 AM to 12:00 PM,menu,FALSE
+69,701,Thai Chicken Fried Rice,259,11:00 AM to 12:00 PM,menu,FALSE
+69,702,Baby Corn Soft Noodles,249,11:00 AM to 12:00 PM,menu,FALSE
+69,703,Gobi Soft Noodles,229,11:00 AM to 12:00 PM,menu,FALSE
+69,704,Mushroom Soft Noodles,269,11:00 AM to 12:00 PM,menu,FALSE
+69,705,Paneer Soft Noodles,269,11:00 AM to 12:00 PM,menu,FALSE
+69,706,Thai Soft Noodles,229,11:00 AM to 12:00 PM,menu,FALSE
+69,707,Veg Soft Noodles,229,11:00 AM to 12:00 PM,menu,FALSE
+69,708,Chicken Soft Noodles,269,11:00 AM to 12:00 PM,menu,FALSE
+69,709,Eggs Soft Noodles,239,11:00 AM to 12:00 PM,menu,FALSE
+69,710,Mixed Non Veg Noodles,299,11:00 AM to 12:00 PM,menu,FALSE
+69,711,Masala Papad,54,11:00 AM to 12:00 PM,menu,FALSE
+69,712,Papad Fried,44,11:00 AM to 12:00 PM,menu,FALSE
+69,713,Papad Roasted,44,11:00 AM to 12:00 PM,menu,FALSE
+70,714,Baby Corn 65,249,10:00 AM to 11:00 PM,menu,FALSE
+70,715,Gobi 65,229,10:00 AM to 11:00 PM,menu,FALSE
+70,716,Mushroom Fry Semi Gravy,289,10:00 AM to 11:00 PM,menu,FALSE
+70,717,Mushroom Pepper Fry,289,10:00 AM to 11:00 PM,menu,FALSE
+70,718,Mushroom Roast,289,10:00 AM to 11:00 PM,menu,FALSE
+70,719,Paneer 65,289,10:00 AM to 11:00 PM,menu,FALSE
+70,720,Paneer Fry [Semi Gravy],289,10:00 AM to 11:00 PM,menu,FALSE
+70,721,Veg 65,239,10:00 AM to 11:00 PM,menu,FALSE
+70,722,Baby Corn Manchurian,249,10:00 AM to 11:00 PM,menu,FALSE
+70,723,Baby Corn Salt And Pepper,249,10:00 AM to 11:00 PM,menu,FALSE
+70,724,Chilli Baby Corn,249,10:00 AM to 11:00 PM,menu,FALSE
+70,725,Chilli Gobi,239,10:00 AM to 11:00 PM,menu,FALSE
+70,726,Chilli Mushroom,289,10:00 AM to 11:00 PM,menu,FALSE
+70,727,Chilli Paneer,289,10:00 AM to 11:00 PM,menu,FALSE
+70,728,Gobhi Salt And Pepper,239,10:00 AM to 11:00 PM,menu,FALSE
+70,729,Gobi Manchurian,229,10:00 AM to 11:00 PM,menu,FALSE
+70,730,Kaju Salt And Pepper,269,10:00 AM to 11:00 PM,menu,FALSE
+70,731,Mushroom Manchurian,289,10:00 AM to 11:00 PM,menu,FALSE
+70,732,Mushroom Salt And Pepper,289,10:00 AM to 11:00 PM,menu,FALSE
+70,733,Paneer Manchurian,289,10:00 AM to 11:00 PM,menu,FALSE
+70,734,Paneer Salt And Pepper,289,10:00 AM to 11:00 PM,menu,FALSE
+70,735,Veg Manchurian,229,10:00 AM to 11:00 PM,menu,FALSE
+70,736,Egg 65,199,10:00 AM to 11:00 PM,menu,FALSE
+70,737,Egg Burji,199,10:00 AM to 11:00 PM,menu,FALSE
+70,738,Omelette,129,10:00 AM to 11:00 PM,menu,FALSE
+70,739,Chilli Egg,199,10:00 AM to 11:00 PM,menu,FALSE
+70,740,AP Chicken Dry [Bone],269,10:00 AM to 11:00 PM,menu,FALSE
+70,741,AP Mutton Dry [Bone],399,10:00 AM to 11:00 PM,menu,FALSE
+70,742,AP Prawns Dry,399,10:00 AM to 11:00 PM,menu,FALSE
+70,743,Apollo Chicken [Bone Less],309,10:00 AM to 11:00 PM,menu,FALSE
+70,744,Apollo Fish,349,10:00 AM to 11:00 PM,menu,FALSE
+70,745,Boneless Chicken Fry,309,10:00 AM to 11:00 PM,menu,FALSE
+70,746,Boneless Chicken Majestic,319,10:00 AM to 11:00 PM,menu,FALSE
+70,747,Butter Garlic Chicken,309,10:00 AM to 11:00 PM,menu,FALSE
+70,748,Chicken 555,319,10:00 AM to 11:00 PM,menu,FALSE
+70,749,Chicken 64 [750 Ml],369,10:00 AM to 11:00 PM,menu,FALSE
+70,750,Chicken 65,309,10:00 AM to 11:00 PM,menu,FALSE
+70,751,Chicken 88 With Bone,299,10:00 AM to 11:00 PM,menu,FALSE
+70,752,Chicken Finger,279,10:00 AM to 11:00 PM,menu,FALSE
+70,753,Chicken Fry [Bone],269,10:00 AM to 11:00 PM,menu,FALSE
+70,754,Chicken Kabab [Bone Less],309,10:00 AM to 11:00 PM,menu,FALSE
+70,755,Chicken Maharaja [Bone Less],309,10:00 AM to 11:00 PM,menu,FALSE
+70,756,Chicken Pepper Fry [Boneless],309,10:00 AM to 11:00 PM,menu,FALSE
+70,757,Chicken Rayalaseema Dry [Bone Less],309,10:00 AM to 11:00 PM,menu,FALSE
+70,758,Chicken Roast [Boneless],309,10:00 AM to 11:00 PM,menu,FALSE
+70,759,Chicken Roast [Bone],279,10:00 AM to 11:00 PM,menu,FALSE
+70,760,Chinese Finger Chicken,309,10:00 AM to 11:00 PM,menu,FALSE
+70,761,Dragon Chicken,309,10:00 AM to 11:00 PM,menu,FALSE
+70,762,Finger Fish,349,10:00 AM to 11:00 PM,menu,FALSE
+70,763,Fish 2000,329,10:00 AM to 11:00 PM,menu,FALSE
+70,764,Fish Fry,349,10:00 AM to 11:00 PM,menu,FALSE
+70,765,Fish Roast [Boneless],349,10:00 AM to 11:00 PM,menu,FALSE
+70,766,Ginger Chicken Dry,309,10:00 AM to 11:00 PM,menu,FALSE
+70,767,Ginger Mutton Dry,389,10:00 AM to 11:00 PM,menu,FALSE
+70,768,Gongura Chicken Dry,309,10:00 AM to 11:00 PM,menu,FALSE
+70,769,Gongura Mutton Dry,399,10:00 AM to 11:00 PM,menu,FALSE
+70,770,Half Wings With Bone,359,10:00 AM to 11:00 PM,menu,FALSE
+70,771,Hot Garlic Butter Chicken,309,10:00 AM to 11:00 PM,menu,FALSE
+70,772,Lemon Chicken [750 Ml],349,10:00 AM to 11:00 PM,menu,FALSE
+70,773,Loose Prawns,399,10:00 AM to 11:00 PM,menu,FALSE
+70,774,Mongolian Chicken Dry,269,10:00 AM to 11:00 PM,menu,FALSE
+70,775,Mutton 65,399,10:00 AM to 11:00 PM,menu,FALSE
+70,776,Mutton Fry [Bone],399,10:00 AM to 11:00 PM,menu,FALSE
+70,777,Mutton Fry [Boneless],399,10:00 AM to 11:00 PM,menu,FALSE
+70,778,Mutton Maharaja [Bone Less],399,10:00 AM to 11:00 PM,menu,FALSE
+70,779,Mutton Rayalaseema Dry,359,10:00 AM to 11:00 PM,menu,FALSE
+70,780,Mutton Roast [Boneless],399,10:00 AM to 11:00 PM,menu,FALSE
+70,781,Mutton Roast [Bone],399,10:00 AM to 11:00 PM,menu,FALSE
+70,782,Prawns Fry,399,10:00 AM to 11:00 PM,menu,FALSE
+70,783,Prawns Pepper Fry,399,10:00 AM to 11:00 PM,menu,FALSE
+70,784,Prawns Pepper Roast,399,10:00 AM to 11:00 PM,menu,FALSE
+70,785,Prawns Roast,399,10:00 AM to 11:00 PM,menu,FALSE
+70,786,Red Pepper Chicken,309,10:00 AM to 11:00 PM,menu,FALSE
+70,787,T9 Special Chicken Dry,329,10:00 AM to 11:00 PM,menu,FALSE
+70,788,Thai Chicken Dry,309,10:00 AM to 11:00 PM,menu,FALSE
+70,789,Chicken Drums Of Heaven,359,10:00 AM to 11:00 PM,menu,FALSE
+70,790,Chicken Drumstick Full Dry,339,10:00 AM to 11:00 PM,menu,FALSE
+70,791,Chicken Lollypop [Saucy] With Bone,349,10:00 AM to 11:00 PM,menu,FALSE
+70,792,Chicken Manchurian,309,10:00 AM to 11:00 PM,menu,FALSE
+70,793,Chicken Salt And Pepper,309,10:00 AM to 11:00 PM,menu,FALSE
+70,794,Chilli Chicken,309,10:00 AM to 11:00 PM,menu,FALSE
+70,795,Chilli Fish,339,10:00 AM to 11:00 PM,menu,FALSE
+70,796,Chilli Mutton,389,10:00 AM to 11:00 PM,menu,FALSE
+70,797,Chilli Prawns,389,10:00 AM to 11:00 PM,menu,FALSE
+70,798,Double Star Chicken With Bone,319,10:00 AM to 11:00 PM,menu,FALSE
+70,799,Mutton Salt And Pepper,389,10:00 AM to 11:00 PM,menu,FALSE
+70,800,Chicken Tikka,339,10:00 AM to 11:00 PM,menu,FALSE
+70,801,Kalmi Kabab With Bone,289,10:00 AM to 11:00 PM,menu,FALSE
+70,802,Reshmi Kabab,299,10:00 AM to 11:00 PM,menu,FALSE
+70,803,Tandoori Chicken With Bone,349,10:00 AM to 11:00 PM,menu,FALSE
+70,804,Tangdi Kabab With Bone,289,10:00 AM to 11:00 PM,menu,FALSE
+70,805,Aloo Gobi Masala,249,10:00 AM to 11:00 PM,menu,FALSE
+70,806,Aloo Palak,249,10:00 AM to 11:00 PM,menu,FALSE
+70,807,Aloo Paneer Curry,289,10:00 AM to 11:00 PM,menu,FALSE
+70,808,Aloo Tomato Curry,249,10:00 AM to 11:00 PM,menu,FALSE
+70,809,Baby Corn Masala,269,10:00 AM to 11:00 PM,menu,FALSE
+70,810,Butter Mushroom Masala,289,10:00 AM to 11:00 PM,menu,FALSE
+70,811,Capsicum Masala,249,10:00 AM to 11:00 PM,menu,FALSE
+70,812,Dal Fry,199,10:00 AM to 11:00 PM,menu,FALSE
+70,813,Dal Tadka,199,10:00 AM to 11:00 PM,menu,FALSE
+70,814,Ginger Mushroom Curry,269,10:00 AM to 11:00 PM,menu,FALSE
+70,815,Kadai Kaju Gobi Masala,289,10:00 AM to 11:00 PM,menu,FALSE
+70,816,Kadai Mushroom,269,10:00 AM to 11:00 PM,menu,FALSE
+70,817,Kadai Vegetable,249,10:00 AM to 11:00 PM,menu,FALSE
+70,818,Kaju Masala,289,10:00 AM to 11:00 PM,menu,FALSE
+70,819,Kaju Mushroom Curry,299,10:00 AM to 11:00 PM,menu,FALSE
+70,820,Kaju Paneer Curry,299,10:00 AM to 11:00 PM,menu,FALSE
+70,821,Kaju Tomato Curry,289,10:00 AM to 11:00 PM,menu,FALSE
+70,822,Methi Chaman,289,10:00 AM to 11:00 PM,menu,FALSE
+70,823,Mixed Veg Curry,249,10:00 AM to 11:00 PM,menu,FALSE
+70,824,Mushroom Masala,289,10:00 AM to 11:00 PM,menu,FALSE
+70,825,Palak Paneer,289,10:00 AM to 11:00 PM,menu,FALSE
+70,826,Paneer Butter Masala,289,10:00 AM to 11:00 PM,menu,FALSE
+70,827,Paneer Chatpata,289,10:00 AM to 11:00 PM,menu,FALSE
+70,828,Paneer Hyderabadi,289,10:00 AM to 11:00 PM,menu,FALSE
+70,829,Paneer Kadai,289,10:00 AM to 11:00 PM,menu,FALSE
+70,830,Paneer Shahi Kurma,289,10:00 AM to 11:00 PM,menu,FALSE
+70,831,Plain Palak,199,10:00 AM to 11:00 PM,menu,FALSE
+70,832,Tomato Curry,249,10:00 AM to 11:00 PM,menu,FALSE
+70,833,Veg Chatpata,229,10:00 AM to 11:00 PM,menu,FALSE
+70,834,Veg Hyderabadi,249,10:00 AM to 11:00 PM,menu,FALSE
+70,835,Veg Jaipuri,249,10:00 AM to 11:00 PM,menu,FALSE
+70,836,Veg Kolhapuri,249,10:00 AM to 11:00 PM,menu,FALSE
+70,837,AP Chicken Curry,289,10:00 AM to 11:00 PM,menu,FALSE
+70,838,AP Mutton Curry [Bone],399,10:00 AM to 11:00 PM,menu,FALSE
+70,839,Bone Chicken Afghani Curry,279,10:00 AM to 11:00 PM,menu,FALSE
+70,840,Boneless Chicken Chettinad Curry,309,10:00 AM to 11:00 PM,menu,FALSE
+70,841,Butter Chicken Masala,309,10:00 AM to 11:00 PM,menu,FALSE
+70,842,Butter Prawns Masala,359,10:00 AM to 11:00 PM,menu,FALSE
+70,843,Chicken Curry With Bone,289,10:00 AM to 11:00 PM,menu,FALSE
+70,844,Chicken Hyderabadi With Bone,289,10:00 AM to 11:00 PM,menu,FALSE
+70,845,Chicken Kolhapuri [Bone Less],309,10:00 AM to 11:00 PM,menu,FALSE
+70,846,Chicken Mughlai,279,10:00 AM to 11:00 PM,menu,FALSE
+70,847,Chicken Navabi [Bone Less],309,10:00 AM to 11:00 PM,menu,FALSE
+70,848,Chicken Rajadhani [Bone Less],309,10:00 AM to 11:00 PM,menu,FALSE
+70,849,Chicken Rayalaseema Curry [Boneless],309,10:00 AM to 11:00 PM,menu,FALSE
+70,850,Chicken Tikka Masala [Boneless],329,10:00 AM to 11:00 PM,menu,FALSE
+70,851,Egg Keema Curry,209,10:00 AM to 11:00 PM,menu,FALSE
+70,852,Egg Masala,239,10:00 AM to 11:00 PM,menu,FALSE
+70,853,Fish Masala [Boneless],349,10:00 AM to 11:00 PM,menu,FALSE
+70,854,Ginger Chicken Curry,309,10:00 AM to 11:00 PM,menu,FALSE
+70,855,Ginger Prawns Curry,399,10:00 AM to 11:00 PM,menu,FALSE
+70,856,Gongora Chicken Curry With Bone,289,10:00 AM to 11:00 PM,menu,FALSE
+70,857,Kadai Chicken With Bone,279,10:00 AM to 11:00 PM,menu,FALSE
+70,858,Kadai Fish [Boneless],349,10:00 AM to 11:00 PM,menu,FALSE
+70,859,Kadai Mutton [Bone],399,10:00 AM to 11:00 PM,menu,FALSE
+70,860,Kadai Prawns Masala,399,10:00 AM to 11:00 PM,menu,FALSE
+70,861,Kaju Chicken Curry [Boneless],319,10:00 AM to 11:00 PM,menu,FALSE
+70,862,Methi Chicken Curry [Boneless],309,10:00 AM to 11:00 PM,menu,FALSE
+70,863,Mutton Curry With Bone,399,10:00 AM to 11:00 PM,menu,FALSE
+70,864,Mutton Keema Curry,399,10:00 AM to 11:00 PM,menu,FALSE
+70,865,Mutton Keema Fry,399,10:00 AM to 11:00 PM,menu,FALSE
+70,866,Mutton Masala [Bone Less],359,10:00 AM to 11:00 PM,menu,FALSE
+70,867,Mutton Rayalaseema Curry [Boneless],359,10:00 AM to 11:00 PM,menu,FALSE
+70,868,Mutton Roganjosh [Bone],359,10:00 AM to 11:00 PM,menu,FALSE
+70,869,Prawns Masala,399,10:00 AM to 11:00 PM,menu,FALSE
+70,870,Punjabi Chicken With Bone,289,10:00 AM to 11:00 PM,menu,FALSE
+70,871,Tandoori Chicken Masala,329,10:00 AM to 11:00 PM,menu,FALSE
+70,872,Tomato Egg Curry,239,10:00 AM to 11:00 PM,menu,FALSE
+70,873,Curd Rice,139,10:00 AM to 11:00 PM,menu,FALSE
+70,874,Dal Rice,219,10:00 AM to 11:00 PM,menu,FALSE
+70,875,Guttivankaya Biryani,249,10:00 AM to 11:00 PM,menu,FALSE
+70,876,Mushroom Biryani,269,10:00 AM to 11:00 PM,menu,FALSE
+70,877,Special Paneer Biryani And Special Paneer Curry [250 Ml],299,10:00 AM to 11:00 PM,menu,FALSE
+70,878,Ulavacharu Veg Biryani [Veg Biryani Rice 1000ml + 250ml Curry],289,10:00 AM to 11:00 PM,menu,FALSE
+70,879,Veg Biryani,249,10:00 AM to 11:00 PM,menu,FALSE
+70,880,Veg Pulao,249,10:00 AM to 11:00 PM,menu,FALSE
+70,881,Avakai Chicken Biryani [1000 Ml],319,10:00 AM to 11:00 PM,menu,FALSE
+70,882,Avakai Mutton Biryani [1000 Ml],359,10:00 AM to 11:00 PM,menu,FALSE
+70,883,Avakai Prawns Biryani [1000 Ml],359,10:00 AM to 11:00 PM,menu,FALSE
+70,884,Chicken Fry Piece Biryani,319,10:00 AM to 11:00 PM,menu,FALSE
+70,885,Chicken Keema Biryani [1000 Ml],319,10:00 AM to 11:00 PM,menu,FALSE
+70,886,Chicken Tikka Biryani,339,10:00 AM to 11:00 PM,menu,FALSE
+70,887,Double Masala Hyderabadi Chicken Dum Biryani [1000 Ml],299,10:00 AM to 11:00 PM,menu,FALSE
+70,888,Egg Biryani [2 Pieces Of Eggs + 1000 Ml Of Biryani Rice],249,10:00 AM to 11:00 PM,menu,FALSE
+70,889,Gongura Chicken Biryani [1000 Ml],319,10:00 AM to 11:00 PM,menu,FALSE
+70,890,Gongura Mutton Biryani [1000 Ml],399,10:00 AM to 11:00 PM,menu,FALSE
+70,891,Hyderabadi Chicken Dum Biryani [1000 Ml],299,10:00 AM to 11:00 PM,menu,FALSE
+70,892,Mixed Mughlai Biryani,399,10:00 AM to 11:00 PM,menu,FALSE
+70,893,Mughlai Chicken Biryani,349,10:00 AM to 11:00 PM,menu,FALSE
+70,894,Mughlai Mutton Biryani,399,10:00 AM to 11:00 PM,menu,FALSE
+70,895,Mughlai Prawns Biryani [1000 Ml],399,10:00 AM to 11:00 PM,menu,FALSE
+70,896,Mutton Fry Piece Biryani,399,10:00 AM to 11:00 PM,menu,FALSE
+70,897,Mutton Keema Biryani,399,10:00 AM to 11:00 PM,menu,FALSE
+70,898,Prawns Fry Piece Biryani [1000 Ml],399,10:00 AM to 11:00 PM,menu,FALSE
+70,899,Special Chicken Biryani [Rice 1000ml And Chicken Curry [250 Ml]],339,10:00 AM to 11:00 PM,menu,FALSE
+70,900,Special Fish Biryani [Biryani Rice 1000 Ml] With Fish Curry [250ml],359,10:00 AM to 11:00 PM,menu,FALSE
+70,901,Special Mutton Biryani [Biryani Rice 1000ml] With Mutton Curry [250 Ml],399,10:00 AM to 11:00 PM,menu,FALSE
+70,902,Special Prawns Biriyani [Biryani Rice 1000ml + Prawns Curry 250ml],399,10:00 AM to 11:00 PM,menu,FALSE
+70,903,Tandoori Chicken Biryani,329,10:00 AM to 11:00 PM,menu,FALSE
+70,904,Ulavacharu Chicken Biryani [1000 Ml],359,10:00 AM to 11:00 PM,menu,FALSE
+70,905,Ulavacharu Mutton Biryani [Biryani Rice 1000ml + 250ml Mutton Curry],399,10:00 AM to 11:00 PM,menu,FALSE
+70,906,Chicken Joint Biryani,369,10:00 AM to 11:00 PM,menu,FALSE
+70,907,Chicken Lollipop Biryani,329,10:00 AM to 11:00 PM,menu,FALSE
+70,908,Hyderabadi Mutton Dum Biryani [1000 Ml],399,10:00 AM to 11:00 PM,menu,FALSE
+70,909,Bucket Chicken Biryani [Serves 6-8],1499,10:00 AM to 11:00 PM,menu,FALSE
+70,910,Chicken Family Pack Biryani [Serves 4],999,10:00 AM to 11:00 PM,menu,FALSE
+70,911,Family Pack Fry Piece Chicken Biryani,1149,10:00 AM to 11:00 PM,menu,FALSE
+70,912,Family Pack Mutton Fry Piece Biryani,1299,10:00 AM to 11:00 PM,menu,FALSE
+70,913,Family Pack Special Mutton Biryani,1349,10:00 AM to 11:00 PM,menu,FALSE
+70,914,Family Pack Veg Biryani,799,10:00 AM to 11:00 PM,menu,FALSE
+70,915,Bucket Mutton Biryani [Serves 6-8],1699,10:00 AM to 11:00 PM,menu,FALSE
+70,916,Mutton Family Pack Biryani [Serves 4],1299,10:00 AM to 11:00 PM,menu,FALSE
+72,917,Gobi Chilli,210,11:00 AM to 10:45 PM,menu,FALSE
+72,918,Gobi Manchuria,210,11:00 AM to 10:45 PM,menu,FALSE
+72,919,Gobi 65,210,11:00 AM to 10:45 PM,menu,FALSE
+72,920,Mushroom Fry,240,11:00 AM to 10:45 PM,menu,FALSE
+72,921,Mushroom Manchuria,240,11:00 AM to 10:45 PM,menu,FALSE
+72,922,Pepper Mushroom,240,11:00 AM to 10:45 PM,menu,FALSE
+72,923,Mushroom Chilli,240,11:00 AM to 10:45 PM,menu,FALSE
+72,924,Mushroom 65,240,11:00 AM to 10:45 PM,menu,FALSE
+72,925,Mushroom Tikka,240,11:00 AM to 10:45 PM,menu,FALSE
+72,926,Babycorn Chilli,220,11:00 AM to 10:45 PM,menu,FALSE
+72,927,Babycorn 65,220,11:00 AM to 10:45 PM,menu,FALSE
+72,928,Babycorn Manchuria,220,11:00 AM to 10:45 PM,menu,FALSE
+72,929,Babycorn Fry,220,11:00 AM to 10:45 PM,menu,FALSE
+72,930,R.R. Gobi Dry,210,11:00 AM to 10:45 PM,menu,FALSE
+72,931,Crispy Gobi,220,11:00 AM to 10:45 PM,menu,FALSE
+72,932,Veg Manchuria,230,11:00 AM to 10:45 PM,menu,FALSE
+72,933,Veg Sangrilla,230,11:00 AM to 10:45 PM,menu,FALSE
+72,934,Paneer Chilli,250,11:00 AM to 10:45 PM,menu,FALSE
+72,935,Paneer 65,250,11:00 AM to 10:45 PM,menu,FALSE
+72,936,Paneer Manchuria,250,11:00 AM to 10:45 PM,menu,FALSE
+72,937,Paneer Tikka,250,11:00 AM to 10:45 PM,menu,FALSE
+72,938,Paneer Majestick,238.1,11:00 AM to 10:45 PM,menu,FALSE
+72,939,Chillies Special Veg Snacks,260,11:00 AM to 10:45 PM,menu,FALSE
+72,940,Boiled Egg,60,11:00 AM to 10:45 PM,menu,FALSE
+72,941,Egg Amlet,60,11:00 AM to 10:45 PM,menu,FALSE
+72,942,Egg Curry,170,11:00 AM to 10:45 PM,menu,FALSE
+72,943,Egg Burji,170,11:00 AM to 10:45 PM,menu,FALSE
+72,944,Egg Chilli,220,11:00 AM to 10:45 PM,menu,FALSE
+72,945,Egg 65,220,11:00 AM to 10:45 PM,menu,FALSE
+72,946,Egg Manchuria,220,11:00 AM to 10:45 PM,menu,FALSE
+72,947,Chicken Chilli,270,11:00 AM to 10:45 PM,menu,FALSE
+72,948,Ginger Chicken,290,11:00 AM to 10:45 PM,menu,FALSE
+72,949,Lemon Chicken,300,11:00 AM to 10:45 PM,menu,FALSE
+72,950,Pepper Chicken,300,11:00 AM to 10:45 PM,menu,FALSE
+72,951,Chicken Lollypop,300,11:00 AM to 10:45 PM,menu,FALSE
+72,952,Chilli Wings With Sauce,290,11:00 AM to 10:45 PM,menu,FALSE
+72,953,Chicken 65,270,11:00 AM to 10:45 PM,menu,FALSE
+72,954,Chicken 555,290,11:00 AM to 10:45 PM,menu,FALSE
+72,955,Chicken Fry Bone,270,11:00 AM to 10:45 PM,menu,FALSE
+72,956,Chicken Fry Boneless,270,11:00 AM to 10:45 PM,menu,FALSE
+72,957,Mutton Fry (Bone),320,11:00 AM to 10:45 PM,menu,FALSE
+72,958,Fish Chilli,290,11:00 AM to 10:45 PM,menu,FALSE
+72,959,Fish 65,290,11:00 AM to 10:45 PM,menu,FALSE
+72,960,Garlic Fish,290,11:00 AM to 10:45 PM,menu,FALSE
+72,961,Fish Majestick,290,11:00 AM to 10:45 PM,menu,FALSE
+72,962,Appollow Fish,290,11:00 AM to 10:45 PM,menu,FALSE
+72,963,Plain Biryani,210,11:00 AM to 10:45 PM,menu,FALSE
+72,964,Veg Biryani,220,11:00 AM to 10:45 PM,menu,FALSE
+72,965,Mushroom Biryani,219.05,11:00 AM to 10:45 PM,menu,FALSE
+72,966,Paneer Biryani,230,11:00 AM to 10:45 PM,menu,FALSE
+72,967,Egg Biryani,220,11:00 AM to 10:45 PM,menu,FALSE
+72,968,Chicken Dum Biryani,270,11:00 AM to 10:45 PM,menu,FALSE
+72,969,Special Chicken Biryani Boneless,290,11:00 AM to 10:45 PM,menu,FALSE
+72,970,Chicken Biryani FP,270,11:00 AM to 10:45 PM,menu,FALSE
+72,971,Chicken Kabab Biryani,290,11:00 AM to 10:45 PM,menu,FALSE
+72,972,Chicken Wings Biryani,290,11:00 AM to 10:45 PM,menu,FALSE
+72,973,Mutton Dum Biryani,320,11:00 AM to 10:45 PM,menu,FALSE
+72,974,Special Mutton Biryani,320,11:00 AM to 10:45 PM,menu,FALSE
+72,975,Mutton Biryani,320,11:00 AM to 10:45 PM,menu,FALSE
+72,976,Special Fish Biryani,290,11:00 AM to 10:45 PM,menu,FALSE
+72,977,Special Prawns Biryani,320,11:00 AM to 10:45 PM,menu,FALSE
+72,978,Veg Pack,650,11:00 AM to 10:45 PM,menu,FALSE
+72,979,Chicken Mini Pack,800,11:00 AM to 10:45 PM,menu,FALSE
+72,980,Mutton Mini Pack,900,11:00 AM to 10:45 PM,menu,FALSE
+72,981,Big Pack,1200,11:00 AM to 10:45 PM,menu,FALSE
+72,982,Pulka,35,11:00 AM to 10:45 PM,menu,FALSE
+72,983,Roti,40,11:00 AM to 10:45 PM,menu,FALSE
+72,984,Plain Kulcha,40,11:00 AM to 10:45 PM,menu,FALSE
+72,985,Plain Naan,45,11:00 AM to 10:45 PM,menu,FALSE
+72,986,Butter Roti,45,11:00 AM to 10:45 PM,menu,FALSE
+72,987,Butter Naan,50,11:00 AM to 10:45 PM,menu,FALSE
+72,988,Tandoori Roti,30,11:00 AM to 10:45 PM,menu,FALSE
+72,989,Butter Chicken Curry,315,11:00 AM to 10:45 PM,menu,FALSE
+72,990,Special Chicken Curry,315,11:00 AM to 10:45 PM,menu,FALSE
+72,991,Chicken Tikka Masala,315,11:00 AM to 10:45 PM,menu,FALSE
+72,992,AP Mutton Curry,320,11:00 AM to 10:45 PM,menu,FALSE
+72,993,Prawns Masala Curry,350,11:00 AM to 10:45 PM,menu,FALSE
+72,994,Cashew Paneer Masala,250,11:00 AM to 10:45 PM,menu,FALSE
+72,995,Veg Fried Rice,180,11:00 AM to 10:45 PM,menu,FALSE
+72,996,Gobi Fried Rice,180,11:00 AM to 10:45 PM,menu,FALSE
+72,997,Chicken Fried Rice,220,11:00 AM to 10:45 PM,menu,FALSE
+72,998,Veg Noodles,180,11:00 AM to 10:45 PM,menu,FALSE
+72,999,Sezwan Veg Noodles,210,11:00 AM to 10:45 PM,menu,FALSE
+72,1000,Chicken Noodles,220,11:00 AM to 10:45 PM,menu,FALSE
+72,1001,Tandoori Chicken,300,11:00 AM to 10:45 PM,menu,FALSE
+72,1002,Curd Rice,90,11:00 AM to 10:45 PM,menu,FALSE
+72,1003,Raitha,30,11:00 AM to 10:45 PM,menu,FALSE
+72,1004,Extra Gravy,30,11:00 AM to 10:45 PM,menu,FALSE
+72,1005,Soft Drink (250ml),25,11:00 AM to 10:45 PM,menu,FALSE
+71,1006,Gobi Chilli,210,12:00 PM to 11:00 PM,menu,FALSE
+71,1007,Gobi Manchuria,200,12:00 PM to 11:00 PM,menu,FALSE
+71,1008,Gobi 65,210,12:00 PM to 11:00 PM,menu,FALSE
+71,1009,Mushroom Fry,240,12:00 PM to 11:00 PM,menu,FALSE
+71,1010,Mushroom Manchuria,240,12:00 PM to 11:00 PM,menu,FALSE
+71,1011,Mushroom Chilli,240,12:00 PM to 11:00 PM,menu,FALSE
+71,1012,Mushroom 65,240,12:00 PM to 11:00 PM,menu,FALSE
+71,1013,Babycorn Chilli,230,12:00 PM to 11:00 PM,menu,FALSE
+71,1014,Babycorn Fry,230,12:00 PM to 11:00 PM,menu,FALSE
+71,1015,R.R. Gobi Dry,210,12:00 PM to 11:00 PM,menu,FALSE
+71,1016,Crispy Gobi,220,12:00 PM to 11:00 PM,menu,FALSE
+71,1017,Paneer Chilli,250,12:00 PM to 11:00 PM,menu,FALSE
+71,1018,Paneer 65,250,12:00 PM to 11:00 PM,menu,FALSE
+71,1019,Paneer Manchuria,250,12:00 PM to 11:00 PM,menu,FALSE
+71,1020,Paneer Majestick,250,12:00 PM to 11:00 PM,menu,FALSE
+71,1021,Egg Curry,170,12:00 PM to 11:00 PM,menu,FALSE
+71,1022,Egg Chilli,220,12:00 PM to 11:00 PM,menu,FALSE
+71,1023,Egg 65,220,12:00 PM to 11:00 PM,menu,FALSE
+71,1024,Egg Manchuria,220,12:00 PM to 11:00 PM,menu,FALSE
+71,1025,Chicken Chilli,270,12:00 PM to 11:00 PM,menu,FALSE
+71,1026,Lemon Chicken,300,12:00 PM to 11:00 PM,menu,FALSE
+71,1027,Pepper Chicken,300,12:00 PM to 11:00 PM,menu,FALSE
+71,1028,Ginger Chicken,270,12:00 PM to 11:00 PM,menu,FALSE
+71,1029,Chicken Lollypop,300,12:00 PM to 11:00 PM,menu,FALSE
+71,1030,Chilli Wings With Sauce,290,12:00 PM to 11:00 PM,menu,FALSE
+71,1031,Chicken 65,270,12:00 PM to 11:00 PM,menu,FALSE
+71,1032,Chicken 555,290,12:00 PM to 11:00 PM,menu,FALSE
+71,1033,Chicken Fry Bone,270,12:00 PM to 11:00 PM,menu,FALSE
+71,1034,Chicken Fry Boneless,270,12:00 PM to 11:00 PM,menu,FALSE
+71,1035,Mutton Fry (Bone),320,12:00 PM to 11:00 PM,menu,FALSE
+71,1036,Fish Chilli,290,12:00 PM to 11:00 PM,menu,FALSE
+71,1037,Fish 65,290,12:00 PM to 11:00 PM,menu,FALSE
+71,1038,Garlic Fish,290,12:00 PM to 11:00 PM,menu,FALSE
+71,1039,Fish Majestick,290,12:00 PM to 11:00 PM,menu,FALSE
+71,1040,Veg Soup,104.76,12:00 PM to 11:00 PM,menu,FALSE
+71,1041,Special Chicken Biryani Boneless,305,12:00 PM to 11:00 PM,menu,FALSE
+71,1042,Chicken Biryani Bone,305,12:00 PM to 11:00 PM,menu,FALSE
+71,1043,Mutton Dum Biryani,333,12:00 PM to 11:00 PM,menu,FALSE
+71,1044,Special Prawns Biryani,350,12:00 PM to 11:00 PM,menu,FALSE
+71,1045,Butter Naan,50,12:00 PM to 11:00 PM,menu,FALSE
+71,1046,Tandoori Roti,30,12:00 PM to 11:00 PM,menu,FALSE
+71,1047,Butter Chicken Curry,315,12:00 PM to 11:00 PM,menu,FALSE
+71,1048,Special Chicken Curry,315,12:00 PM to 11:00 PM,menu,FALSE
+71,1049,Chicken Tikka Masala,315,12:00 PM to 11:00 PM,menu,FALSE
+71,1050,AP Mutton Curry,320,12:00 PM to 11:00 PM,menu,FALSE
+71,1051,Prawns Masala Curry,350,12:00 PM to 11:00 PM,menu,FALSE
+71,1052,Cashew Paneer Masala,250,12:00 PM to 11:00 PM,menu,FALSE
+71,1053,Gobi Fried Rice,180,12:00 PM to 11:00 PM,menu,FALSE
+71,1054,Chicken Fried Rice,220,12:00 PM to 11:00 PM,menu,FALSE
+71,1055,Tandoori Chicken,300,12:00 PM to 11:00 PM,menu,FALSE
+71,1056,Curd Rice,100,12:00 PM to 11:00 PM,menu,FALSE
+71,1057,Veg Noodles,180,12:00 PM to 11:00 PM,menu,FALSE
+71,1058,Chicken Noodles,220,12:00 PM to 11:00 PM,menu,FALSE
+71,1059,Andhra Meals (Veg),105,12:00 PM to 11:00 PM,menu,FALSE
+73,1060,Chicken Fried Piece Biryani With Bone [750 Ml],299,10:30 AM to 10:30 PM,menu,TRUE
+73,1061,Chicken Fry Bone,290,10:30 AM to 10:30 PM,menu,TRUE
+73,1062,Veg Biryani [750 Ml],250,10:30 AM to 10:30 PM,menu,FALSE
+73,1063,Plain Biryani,209,10:30 AM to 10:30 PM,menu,FALSE
+73,1064,Veg Biryani,250,10:30 AM to 10:30 PM,menu,FALSE
+73,1065,Gongura Veg Biryani,270,10:30 AM to 10:30 PM,menu,FALSE
+73,1066,Ulava Charu Veg Biryani,280,10:30 AM to 10:30 PM,menu,FALSE
+73,1067,Avakai Veg Biryani,250,10:30 AM to 10:30 PM,menu,FALSE
+73,1068,Gutti Vankaya Biryani,260,10:30 AM to 10:30 PM,menu,FALSE
+73,1069,Special Paneer Biryani,300,10:30 AM to 10:30 PM,menu,FALSE
+73,1070,Special Mushroom Biryani,290,10:30 AM to 10:30 PM,menu,FALSE
+73,1071,Egg Biryani,250,10:30 AM to 10:30 PM,menu,TRUE
+73,1072,Chicken Dum Biryani,290,10:30 AM to 10:30 PM,menu,TRUE
+73,1073,Special Chicken Biryani,339,10:30 AM to 10:30 PM,menu,TRUE
+73,1074,Chicken Keema Biryani,330,10:30 AM to 10:30 PM,menu,TRUE
+73,1075,Boneless Fried Piece Chicken Biryani,320,10:30 AM to 10:30 PM,menu,TRUE
+73,1076,Gongura Chicken Biryani,330,10:30 AM to 10:30 PM,menu,TRUE
+73,1077,Ulava Charu Boneless Chicken Biryani,345,10:30 AM to 10:30 PM,menu,FALSE
+73,1078,Avakai Chicken Biryani,330,10:30 AM to 10:30 PM,menu,FALSE
+73,1079,Potlam Chicken Biryani,329,10:30 AM to 10:30 PM,menu,FALSE
+73,1080,Potlam Prawns Biryani,350,10:30 AM to 10:30 PM,menu,FALSE
+73,1081,Chicken Lollipop Biryani,345,10:30 AM to 10:30 PM,menu,TRUE
+73,1082,Chicken Wings Biryani,290,10:30 AM to 10:30 PM,menu,FALSE
+73,1083,Chicken Mughlai Biryani,340,10:30 AM to 10:30 PM,menu,FALSE
+73,1084,Chicken Joint Biryani,345,10:30 AM to 10:30 PM,menu,FALSE
+73,1085,Special Mutton Biryani [Bone],430,10:30 AM to 10:30 PM,menu,TRUE
+73,1086,Gongura Mutton Biryani,440,10:30 AM to 10:30 PM,menu,FALSE
+73,1087,Fry Piece Mutton Biryani,460,10:30 AM to 10:30 PM,menu,TRUE
+73,1088,Ulava Charu Mutton Biryani,440,10:30 AM to 10:30 PM,menu,FALSE
+73,1089,Avakai Mutton Biryani,440,10:30 AM to 10:30 PM,menu,FALSE
+73,1090,Potlam Mutton Biryani,440,10:30 AM to 10:30 PM,menu,FALSE
+73,1091,Mutton Dum Biryani,430,10:30 AM to 10:30 PM,menu,FALSE
+73,1092,Special Prawns Biryani,390,10:30 AM to 10:30 PM,menu,TRUE
+73,1093,Special Fish Biryani,390,10:30 AM to 10:30 PM,menu,TRUE
+73,1094,Prawns Fried Piece Biryani,390,10:30 AM to 10:30 PM,menu,FALSE
+73,1095,Gobi Manchurian,229,10:30 AM to 10:30 PM,menu,FALSE
+73,1096,Veg Manchurian,250,10:30 AM to 10:30 PM,menu,FALSE
+73,1097,Chilli Mushroom,259,10:30 AM to 10:30 PM,menu,FALSE
+73,1098,Pepper Mushroom,259,10:30 AM to 10:30 PM,menu,FALSE
+73,1099,Mushroom Manchurian,259,10:30 AM to 10:30 PM,menu,FALSE
+73,1100,Mushroom 65,259,10:30 AM to 10:30 PM,menu,FALSE
+73,1101,Paneer 65,280,10:30 AM to 10:30 PM,menu,FALSE
+73,1102,Chilli Paneer,280,10:30 AM to 10:30 PM,menu,TRUE
+73,1103,Baby Corn Manchurian,259,10:30 AM to 10:30 PM,menu,FALSE
+73,1104,Golden Fried Baby Corn,269,10:30 AM to 10:30 PM,menu,FALSE
+73,1105,Baby Corn Pepper Dry,259,10:30 AM to 10:30 PM,menu,FALSE
+73,1106,Paneer Majestic,309,10:30 AM to 10:30 PM,menu,TRUE
+73,1107,Veg Spring Roll,240,10:30 AM to 10:30 PM,menu,FALSE
+73,1108,Mushroom Spring Roll,230,10:30 AM to 10:30 PM,menu,FALSE
+73,1109,Crispy Corn,259,10:30 AM to 10:30 PM,menu,FALSE
+73,1110,Karanchi Paneer,310,10:30 AM to 10:30 PM,menu,FALSE
+73,1111,Chilli Egg,260,10:30 AM to 10:30 PM,menu,FALSE
+73,1112,Egg 65,260,10:30 AM to 10:30 PM,menu,FALSE
+73,1113,Egg Manchurian,260,10:30 AM to 10:30 PM,menu,FALSE
+73,1114,Egg Spring Roll,270,10:30 AM to 10:30 PM,menu,FALSE
+73,1115,Egg Bhurji,240,10:30 AM to 10:30 PM,menu,FALSE
+73,1116,Chilli Chicken,290,10:30 AM to 10:30 PM,menu,TRUE
+73,1117,Chicken Manchurian,280,10:30 AM to 10:30 PM,menu,FALSE
+73,1118,Chicken Wings,309,10:30 AM to 10:30 PM,menu,TRUE
+73,1119,Pepper Chicken Dry,290,10:30 AM to 10:30 PM,menu,FALSE
+73,1120,Schezwan Chicken Dry,309,10:30 AM to 10:30 PM,menu,FALSE
+73,1121,Spicy Fried Chicken,320,10:30 AM to 10:30 PM,menu,TRUE
+73,1122,Sultana Chicken,345,10:30 AM to 10:30 PM,menu,FALSE
+73,1123,Chicken Lollipop Dry [6 Pieces],345,10:30 AM to 10:30 PM,menu,TRUE
+73,1124,Potli Chicken,310,10:30 AM to 10:30 PM,menu,FALSE
+73,1125,Pulse Special Chicken,360,10:30 AM to 10:30 PM,menu,TRUE
+73,1126,Tandoori Chicken,345,10:30 AM to 10:30 PM,menu,TRUE
+73,1127,Chicken Tangdi Kebab,310,10:30 AM to 10:30 PM,menu,FALSE
+73,1128,Chicken Tikka,330,10:30 AM to 10:30 PM,menu,TRUE
+73,1129,Chicken Spring Roll,280,10:30 AM to 10:30 PM,menu,FALSE
+73,1130,Chicken Drumstick Sauce [6 Pieces],345,10:30 AM to 10:30 PM,menu,FALSE
+73,1131,Kaju Chicken Dry,345,10:30 AM to 10:30 PM,menu,FALSE
+73,1132,Garlic Chicken Dry,309,10:30 AM to 10:30 PM,menu,FALSE
+73,1133,Spicy Pepper Wings [10 Pieces],309,10:30 AM to 10:30 PM,menu,FALSE
+73,1134,Dragon Chicken,330,10:30 AM to 10:30 PM,menu,FALSE
+73,1135,Chicken Majestic,330,10:30 AM to 10:30 PM,menu,FALSE
+73,1136,Crispy Chilli Chicken,360,10:30 AM to 10:30 PM,menu,TRUE
+73,1137,Butter Garlic Chicken,340,10:30 AM to 10:30 PM,menu,FALSE
+73,1138,Chilli Garlic Chicken,350,10:30 AM to 10:30 PM,menu,FALSE
+73,1139,Chicken Cheese Ball,360,10:30 AM to 10:30 PM,menu,FALSE
+73,1140,Mutton Fry [Bone],430,10:30 AM to 10:30 PM,menu,FALSE
+73,1141,Mutton Manchurian,440,10:30 AM to 10:30 PM,menu,FALSE
+73,1142,Pepper Mutton [Bone],440,10:30 AM to 10:30 PM,menu,FALSE
+73,1143,Gongura Mutton Dry [Bone],440,10:30 AM to 10:30 PM,menu,FALSE
+73,1144,Apollo Fish,400,10:30 AM to 10:30 PM,menu,TRUE
+73,1145,Chilli Fish,400,10:30 AM to 10:30 PM,menu,TRUE
+73,1146,Pepper Fish,380,10:30 AM to 10:30 PM,menu,FALSE
+73,1147,Pulse Special Fish,399,10:30 AM to 10:30 PM,menu,TRUE
+73,1148,Fish Finger,400,10:30 AM to 10:30 PM,menu,FALSE
+73,1149,Ginger Fish,350,10:30 AM to 10:30 PM,menu,FALSE
+73,1150,Spicy Fried Prawns,399,10:30 AM to 10:30 PM,menu,TRUE
+73,1151,Pepper Prawns,399,10:30 AM to 10:30 PM,menu,FALSE
+73,1152,Loose Prawns,399,10:30 AM to 10:30 PM,menu,FALSE
+73,1153,Pulse Special Prawns,409,10:30 AM to 10:30 PM,menu,FALSE
+73,1154,Veg Fried Rice,230,10:30 AM to 10:30 PM,menu,FALSE
+73,1155,Paneer Fried Rice,270,10:30 AM to 10:30 PM,menu,FALSE
+73,1156,Kaju Fried Rice,300,10:30 AM to 10:30 PM,menu,FALSE
+73,1157,Gobhi Fried Rice,239,10:30 AM to 10:30 PM,menu,FALSE
+73,1158,Pepper Veg Corn Fried Rice,270,10:30 AM to 10:30 PM,menu,FALSE
+73,1159,Veg Schezwan Fried Rice,250,10:30 AM to 10:30 PM,menu,FALSE
+73,1160,Mushroom Fried Rice,259,10:30 AM to 10:30 PM,menu,FALSE
+73,1161,Egg Fried Rice,240,10:30 AM to 10:30 PM,menu,FALSE
+73,1162,Chicken Fried Rice,270,10:30 AM to 10:30 PM,menu,TRUE
+73,1163,Schezwan Chicken Fried Rice,290,10:30 AM to 10:30 PM,menu,FALSE
+73,1164,Special Chicken Fried Rice,300,10:30 AM to 10:30 PM,menu,FALSE
+73,1165,Veg Noodles,240,10:30 AM to 10:30 PM,menu,FALSE
+73,1166,Gobi Noodles,240,10:30 AM to 10:30 PM,menu,FALSE
+73,1167,Mushroom Noodles,250,10:30 AM to 10:30 PM,menu,FALSE
+73,1168,Egg Noodles,250,10:30 AM to 10:30 PM,menu,FALSE
+73,1169,Schezwan Egg Noodles,260,10:30 AM to 10:30 PM,menu,FALSE
+73,1170,Chicken Noodles,270,10:30 AM to 10:30 PM,menu,TRUE
+73,1171,Curd Rice,130,10:30 AM to 10:30 PM,menu,FALSE
+73,1172,Jeera Rice,240,10:30 AM to 10:30 PM,menu,FALSE
+73,1173,Chicken Tandoori Platter,660,10:30 AM to 10:30 PM,menu,TRUE
+73,1174,Tomato Soup,160,10:30 AM to 10:30 PM,menu,FALSE
+73,1175,Veg Sweet Corn Soup,160,10:30 AM to 10:30 PM,menu,FALSE
+73,1176,Veg Hot N Sour Soup,160,10:30 AM to 10:30 PM,menu,FALSE
+73,1177,Mushroom Soup,160,10:30 AM to 10:30 PM,menu,FALSE
+73,1178,Chicken Corn Soup,170,10:30 AM to 10:30 PM,menu,FALSE
+73,1179,Chicken Hot N Sour Soup,170,10:30 AM to 10:30 PM,menu,FALSE
+73,1180,Chicken Manchow Soup,170,10:30 AM to 10:30 PM,menu,FALSE
+73,1181,Chicken Pepper Soup,160,10:30 AM to 10:30 PM,menu,FALSE
+73,1182,Mutton Hot N Sour Soup,190,10:30 AM to 10:30 PM,menu,FALSE
+73,1183,Mango Milkshake,180,10:30 AM to 10:30 PM,menu,FALSE
+73,1184,Pista Milkshake,180,10:30 AM to 10:30 PM,menu,FALSE
+73,1185,Blackcurrant Milkshake,180,10:30 AM to 10:30 PM,menu,FALSE
+73,1186,Vanilla Milkshake,170,10:30 AM to 10:30 PM,menu,FALSE
+73,1187,Choclate Milkshake,180,10:30 AM to 10:30 PM,menu,TRUE
+73,1188,Strawberry Milkshake,130,10:30 AM to 10:30 PM,menu,FALSE
+73,1189,Butterscotch Milkshake,170,10:30 AM to 10:30 PM,menu,FALSE
+73,1190,Butter Naan,65,10:30 AM to 10:30 PM,menu,FALSE
+73,1191,Roti,40,10:30 AM to 10:30 PM,menu,FALSE
+73,1192,Rumali Roti,75,10:30 AM to 10:30 PM,menu,FALSE
+73,1193,Plain Naan,60,10:30 AM to 10:30 PM,menu,FALSE
+73,1194,Pulka,49,10:30 AM to 10:30 PM,menu,FALSE
+73,1195,Butter Roti,45,10:30 AM to 10:30 PM,menu,FALSE
+73,1196,Paneer Butter Masala,290,10:30 AM to 10:30 PM,menu,TRUE
+73,1197,Mushroom Masala,270,10:30 AM to 10:30 PM,menu,FALSE
+73,1198,Kadhai Paneer,290,10:30 AM to 10:30 PM,menu,FALSE
+73,1199,Tomato Curry,270,10:30 AM to 10:30 PM,menu,FALSE
+73,1200,Kadai Veg,260,10:30 AM to 10:30 PM,menu,FALSE
+73,1201,Plain Palak,260,10:30 AM to 10:30 PM,menu,FALSE
+73,1202,Mix Veg Curry,270,10:30 AM to 10:30 PM,menu,FALSE
+73,1203,Kadai Mushroom,270,10:30 AM to 10:30 PM,menu,FALSE
+73,1204,Methi Chaman,270,10:30 AM to 10:30 PM,menu,FALSE
+73,1205,Palak Paneer,270,10:30 AM to 10:30 PM,menu,FALSE
+73,1206,Kadai Baby Corn,270,10:30 AM to 10:30 PM,menu,FALSE
+73,1207,Kaju Paneer Curry,305,10:30 AM to 10:30 PM,menu,FALSE
+73,1208,Gobi Masala,260,10:30 AM to 10:30 PM,menu,FALSE
+73,1209,Egg Curry,260,10:30 AM to 10:30 PM,menu,FALSE
+73,1210,Kadai Chicken,309,10:30 AM to 10:30 PM,menu,TRUE
+73,1211,Chicken Tikka Masala,305,10:30 AM to 10:30 PM,menu,TRUE
+73,1212,Boneless Andhra Chicken Curry,309,10:30 AM to 10:30 PM,menu,FALSE
+73,1213,Butter Chicken,309,10:30 AM to 10:30 PM,menu,TRUE
+73,1214,Maharani Chicken Curry,300,10:30 AM to 10:30 PM,menu,FALSE
+73,1215,Chicken Kolhapuri,305,10:30 AM to 10:30 PM,menu,FALSE
+73,1216,Andhra Mutton Curry,430,10:30 AM to 10:30 PM,menu,FALSE
+73,1217,Mutton Masala,440,10:30 AM to 10:30 PM,menu,FALSE
+73,1218,Kadai Mutton,440,10:30 AM to 10:30 PM,menu,FALSE
+73,1219,Gongura Mutton Curry,440,10:30 AM to 10:30 PM,menu,FALSE
+73,1220,Boneless Andhra Fish Curry,390,10:30 AM to 10:30 PM,menu,FALSE
+73,1221,Fish Masala,390,10:30 AM to 10:30 PM,menu,FALSE
+73,1222,Kadai Fish,390,10:30 AM to 10:30 PM,menu,FALSE
+73,1223,Prawns Masala,390,10:30 AM to 10:30 PM,menu,FALSE
+73,1224,Kadai Prawns,360,10:30 AM to 10:30 PM,menu,FALSE
+73,1225,Andhra Prawns Curry,420,10:30 AM to 10:30 PM,menu,FALSE
+73,1226,Chettinadu Fish,390,10:30 AM to 10:30 PM,menu,FALSE
+73,1227,Prawns Do Pyaza Curry,400,10:30 AM to 10:30 PM,menu,FALSE
+75,1228,Bagara Rice,250,11:00 AM to 10:30 PM,menu,FALSE
+75,1229,Chicken 65 Biriyani,319,11:00 AM to 10:30 PM,menu,FALSE
+75,1230,Special Curd Rice,139,11:00 AM to 10:30 PM,menu,FALSE
+75,1231,Dal Rice,219,11:00 AM to 10:30 PM,menu,FALSE
+75,1232,Ghee Rice,229,11:00 AM to 10:30 PM,menu,FALSE
+75,1233,Hyderabadi Dum Biryani - Chicken,299,11:00 AM to 10:30 PM,menu,FALSE
+75,1234,Jeera Rice,199,11:00 AM to 10:30 PM,menu,FALSE
+75,1235,Mughlai Chicken Biryani,349,11:00 AM to 10:30 PM,menu,FALSE
+75,1236,Mushroom Biryani,269,11:00 AM to 10:30 PM,menu,FALSE
+75,1237,Mutton Biryani,399,11:00 AM to 10:30 PM,menu,FALSE
+75,1238,Plain Biriyani,190,11:00 AM to 10:30 PM,menu,FALSE
+75,1239,Spl Chicken Biryani,339,11:00 AM to 10:30 PM,menu,FALSE
+75,1240,Veg Pulav,239,11:00 AM to 10:30 PM,menu,FALSE
+75,1241,Baby Corn 65,249,11:00 AM to 10:30 PM,menu,FALSE
+75,1242,Gobi 65,200,11:00 AM to 10:30 PM,menu,FALSE
+75,1243,Mushroom 65,230,11:00 AM to 10:30 PM,menu,FALSE
+75,1244,Mushroom Pepper Fry,250,11:00 AM to 10:30 PM,menu,FALSE
+75,1245,Paneer 65,280,11:00 AM to 10:30 PM,menu,FALSE
+75,1246,Chettinad Chicken,289,11:00 AM to 10:30 PM,menu,FALSE
+75,1247,Chicken Masala,289,11:00 AM to 10:30 PM,menu,FALSE
+75,1248,Chicken Masala Boneless,299,11:00 AM to 10:30 PM,menu,FALSE
+75,1249,Egg Masala,190,11:00 AM to 10:30 PM,menu,FALSE
+75,1250,Egg Pepper Roast,190,11:00 AM to 10:30 PM,menu,FALSE
+75,1251,Pepper Chicken Masala,309,11:00 AM to 10:30 PM,menu,FALSE
+75,1252,Dal Fry,199,11:00 AM to 10:30 PM,menu,FALSE
+75,1253,Dal Tadka,199,11:00 AM to 10:30 PM,menu,FALSE
+75,1254,Paneer Butter Masala,289,11:00 AM to 10:30 PM,menu,FALSE
+76,1255,Meals [serves 1],175,11:00 AM to 10:30 PM,menu,TRUE
+76,1256,Butta bhojanam [serves 3],550,11:00 AM to 10:30 PM,menu,TRUE
+76,1257,Curd Rice [500 Ml],130,11:00 AM to 10:30 PM,menu,TRUE
+76,1258,Bobbattu 5 Pcs,160,11:00 AM to 10:30 PM,menu,TRUE
+77,1259,Paneer butter masala,290,12:00 PM to 11:30 PM,menu,TRUE
+77,1260,Chicken dum biryani,290,12:00 PM to 11:30 PM,menu,TRUE
+77,1261,Kothimeera chicken biriyani,310,12:00 PM to 11:30 PM,menu,TRUE
+77,1262,Boneless special chicken biryani,350,12:00 PM to 11:30 PM,menu,TRUE
+77,1263,Veg biryani,280,12:00 PM to 11:30 PM,menu,TRUE
+78,1264,Arabian Special Fish,400,12:00 PM to 11:00 PM,menu,TRUE
+78,1265,Smoked Grilled boneless,309,12:00 PM to 11:00 PM,menu,TRUE
+78,1266,Chicken Tikka,309,12:00 PM to 11:00 PM,menu,TRUE
+78,1267,Chicken Seekh Kebab,309,12:00 PM to 11:00 PM,menu,TRUE
+78,1268,Tandoori Chicken,345,12:00 PM to 11:00 PM,menu,TRUE
+78,1269,Chicken Wings Mandi,609,12:00 PM to 11:00 PM,menu,TRUE
+79,1270,Chicken Dum Biryani,395,11:00 AM to 11:00 PM,menu,TRUE
+79,1271,Chicken Fry Biryani Bone Less,443,11:00 AM to 11:00 PM,menu,TRUE
+79,1272,Chicken Tikka Biryani,479,11:00 AM to 11:00 PM,menu,TRUE
+79,1273,Kodi Kunda Biryani,839,11:00 AM to 11:00 PM,menu,TRUE
+79,1274,Mutton Dum Biryani,499,11:00 AM to 11:00 PM,menu,TRUE
+79,1275,Mutton Matka Biryani,1079,11:00 AM to 11:00 PM,menu,TRUE
+79,1276,Nalli Gosht Biryani,623,11:00 AM to 11:00 PM,menu,TRUE
+79,1277,Veg Dum Biryani,347,11:00 AM to 11:00 PM,menu,TRUE
+79,1278,Asian Chilli Paneer,395,11:00 AM to 11:00 PM,menu,TRUE
+79,1279,Loose Prawns,539,11:00 AM to 11:00 PM,menu,TRUE
+80,1280,Idli [2 Pieces],60,6:30 AM to 11:00 PM,menu,TRUE
+80,1281,"Idli [Mini, 14 Pieces]",101,6:30 AM to 11:00 PM,menu,TRUE
+80,1282,2 Chapati,116,6:30 AM to 11:00 PM,menu,TRUE
+80,1283,Plain Dosa,117,6:30 AM to 11:00 PM,menu,TRUE
+80,1284,Masala Dosa,130,6:30 AM to 11:00 PM,menu,TRUE
+80,1285,Curd Rice,106,6:30 AM to 11:00 PM,menu,TRUE
+81,1286,Signature Hot Chocolate,220,8:00 AM to 11:00 PM,menu,TRUE
+81,1287,Java Chip Frappuccino.,310,8:00 AM to 11:00 PM,menu,TRUE
+81,1288,Caramel Frappuccino,320,8:00 AM to 11:00 PM,menu,TRUE
+81,1289,Double Chocolate Chip Frappuccino,360,8:00 AM to 11:00 PM,menu,TRUE
+81,1290,Cold coffee,285,8:00 AM to 11:00 PM,menu,TRUE
+81,1291,Egg White & Chicken in Multigrain Croissant,360,8:00 AM to 11:00 PM,menu,TRUE
+81,1292,Chilly Chicken in English Muffin,290,8:00 AM to 11:00 PM,menu,TRUE
+82,1293,4 Pc McSpicy Chicken Wings,189,10:00 AM to 9:00 PM,menu,TRUE
+82,1294,New McSaver Pizza McPuff,119,10:00 AM to 9:00 PM,menu,TRUE
+82,1295,McChicken Burger Combo,199,10:00 AM to 9:00 PM,menu,TRUE
+82,1296,Veg Maharaja Mac Burger,247,10:00 AM to 9:00 PM,menu,TRUE
+82,1297,McSpicy Chicken Burger,199,10:00 AM to 9:00 PM,menu,TRUE
+82,1298,McAloo Tikki Burger,69.3,10:00 AM to 9:00 PM,menu,TRUE
+82,1299,Veg Pizza McPuff,64.35,10:00 AM to 9:00 PM,menu,TRUE
+82,1300,Fries (Medium),120.78,10:00 AM to 9:00 PM,menu,TRUE
+82,1301,Fries (Large),140.58,10:00 AM to 9:00 PM,menu,TRUE
+83,1302,2 Chicken Krisper Burgers,229,11:00 AM to 11:00 PM,menu,TRUE
+83,1303,2 Veg Krisper Burgers,158,11:00 AM to 11:00 PM,menu,TRUE
+83,1304,Tandoori Zinger Box Meal,319,11:00 AM to 11:00 PM,menu,FALSE
+83,1305,Classic Zinger Box Meal,299,11:00 AM to 11:00 PM,menu,FALSE
+83,1306,Veg Rice Box Meal,269,11:00 AM to 11:00 PM,menu,FALSE
+83,1307,6pc Peri Peri Strips,269,11:00 AM to 11:00 PM,menu,TRUE
+83,1308,3pc Peri Peri Strips,149,11:00 AM to 11:00 PM,menu,FALSE
+83,1309,Medium Popcorn,139,11:00 AM to 11:00 PM,menu,TRUE
+84,1310,2 Chicken Krisper Burgers,229,11:00 AM to 11:00 PM,menu,TRUE
+84,1311,2 Veg Krisper Burgers,158,11:00 AM to 11:00 PM,menu,FALSE
+84,1312,Tandoori Zinger Box Meal,319,11:00 AM to 11:00 PM,menu,FALSE
+84,1313,Medium Popcorn,139,11:00 AM to 11:00 PM,menu,TRUE
+84,1314,6pc Peri Peri Strips,269,11:00 AM to 11:00 PM,menu,TRUE
+85,1315,Filter coffee,229,12:00 AM to 12:00 PM,menu,TRUE
+85,1316,Choco Niravan Sundae,339,12:00 AM to 12:00 PM,menu,TRUE
+86,1317,Chicken Biryani,379,11:30 AM to 10:00 PM,menu,TRUE
+86,1318,Mutton Biryani,344,11:30 AM to 10:00 PM,menu,TRUE
+86,1319,Premium Veg Thali - Serves 1,299,11:30 AM to 10:00 PM,menu,TRUE
+86,1320,Chicken Kebabs Platter- (Serves 2),647,11:30 AM to 10:00 PM,menu,TRUE
+86,1321,Tandoori Tangdi (3Pcs),199,11:30 AM to 10:00 PM,menu,TRUE
+86,1322,Tandoori Chicken Wings (12 Pcs),249,11:30 AM to 10:00 PM,menu,TRUE
+86,1323,Tandoori Fish Tikka,299,11:30 AM to 10:00 PM,menu,TRUE
+86,1324,Mutton Seekh Kebab,199,11:30 AM to 10:00 PM,menu,TRUE
+86,1325,Veg Mix Meal - Serves 1,199,11:30 AM to 10:00 PM,menu,TRUE
+86,1326,Angoori Jamun (12 Nos),199,11:30 AM to 10:00 PM,menu,TRUE
+88,1327,South Indian Thali,270,7:00 AM to 11:00 PM,menu,TRUE
+88,1328,Garlic Naan,95,7:00 AM to 11:00 PM,menu,TRUE
+88,1329,Bhel Puri,90,7:00 AM to 11:00 PM,menu,TRUE
+89,1330,Chicken Special Biryani,399,11:00 AM to 11:00 PM,menu,TRUE
+89,1331,Chicken Dum Biryani,350,11:00 AM to 11:00 PM,menu,TRUE
+89,1332,Mutton Special Biryani,480,11:00 AM to 11:00 PM,menu,TRUE
+89,1333,Chittimuthyalu Mutton Biryan,450,11:00 AM to 11:00 PM,menu,TRUE
+89,1334,Veg Pulao,300,11:00 AM to 11:00 PM,menu,TRUE
+90,1335,Maratha Chilli Chicken [5 Pieces],129,10:30 AM to 11:30 PM,menu,TRUE
+90,1336,Donne Mushroom Biryani,259,10:30 AM to 11:30 PM,menu,FALSE
+90,1337,Donne Chicken Biryani [750Ml],288,10:30 AM to 11:30 PM,menu,TRUE
+90,1338,Donne Kshatriya Kebab Biryani[750Ml],399,10:30 AM to 11:30 PM,menu,FALSE
+90,1339,Donne Lollipop Biryani [750Ml],368,10:30 AM to 11:30 PM,menu,TRUE
+90,1340,Donne Mutton Biryani [750Ml],299,10:30 AM to 11:30 PM,menu,FALSE
+90,1341,Donne Guntur Chicken Biryani [750Ml],149,10:30 AM to 11:30 PM,menu,FALSE
+90,1342,Maratha Chilli Chicken [5 Pieces],129,10:30 AM to 11:30 PM,menu,FALSE
+90,1343,Donne Mushroom Biryani,259,10:30 AM to 11:30 PM,menu,TRUE
+90,1344,Donne Chicken Biryani [750Ml],288,10:30 AM to 11:30 PM,menu,TRUE
+90,1345,Donne Kshatriya Kebab Biryani[750Ml],399,10:30 AM to 11:30 PM,menu,TRUE
+90,1346,Donne Lollipop Biryani [750Ml],368,10:30 AM to 11:30 PM,menu,TRUE
+90,1347,Donne Egg Biryani [750Ml],269,10:30 AM to 11:30 PM,menu,TRUE
+91,1348,Masala Dosai,150,7:00 AM to 11:00 PM,menu,FALSE
+91,1349,Plain Dosai,120,7:00 AM to 11:00 PM,menu,FALSE
+91,1350,Ghee Pongal,115,7:00 AM to 11:00 PM,menu,TRUE
+91,1351,Mini Tiffen,195,7:00 AM to 11:00 PM,menu,FALSE
+91,1352,Poori Masala,115,7:00 AM to 11:00 PM,menu,TRUE
+91,1353,Idly [2 Nos],65,7:00 AM to 11:00 PM,menu,TRUE
+93,1354,Idli [2 pieces],50,6:00 AM to 11:00 AM,menu,FALSE
+93,1355,Puri (2),85,6:00 AM to 11:00 AM,menu,FALSE
+93,1356,Ghee podi idli [2 pieces],65,6:00 AM to 11:00 AM,menu,FALSE
+93,1357,Midhunam Spl Dosa,140,6:00 AM to 10:30 PM,menu,TRUE
+93,1358,Midhunam special curry,309,12:00 PM to 10:30 PM,menu,TRUE
+93,1359,Midhunam special fried rice,309,12:00 PM to 10:30 PM,menu,TRUE
+93,1360,Midhunam Special Veg Biryani,290,12:00 PM to 10:30 PM,menu,TRUE
