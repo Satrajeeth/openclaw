@@ -76,7 +76,7 @@
           "item_id": 4,
           "item_name": "Suprabhatham",
           "price_label": "50",
-          "timing_open": "4.30 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -85,8 +85,8 @@
           "item_id": 5,
           "item_name": "Padmavathi Parinayam (Kalyanotsavam)",
           "price_label": "500",
-          "timing_open": "10.00 AM",
-          "timing_close": "11.00 AM",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -94,8 +94,8 @@
           "item_id": 6,
           "item_name": "Astadala Pada Padmaradhana seva",
           "price_label": "300",
-          "timing_open": "7.00 AM",
-          "timing_close": "7.30 AM",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -103,8 +103,8 @@
           "item_id": 7,
           "item_name": "Tiruppavada seva",
           "price_label": "1000",
-          "timing_open": "7.00 AM",
-          "timing_close": "7.30 AM",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -112,8 +112,8 @@
           "item_id": 8,
           "item_name": "Vastralankarana Seva",
           "price_label": "10,000",
-          "timing_open": "5.30 AM",
-          "timing_close": "7.00 AM",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -121,8 +121,8 @@
           "item_id": 9,
           "item_name": "Abhishekam",
           "price_label": "500",
-          "timing_open": "5.30 AM",
-          "timing_close": "7.00 AM",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -130,8 +130,8 @@
           "item_id": 10,
           "item_name": "Lakshmi Puja",
           "price_label": "100",
-          "timing_open": "9.30 AM",
-          "timing_close": "10.00 AM",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -139,8 +139,8 @@
           "item_id": 11,
           "item_name": "Pushpanjali Seva",
           "price_label": "300",
-          "timing_open": "7.00 AM",
-          "timing_close": "7.30 AM",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -157,8 +157,8 @@
           "item_id": 13,
           "item_name": "Anna Prasadam",
           "price_label": "Free",
-          "timing_open": "6:30 PM",
-          "timing_close": "9:30 PM ​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
         },
@@ -279,7 +279,7 @@
           "item_id": 21,
           "item_name": "Ekanthaseva",
           "price_label": "10",
-          "timing_open": "9:00 PM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -375,8 +375,8 @@
           "item_id": 26,
           "item_name": "Sarva Darshan (general)",
           "price_label": "Free",
-          "timing_open": "15",
-          "timing_close": "45 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -384,8 +384,8 @@
           "item_id": 27,
           "item_name": "Abhisheka Anantara / Special Entrance darshan (linked with paid sevas)",
           "price_label": "Free",
-          "timing_open": "20",
-          "timing_close": "40 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -393,8 +393,8 @@
           "item_id": 28,
           "item_name": "Suprabhata Seva",
           "price_label": "10",
-          "timing_open": "5:00 AM",
-          "timing_close": "5:30 AM​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -402,8 +402,8 @@
           "item_id": 29,
           "item_name": "Abhishekam (morning)",
           "price_label": "50",
-          "timing_open": "5:30 AM",
-          "timing_close": "6:30 AM​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -411,7 +411,7 @@
           "item_id": 30,
           "item_name": "Abhisheka Anantara Darshanam",
           "price_label": "2",
-          "timing_open": "6:30 AM​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -420,8 +420,8 @@
           "item_id": 31,
           "item_name": "Sahasranama Archana / Darshanam",
           "price_label": "5",
-          "timing_open": "4:30 PM",
-          "timing_close": "5:00 PM​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -429,8 +429,8 @@
           "item_id": 32,
           "item_name": "Abhishekam (evening)",
           "price_label": "50",
-          "timing_open": "4:00 PM",
-          "timing_close": "4:30 PM​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -438,7 +438,7 @@
           "item_id": 33,
           "item_name": "Archana / Harathi",
           "price_label": "5",
-          "timing_open": "8:00 PM​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -447,8 +447,8 @@
           "item_id": 34,
           "item_name": "Ekantha Seva",
           "price_label": "10",
-          "timing_open": "8:00 PM",
-          "timing_close": "8:15 PM​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -465,8 +465,8 @@
           "item_id": 36,
           "item_name": "Anna Prasadam",
           "price_label": "Free",
-          "timing_open": "5:00 PM",
-          "timing_close": "10:30 PM ​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
         }
@@ -522,8 +522,8 @@
           "item_id": 37,
           "item_name": "Sarva Darshan (general)",
           "price_label": "Free",
-          "timing_open": "20",
-          "timing_close": "45 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -531,8 +531,8 @@
           "item_id": 38,
           "item_name": "Darshan via/after specific sevas (e.g., Suprabhata, Archana)",
           "price_label": "Free",
-          "timing_open": "20",
-          "timing_close": "40 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -540,8 +540,8 @@
           "item_id": 39,
           "item_name": "Suprabhata Seva / Suprabhatham",
           "price_label": "15",
-          "timing_open": "5:00AM",
-          "timing_close": "5:30 AM​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -549,8 +549,8 @@
           "item_id": 40,
           "item_name": "Suprabhata Darshanam",
           "price_label": "Free",
-          "timing_open": "5:30AM",
-          "timing_close": "6:00 AM​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -558,8 +558,8 @@
           "item_id": 41,
           "item_name": "Sarva Darshan (morning session)",
           "price_label": "Free",
-          "timing_open": "6:00AM",
-          "timing_close": "12:00 PM​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -567,8 +567,8 @@
           "item_id": 42,
           "item_name": "Thomala Seva",
           "price_label": "15",
-          "timing_open": "8:00AM",
-          "timing_close": "8:45 AM​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -576,8 +576,8 @@
           "item_id": 43,
           "item_name": "Sahasranama Archana",
           "price_label": "35",
-          "timing_open": "8:45AM",
-          "timing_close": "9:15 AM​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -585,8 +585,8 @@
           "item_id": 44,
           "item_name": "Archana Anantara Darshanam",
           "price_label": "Free",
-          "timing_open": "9:15AM",
-          "timing_close": "10:00 AM​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -618,7 +618,11 @@
           "signature_dish": false
         }
       ],
-      "tags": ["Rama", "ramudu", "sitapathi"]
+      "tags": [
+        "Rama",
+        "ramudu",
+        "sitapathi"
+      ]
     },
     {
       "entity_id": 5,
@@ -655,8 +659,8 @@
           "item_id": 48,
           "item_name": "Sarva Darshan (general queue)",
           "price_label": "Free",
-          "timing_open": "15",
-          "timing_close": "40 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -664,8 +668,8 @@
           "item_id": 49,
           "item_name": "Darshan with seva (after poojas like Abhishekam / Alankarana etc.)",
           "price_label": "Free",
-          "timing_open": "20",
-          "timing_close": "45 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -709,8 +713,8 @@
           "item_id": 54,
           "item_name": "Abhishekam",
           "price_label": "300",
-          "timing_open": "7:00 AM",
-          "timing_close": "8:00 AM​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -718,8 +722,8 @@
           "item_id": 55,
           "item_name": "Kumkum Archana",
           "price_label": "151",
-          "timing_open": "11:00 AM",
-          "timing_close": "6:00 PM​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -736,7 +740,7 @@
           "item_id": 57,
           "item_name": "Alankarana Seva Darshan",
           "price_label": "Free",
-          "timing_open": "10:30 AM​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -804,8 +808,8 @@
           "item_id": 60,
           "item_name": "Sarva Darshan (general darshan)",
           "price_label": "Free",
-          "timing_open": "15",
-          "timing_close": "40 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -813,7 +817,7 @@
           "item_id": 61,
           "item_name": "Suprabhata Seva",
           "price_label": "15",
-          "timing_open": "5:30 AM.​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -822,8 +826,8 @@
           "item_id": 62,
           "item_name": "Nivedana (morning)",
           "price_label": null,
-          "timing_open": "6:00 AM",
-          "timing_close": "6:45 AM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -831,8 +835,8 @@
           "item_id": 63,
           "item_name": "Sarva Darshan",
           "price_label": "Free",
-          "timing_open": "6:45 AM",
-          "timing_close": "11:30 AM; 4:30 PM",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -840,8 +844,8 @@
           "item_id": 64,
           "item_name": "Archana + Nivedana",
           "price_label": "10–50",
-          "timing_open": "11:30 AM",
-          "timing_close": "12:00 PM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -849,8 +853,8 @@
           "item_id": 65,
           "item_name": "Evening Nivedana",
           "price_label": null,
-          "timing_open": "6:00 PM",
-          "timing_close": "6:30 PM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -858,8 +862,8 @@
           "item_id": 66,
           "item_name": "Evening Sarva Darshan",
           "price_label": "Free",
-          "timing_open": "6:30 PM",
-          "timing_close": "8:30 PM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -867,7 +871,7 @@
           "item_id": 67,
           "item_name": "Ekanta Seva (closing)",
           "price_label": null,
-          "timing_open": "8:30 PM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -891,7 +895,10 @@
           "signature_dish": false
         }
       ],
-      "tags": ["Vakula Devi Temple", "mother of venkateswara swami"]
+      "tags": [
+        "Vakula Devi Temple",
+        "mother of venkateswara swami"
+      ]
     },
     {
       "entity_id": 7,
@@ -935,8 +942,8 @@
           "item_id": 70,
           "item_name": "General darshan during open hours",
           "price_label": "Free",
-          "timing_open": "20",
-          "timing_close": "30 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -944,8 +951,8 @@
           "item_id": 71,
           "item_name": "Darshan during major aartis (Mangala, Gaura, Sayana, etc.)",
           "price_label": "Free",
-          "timing_open": "30",
-          "timing_close": "45 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -953,7 +960,7 @@
           "item_id": 72,
           "item_name": "Mangala Aarti",
           "price_label": "Free",
-          "timing_open": "4:15 AM.​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -962,8 +969,8 @@
           "item_id": 73,
           "item_name": "Mantra / Japa meditation",
           "price_label": "Free",
-          "timing_open": "5:00AM",
-          "timing_close": "7:30 AM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -989,7 +996,7 @@
           "item_id": 76,
           "item_name": "Raj Bhoga Aarti",
           "price_label": "Free",
-          "timing_open": "12:30 PM.​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -998,8 +1005,8 @@
           "item_id": 77,
           "item_name": "Tulasi / Gaura Aarti",
           "price_label": "Free",
-          "timing_open": "6:30PM",
-          "timing_close": "7:30 PM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -1007,8 +1014,8 @@
           "item_id": 78,
           "item_name": "Sayana Aarti",
           "price_label": "Free",
-          "timing_open": "8:15PM",
-          "timing_close": "8:30 PM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -1016,7 +1023,7 @@
           "item_id": 79,
           "item_name": "Breakfast prasadam",
           "price_label": null,
-          "timing_open": "8:30 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
@@ -1025,7 +1032,7 @@
           "item_id": 80,
           "item_name": "Lunch prasadam",
           "price_label": null,
-          "timing_open": "1:00 PM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
@@ -1034,7 +1041,7 @@
           "item_id": 81,
           "item_name": "Dinner prasadam",
           "price_label": null,
-          "timing_open": "8:30 PM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
@@ -1093,8 +1100,8 @@
           "item_id": 82,
           "item_name": "Sarva Darshan (general)",
           "price_label": "Free",
-          "timing_open": "15",
-          "timing_close": "30​ minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -1102,8 +1109,8 @@
           "item_id": 83,
           "item_name": "Darshan after special abhishekam",
           "price_label": "Free",
-          "timing_open": "20",
-          "timing_close": "40 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -1120,7 +1127,7 @@
           "item_id": 85,
           "item_name": "Friday Suprabhata Abhishekam",
           "price_label": "Free",
-          "timing_open": "5:30 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -1147,13 +1154,18 @@
           "item_id": 88,
           "item_name": "Free distribution",
           "price_label": "Free",
-          "timing_open": "8:00 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
         }
       ],
-      "tags": ["Sri Varahaswami Temple", "Bhu Varahaswamy Temple", "vishnu", "adi varaswami"]
+      "tags": [
+        "Sri Varahaswami Temple",
+        "Bhu Varahaswamy Temple",
+        "vishnu",
+        "adi varaswami"
+      ]
     },
     {
       "entity_id": 9,
@@ -1190,8 +1202,8 @@
           "item_id": 89,
           "item_name": "Sarva Darshan",
           "price_label": "Free",
-          "timing_open": "10",
-          "timing_close": "30 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -1223,7 +1235,12 @@
           "signature_dish": false
         }
       ],
-      "tags": ["Anjaneya", "maruti", "pawana putra", "bajrang bali"]
+      "tags": [
+        "Anjaneya",
+        "maruti",
+        "pawana putra",
+        "bajrang bali"
+      ]
     },
     {
       "entity_id": 10,
@@ -1260,8 +1277,8 @@
           "item_id": 93,
           "item_name": "Sarva Darshan (general)",
           "price_label": "Free",
-          "timing_open": "30",
-          "timing_close": "45 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -1269,8 +1286,8 @@
           "item_id": 94,
           "item_name": "Sheegra Darshan",
           "price_label": "5",
-          "timing_open": "20",
-          "timing_close": "30 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -1278,8 +1295,8 @@
           "item_id": 95,
           "item_name": "Ekantha Seva Darshan",
           "price_label": "10",
-          "timing_open": "15 minu",
-          "timing_close": "es​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -1305,8 +1322,8 @@
           "item_id": 98,
           "item_name": "Ekantha Seva",
           "price_label": "10",
-          "timing_open": "8:00PM",
-          "timing_close": "8:30 PM.",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -1314,8 +1331,8 @@
           "item_id": 99,
           "item_name": "Anna prasadam (free meals)",
           "price_label": "Free",
-          "timing_open": "10:30 AM",
-          "timing_close": "7:00 PM)",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
         },
@@ -1323,7 +1340,7 @@
           "item_id": 100,
           "item_name": "Naivedyam offerings",
           "price_label": "Free",
-          "timing_open": "8:00 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
@@ -1376,8 +1393,8 @@
           "item_id": 101,
           "item_name": "Sarva Darshan (general)",
           "price_label": "Free",
-          "timing_open": "30",
-          "timing_close": "40 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -1385,8 +1402,8 @@
           "item_id": 102,
           "item_name": "Post‑abhishekam darshan",
           "price_label": "Free",
-          "timing_open": "20",
-          "timing_close": "30 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -1394,8 +1411,8 @@
           "item_id": 103,
           "item_name": "Suprabhatham",
           "price_label": null,
-          "timing_open": "5:45AM",
-          "timing_close": "6:15 AM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -1403,8 +1420,8 @@
           "item_id": 104,
           "item_name": "Thomala / Archana / Harathi",
           "price_label": "5",
-          "timing_open": "6:15 AM",
-          "timing_close": "10:30 AM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -1412,8 +1429,8 @@
           "item_id": 105,
           "item_name": "Sarva Darshan",
           "price_label": "Free",
-          "timing_open": "11:00 AM",
-          "timing_close": "5:30 PM 6:00PM",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -1421,8 +1438,8 @@
           "item_id": 106,
           "item_name": "Ekantha Seva",
           "price_label": null,
-          "timing_open": "7:45AM",
-          "timing_close": "8:00 PM.",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -1430,7 +1447,7 @@
           "item_id": 107,
           "item_name": "Abhishekam (Garudalwar)",
           "price_label": "30",
-          "timing_open": "8:00 AM.​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -1439,8 +1456,8 @@
           "item_id": 108,
           "item_name": "Abhishekam (Swamy/Padmavathi)",
           "price_label": "30",
-          "timing_open": "7:00AM",
-          "timing_close": "10:30 AM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -1448,7 +1465,7 @@
           "item_id": 109,
           "item_name": "Unjal Seva",
           "price_label": null,
-          "timing_open": "6:00 PM.​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -1457,8 +1474,8 @@
           "item_id": 110,
           "item_name": "Abhishekam (Anjaneya)",
           "price_label": "30",
-          "timing_open": "8:00AM",
-          "timing_close": "9:00 AM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -1466,7 +1483,7 @@
           "item_id": 111,
           "item_name": "Kalyanotsavam",
           "price_label": "300",
-          "timing_open": "11:00 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -1475,7 +1492,7 @@
           "item_id": 112,
           "item_name": "Anna prasadam (free meals)",
           "price_label": null,
-          "timing_open": "10:30 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "unknown",
           "signature_dish": false
@@ -1484,7 +1501,7 @@
           "item_id": 113,
           "item_name": "Anna prasadam (free meals)",
           "price_label": null,
-          "timing_open": "7:00 PM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "unknown",
           "signature_dish": false
@@ -1493,7 +1510,7 @@
           "item_id": 114,
           "item_name": "Naivedyam offerings",
           "price_label": null,
-          "timing_open": "8:00 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "unknown",
           "signature_dish": false
@@ -1502,7 +1519,7 @@
           "item_id": 115,
           "item_name": "Naivedyam offerings",
           "price_label": null,
-          "timing_open": "7:00 PM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "unknown",
           "signature_dish": false
@@ -1561,8 +1578,8 @@
           "item_id": 116,
           "item_name": "Sarva Darshan (general)",
           "price_label": "Free",
-          "timing_open": "10",
-          "timing_close": "20 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -1570,8 +1587,8 @@
           "item_id": 117,
           "item_name": "Abhishekam to parivara devathas",
           "price_label": null,
-          "timing_open": "6:00AM",
-          "timing_close": "7:00 AM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -1579,8 +1596,8 @@
           "item_id": 118,
           "item_name": "Abhishekam to Swamy & Amma",
           "price_label": null,
-          "timing_open": "7:00AM",
-          "timing_close": "9:00 AM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -1597,7 +1614,7 @@
           "item_id": 120,
           "item_name": "Naivedyam (morning)",
           "price_label": null,
-          "timing_open": "11:30 AM.​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -1606,7 +1623,7 @@
           "item_id": 121,
           "item_name": "Deeparadhana & Naivedyam (evening)",
           "price_label": null,
-          "timing_open": "4:30 PM.​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -1615,7 +1632,7 @@
           "item_id": 122,
           "item_name": "Naivedyam & Ekantha Seva (closing)",
           "price_label": null,
-          "timing_open": "7:30 PM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -1624,7 +1641,7 @@
           "item_id": 123,
           "item_name": "Naivedyam prasadam (small)",
           "price_label": null,
-          "timing_open": "11:30 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
@@ -1633,7 +1650,7 @@
           "item_id": 124,
           "item_name": "Naivedyam prasadam (small)",
           "price_label": null,
-          "timing_open": "4:30 PM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
@@ -1687,8 +1704,8 @@
           "item_id": 125,
           "item_name": "Sarva Darshan (general)",
           "price_label": "Free",
-          "timing_open": "5",
-          "timing_close": "15 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -1696,7 +1713,7 @@
           "item_id": 126,
           "item_name": "Abhishekam",
           "price_label": null,
-          "timing_open": "6:00 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -1714,7 +1731,7 @@
           "item_id": 128,
           "item_name": "Naivedyam prasadam",
           "price_label": null,
-          "timing_open": "7:00 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
@@ -1774,8 +1791,8 @@
           "item_id": 129,
           "item_name": "Sarva Darshan",
           "price_label": "Free",
-          "timing_open": "5",
-          "timing_close": "10 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -1801,7 +1818,7 @@
           "item_id": 132,
           "item_name": "Kumkum / vibhuti",
           "price_label": null,
-          "timing_open": "10:00 AM​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
@@ -1863,8 +1880,8 @@
           "item_id": 134,
           "item_name": "Sarva Darshan (free)",
           "price_label": "Free",
-          "timing_open": "1.5",
-          "timing_close": "2.5 h",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -1872,8 +1889,8 @@
           "item_id": 135,
           "item_name": "Special Entry Darshan",
           "price_label": "Rs 50",
-          "timing_open": "1",
-          "timing_close": "2 h",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -1881,7 +1898,7 @@
           "item_id": 136,
           "item_name": "Suprabhata Seva",
           "price_label": "Free",
-          "timing_open": "5:30 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -1962,7 +1979,7 @@
           "item_id": 145,
           "item_name": "Laddu / teertham",
           "price_label": null,
-          "timing_open": "8:00 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
@@ -2029,8 +2046,8 @@
           "item_id": 147,
           "item_name": "Sarva Darshan",
           "price_label": "Free",
-          "timing_open": "15",
-          "timing_close": "90 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -2056,8 +2073,8 @@
           "item_id": 150,
           "item_name": "Seegra Darshanam",
           "price_label": "100",
-          "timing_open": "10",
-          "timing_close": "20 min​u",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -2065,8 +2082,8 @@
           "item_id": 151,
           "item_name": "Suprabhatham / Bindu Theertha",
           "price_label": "551",
-          "timing_open": "4:00AM",
-          "timing_close": "5:00 AM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -2074,8 +2091,8 @@
           "item_id": 152,
           "item_name": "Nijaroopa Darshanam",
           "price_label": null,
-          "timing_open": "5:00AM",
-          "timing_close": "5:30 AM, 4:30PM",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -2092,8 +2109,8 @@
           "item_id": 154,
           "item_name": "Ksheerabhishekam (Palabhishekam)",
           "price_label": "200",
-          "timing_open": "7:30AM",
-          "timing_close": "8:00 AM, 5:45PM",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -2101,7 +2118,7 @@
           "item_id": 155,
           "item_name": "Panchamrutha Abhishekam",
           "price_label": "700",
-          "timing_open": "6:00 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -2110,8 +2127,8 @@
           "item_id": 156,
           "item_name": "Kalyanotsavam",
           "price_label": "616",
-          "timing_open": "11:00 AM",
-          "timing_close": "12:00 PM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -2119,8 +2136,8 @@
           "item_id": 157,
           "item_name": "Maha Harathi",
           "price_label": "200",
-          "timing_open": "6:15",
-          "timing_close": "6:45 PM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -2128,8 +2145,8 @@
           "item_id": 158,
           "item_name": "Ekantha Seva",
           "price_label": null,
-          "timing_open": "9:00",
-          "timing_close": "9:30 PM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -2214,8 +2231,8 @@
           "item_id": 162,
           "item_name": "General darshan",
           "price_label": "Free",
-          "timing_open": "5",
-          "timing_close": "15 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -2232,7 +2249,7 @@
           "item_id": 164,
           "item_name": "Archana",
           "price_label": null,
-          "timing_open": "4:30 PM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -2256,7 +2273,11 @@
           "signature_dish": false
         }
       ],
-      "tags": ["muruga", "karthikeya", "shanmuga"]
+      "tags": [
+        "muruga",
+        "karthikeya",
+        "shanmuga"
+      ]
     },
     {
       "entity_id": 18,
@@ -2293,8 +2314,8 @@
           "item_id": 167,
           "item_name": "General Darshan",
           "price_label": "Free",
-          "timing_open": "1.5",
-          "timing_close": "3 h",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -2320,8 +2341,8 @@
           "item_id": 170,
           "item_name": "Pushpa Alankara Seva",
           "price_label": "2000–3000",
-          "timing_open": "4:30AM",
-          "timing_close": "7:30 AM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -2329,8 +2350,8 @@
           "item_id": 171,
           "item_name": "Sri Vastram Seva",
           "price_label": "10000",
-          "timing_open": "7:00AM",
-          "timing_close": "8:00 AM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -2338,8 +2359,8 @@
           "item_id": 172,
           "item_name": "Swarna Pushpa Archana",
           "price_label": "1500",
-          "timing_open": "8:00 AM",
-          "timing_close": "8:00 PM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -2347,8 +2368,8 @@
           "item_id": 173,
           "item_name": "Veda Parayana Seva",
           "price_label": "250",
-          "timing_open": "8:00 AM",
-          "timing_close": "6:00 PM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -2356,8 +2377,8 @@
           "item_id": 174,
           "item_name": "Maha Aarti",
           "price_label": "500",
-          "timing_open": "6:00PM",
-          "timing_close": "7:00 PM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -2365,8 +2386,8 @@
           "item_id": 175,
           "item_name": "Godhana Seva",
           "price_label": "50000",
-          "timing_open": "10:00 AM",
-          "timing_close": "4:00 PM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -2374,7 +2395,7 @@
           "item_id": 176,
           "item_name": "Go Pooja Seva",
           "price_label": "300",
-          "timing_open": "6:00 PM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -2392,13 +2413,15 @@
           "item_id": 178,
           "item_name": "Laddu / kumkum offerings",
           "price_label": null,
-          "timing_open": "6:30 PM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
         }
       ],
-      "tags": ["maha lakshmi"]
+      "tags": [
+        "maha lakshmi"
+      ]
     },
     {
       "entity_id": 19,
@@ -2442,8 +2465,8 @@
           "item_id": 179,
           "item_name": "Sarva Darshan",
           "price_label": "Free",
-          "timing_open": "30 minu",
-          "timing_close": "es",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -2451,8 +2474,8 @@
           "item_id": 180,
           "item_name": "Quick Darshan",
           "price_label": "20",
-          "timing_open": "20",
-          "timing_close": "40 minu",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "darshan",
           "signature_dish": false
         },
@@ -2460,8 +2483,8 @@
           "item_id": 181,
           "item_name": "Viswaroopa Darshan",
           "price_label": null,
-          "timing_open": "5:45AM",
-          "timing_close": "6:00 AM.​",
+          "timing_open": null,
+          "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
         },
@@ -2469,7 +2492,7 @@
           "item_id": 182,
           "item_name": "Kalasandhi Pooja",
           "price_label": null,
-          "timing_open": "8:00 AM.​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -2478,7 +2501,7 @@
           "item_id": 183,
           "item_name": "Uchikala Pooja",
           "price_label": null,
-          "timing_open": "12:00 PM.​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -2487,7 +2510,7 @@
           "item_id": 184,
           "item_name": "Sayaradcha Pooja",
           "price_label": null,
-          "timing_open": "5:00 PM.​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -2496,7 +2519,7 @@
           "item_id": 185,
           "item_name": "Ardha Jama Pooja",
           "price_label": null,
-          "timing_open": "6:00 PM.​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -2505,7 +2528,7 @@
           "item_id": 186,
           "item_name": "Palliyarai Pooja",
           "price_label": null,
-          "timing_open": "8:45 PM.​",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -2514,7 +2537,7 @@
           "item_id": 187,
           "item_name": "Abhishekam",
           "price_label": "1500",
-          "timing_open": "8:00 AM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "seva",
           "signature_dish": false
@@ -2532,13 +2555,17 @@
           "item_id": 189,
           "item_name": "Pongal/sweets",
           "price_label": null,
-          "timing_open": "7:00 PM",
+          "timing_open": null,
           "timing_close": null,
           "item_type": "prasadam",
           "signature_dish": false
         }
       ],
-      "tags": ["muruga", "karthikeya", "shanmuga"]
+      "tags": [
+        "muruga",
+        "karthikeya",
+        "shanmuga"
+      ]
     },
     {
       "entity_id": 20,
@@ -2670,7 +2697,9 @@
         }
       ],
       "items": [],
-      "tags": ["Raja mahal"]
+      "tags": [
+        "Raja mahal"
+      ]
     },
     {
       "entity_id": 24,
