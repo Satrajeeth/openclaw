@@ -208,7 +208,7 @@ describe("TravelStore", () => {
     store.upsertEntity(makeEntity({ entity_id: 1, name: "Live", expires_at: now + 60_000 }), now);
     store.upsertEntity(makeEntity({ entity_id: 2, name: "Dead", expires_at: now - 1 }), now);
     const live = store.search({ limit: 10, now });
-    expect(live.map((r) => r.entity_id).toSorted()).toEqual([1]);
+    expect(live.map((r) => r.entity_id).toSorted((a, b) => a - b)).toEqual([1]);
     expect(store.deleteExpired(now)).toBe(1);
     expect(store.getEntity(2)).toBeNull();
   });

@@ -150,7 +150,7 @@ describe("createTravelWebhook", () => {
     );
     expect(res.statusCode).toBe(200);
     const detail = store.getEntity(1);
-    expect(detail?.name).toBe("SriPadmavatiTemple");
+    expect(detail?.name).toBe("Sri PadmavatiTemple");
     expect(detail?.phone).toBe("180000000000");
     expect(detail?.hours).toHaveLength(2);
     expect(detail?.hours[0]?.opening_time).toBe("07:00");

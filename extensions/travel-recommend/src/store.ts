@@ -198,7 +198,7 @@ export class TravelStore {
     this.db.exec(`
       CREATE VIRTUAL TABLE IF NOT EXISTS entities_fts USING fts5(
         name, description, address, region, sub_category, tags, items,
-        content=''
+        content='', contentless_delete=1
       );
     `);
 
