@@ -103,16 +103,19 @@ function isClosedFlag(v) {
   return s === "true" || s === "1" || s === "yes" || s === "closed";
 }
 
+const TIME_LIKE = /^\s*\d{1,2}(:\d{2})?\s*(am|pm)?\s*$/i;
+
 function splitTiming(raw) {
   const s = nullIfEmpty(raw);
   if (s === null) return { open: null, close: null };
-  // Examples seen: "5:00 AM - 9:00 AM", "5-7 AM", or empty.
-  // Split on common dash variants; if it doesn't split cleanly, leave nulls.
-  const parts = s.split(/\s*[-–—to]+\s*/i).filter(Boolean);
-  if (parts.length >= 2) {
+  // Sheet8 has free-form text in this column; only emit structured times when
+  // both halves look like times. Otherwise leave nulls (the raw value is
+  // already preserved in the price/description context).
+  const parts = s.split(/\s*(?:[-–—]|\bto\b)\s*/i).map((p) => p.trim()).filter(Boolean);
+  if (parts.length === 2 && TIME_LIKE.test(parts[0]) && TIME_LIKE.test(parts[1])) {
     return { open: parts[0], close: parts[1] };
   }
-  return { open: s, close: null };
+  return { open: null, close: null };
 }
 
 const entitiesRaw = readCsvAsObjects(SHEET6);
