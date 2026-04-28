@@ -10,24 +10,61 @@ import {
   WEBHOOK_RATE_LIMIT_DEFAULTS,
 } from "../runtime-api.js";
 import type { TravelPluginConfig } from "./config.js";
-import { sanitizeText } from "./sanitize.js";
-import type { TravelItem, TravelStore } from "./store.js";
+import {
+  normalizePhone,
+  normalizePrice,
+  normalizeTag,
+  normalizeTime,
+  sanitizeText,
+} from "./sanitize.js";
+import type { EntityUpsert, TravelStore } from "./store.js";
 
-const TravelItemSchema = z.object({
-  id: z.string().min(1).max(256),
-  category: z.string().min(1).max(64),
-  name: z.string().min(1).max(256),
-  region: z.string().max(128).optional(),
-  city: z.string().max(128).optional(),
-  country: z.string().max(128).optional(),
-  price_tier: z.string().max(32).optional(),
-  tags: z.array(z.string().max(64)).max(32).optional(),
-  summary: z.string().max(2_000).optional(),
-  detail_json: z.unknown().optional(),
-  expires_at: z.number().int().nonnegative().optional(),
+const HoursInputSchema = z.object({
+  day: z.string().min(1).max(16),
+  slot_index: z.number().int().nonnegative().max(16).optional(),
+  opening_time: z.string().max(16).optional(),
+  closing_time: z.string().max(16).optional(),
+  is_closed: z.boolean().optional(),
 });
 
-type IngestItem = z.infer<typeof TravelItemSchema>;
+const ItemInputSchema = z.object({
+  item_id: z.number().int().nonnegative(),
+  item_name: z.string().min(1).max(256),
+  price_label: z.union([z.string().max(64), z.number()]).optional(),
+  currency: z.string().max(8).optional(),
+  timing_open: z.string().max(16).optional(),
+  timing_close: z.string().max(16).optional(),
+  item_type: z.string().min(1).max(32),
+  signature_dish: z.boolean().optional(),
+});
+
+const EntityInputSchema = z.object({
+  entity_id: z.number().int().positive(),
+  name: z.string().min(1).max(256),
+  address: z.string().max(512).optional(),
+  latitude: z.number().min(-90).max(90).optional(),
+  longitude: z.number().min(-180).max(180).optional(),
+  rating: z.number().min(0).max(10).optional(),
+  reviews_count: z.number().int().nonnegative().optional(),
+  phone: z.union([z.string().max(64), z.number()]).optional(),
+  parking: z.string().max(32).optional(),
+  description: z.string().max(4_000).optional(),
+  peak_hours: z.string().max(512).optional(),
+  links: z.string().max(2_000).optional(),
+  documents_required: z.string().max(1_000).optional(),
+  dress_code: z.string().max(512).optional(),
+  category: z.string().min(1).max(64),
+  sub_category: z.string().max(64).optional(),
+  sub_sub_category: z.string().max(64).optional(),
+  region: z.string().max(128).optional(),
+  image_url: z.string().max(2_048).optional(),
+  hours: z.array(HoursInputSchema).max(64).optional(),
+  items: z.array(ItemInputSchema).max(2_000).optional(),
+  tags: z.array(z.string().max(128)).max(64).optional(),
+  expires_at: z.number().int().nonnegative().nullable().optional(),
+});
+
+type EntityInput = z.infer<typeof EntityInputSchema>;
 
 export function createTravelWebhook(store: TravelStore, config: TravelPluginConfig) {
   const rateLimiter = createFixedWindowRateLimiter({
@@ -41,7 +78,7 @@ export function createTravelWebhook(store: TravelStore, config: TravelPluginConf
   });
 
   const PayloadSchema = z.object({
-    items: z.array(TravelItemSchema).min(1).max(config.maxIngestItems),
+    entities: z.array(EntityInputSchema).min(1).max(config.maxIngestItems),
   });
 
   return {
@@ -103,18 +140,17 @@ export function createTravelWebhook(store: TravelStore, config: TravelPluginConf
         }
 
         const now = Date.now();
-        const rows: TravelItem[] = [];
-        const rejected: { id?: string; reason: string }[] = [];
-        for (const item of parsed.data.items) {
-          const row = toTravelRow(item, now);
-          if (row) {
-            rows.push(row);
-          } else {
-            rejected.push({ id: item.id, reason: "invalid_after_sanitize" });
+        const rejected: { entity_id?: number; reason: string }[] = [];
+        let count = 0;
+        for (const entity of parsed.data.entities) {
+          const upsert = toEntityUpsert(entity);
+          if (!upsert) {
+            rejected.push({ entity_id: entity.entity_id, reason: "invalid_after_sanitize" });
+            continue;
           }
+          store.upsertEntity(upsert, now);
+          count += 1;
         }
-
-        const count = store.upsertBatch(rows);
 
         res.statusCode = 200;
         res.setHeader("Content-Type", "application/json; charset=utf-8");
@@ -132,30 +168,99 @@ export function createTravelWebhook(store: TravelStore, config: TravelPluginConf
   };
 }
 
-function toTravelRow(item: IngestItem, now: number): TravelItem | null {
-  const name = sanitizeText(item.name, 200);
-  if (!name) {
+function toEntityUpsert(input: EntityInput): EntityUpsert | null {
+  const name = sanitizeText(input.name, 256);
+  const category = sanitizeText(input.category, 64);
+  if (!name || !category) {
     return null;
   }
-  const category = sanitizeText(item.category, 64);
-  if (!category) {
-    return null;
+
+  const hoursRows: EntityUpsert["hours"] = [];
+  const slotCounters = new Map<string, number>();
+  for (const h of input.hours ?? []) {
+    const day = sanitizeText(h.day, 16).toLowerCase();
+    if (!day) {
+      continue;
+    }
+    const explicitSlot = h.slot_index;
+    const slot = explicitSlot ?? slotCounters.get(day) ?? 0;
+    slotCounters.set(day, slot + 1);
+    hoursRows.push({
+      day,
+      slot_index: slot,
+      opening_time: h.opening_time ? normalizeTime(h.opening_time) || null : null,
+      closing_time: h.closing_time ? normalizeTime(h.closing_time) || null : null,
+      is_closed: h.is_closed ? 1 : 0,
+    });
   }
+
+  const itemRows: EntityUpsert["items"] = [];
+  const seenItemIds = new Set<number>();
+  for (const it of input.items ?? []) {
+    if (seenItemIds.has(it.item_id)) {
+      continue;
+    }
+    seenItemIds.add(it.item_id);
+    const itemName = sanitizeText(it.item_name, 256);
+    const itemType = sanitizeText(it.item_type, 32).toLowerCase();
+    if (!itemName || !itemType) {
+      continue;
+    }
+    const price = normalizePrice(it.price_label ?? null);
+    itemRows.push({
+      item_id: it.item_id,
+      item_name: itemName,
+      price_amount: price.amount,
+      price_label: price.label || null,
+      currency: sanitizeText(it.currency ?? "INR", 8) || "INR",
+      timing_open: it.timing_open ? normalizeTime(it.timing_open) || null : null,
+      timing_close: it.timing_close ? normalizeTime(it.timing_close) || null : null,
+      item_type: itemType,
+      signature_dish: it.signature_dish ? 1 : 0,
+    });
+  }
+
+  const tagRows: EntityUpsert["tags"] = [];
+  const seenTagNorms = new Set<string>();
+  for (const raw of input.tags ?? []) {
+    const tag = sanitizeText(raw, 128);
+    const tagNorm = normalizeTag(tag);
+    if (!tagNorm || seenTagNorms.has(tagNorm)) {
+      continue;
+    }
+    seenTagNorms.add(tagNorm);
+    tagRows.push({ tag, tag_norm: tagNorm });
+  }
+
   return {
-    id: item.id,
-    category,
+    entity_id: input.entity_id,
     name,
-    region: sanitizeText(item.region ?? "", 128),
-    city: sanitizeText(item.city ?? "", 128),
-    country: sanitizeText(item.country ?? "", 128),
-    price_tier: sanitizeText(item.price_tier ?? "", 32),
-    tags: JSON.stringify((item.tags ?? []).map((t) => sanitizeText(t, 64)).filter(Boolean)),
-    summary: sanitizeText(item.summary ?? "", 500),
-    detail_json: JSON.stringify(item.detail_json ?? {}),
-    expires_at: item.expires_at ?? null,
-    created_at: now,
-    updated_at: now,
+    address: emptyToNull(sanitizeText(input.address ?? "", 512)),
+    latitude: input.latitude ?? null,
+    longitude: input.longitude ?? null,
+    rating: input.rating ?? null,
+    reviews_count: input.reviews_count ?? null,
+    phone: emptyToNull(normalizePhone(input.phone ?? null)),
+    parking: emptyToNull(sanitizeText(input.parking ?? "", 32)),
+    description: emptyToNull(sanitizeText(input.description ?? "", 4_000)),
+    peak_hours: emptyToNull(sanitizeText(input.peak_hours ?? "", 512)),
+    links: emptyToNull(sanitizeText(input.links ?? "", 2_000)),
+    documents_required: emptyToNull(sanitizeText(input.documents_required ?? "", 1_000)),
+    dress_code: emptyToNull(sanitizeText(input.dress_code ?? "", 512)),
+    category,
+    sub_category: emptyToNull(sanitizeText(input.sub_category ?? "", 64)),
+    sub_sub_category: emptyToNull(sanitizeText(input.sub_sub_category ?? "", 64)),
+    region: emptyToNull(sanitizeText(input.region ?? "", 128)),
+    image_url: emptyToNull(sanitizeText(input.image_url ?? "", 2_048)),
+    expires_at: input.expires_at ?? null,
+    hours: hoursRows,
+    items: itemRows,
+    tags: tagRows,
   };
+}
+
+function emptyToNull(value: string): string | null {
+  return value ? value : null;
 }
 
 function headerValue(raw: string | string[] | undefined): string {

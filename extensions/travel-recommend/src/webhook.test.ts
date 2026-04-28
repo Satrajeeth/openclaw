@@ -39,17 +39,6 @@ function createReq(options: {
   return req;
 }
 
-function createStore(): TravelStore {
-  const cfg = {
-    storePath: ":memory:",
-    webhookSecret: "test-secret",
-    maxResults: 5,
-    ttlSweepIntervalMs: 60_000,
-    maxIngestItems: 10,
-  } satisfies TravelPluginConfig;
-  return new TravelStore(cfg);
-}
-
 function cfg(overrides: Partial<TravelPluginConfig> = {}): TravelPluginConfig {
   return {
     storePath: ":memory:",
@@ -61,6 +50,16 @@ function cfg(overrides: Partial<TravelPluginConfig> = {}): TravelPluginConfig {
   };
 }
 
+function createStore(): TravelStore {
+  return new TravelStore(cfg());
+}
+
+const minimalEntity = {
+  entity_id: 1,
+  name: "Sri Padmavati",
+  category: "temple",
+};
+
 describe("createTravelWebhook", () => {
   it("returns 401 and writes nothing on wrong secret", async () => {
     const store = createStore();
@@ -69,12 +68,12 @@ describe("createTravelWebhook", () => {
     await handler(
       createReq({
         headers: { "x-webhook-secret": "wrong" },
-        body: JSON.stringify({ items: [{ id: "1", category: "x", name: "x" }] }),
+        body: JSON.stringify({ entities: [minimalEntity] }),
       }),
       res,
     );
     expect(res.statusCode).toBe(401);
-    expect(store.getById("1")).toBeNull();
+    expect(store.getEntity(1)).toBeNull();
   });
 
   it("returns 415 when content-type is not JSON", async () => {
@@ -109,7 +108,7 @@ describe("createTravelWebhook", () => {
     await handler(
       createReq({
         headers: { "x-webhook-secret": "test-secret" },
-        body: JSON.stringify({ items: [{ id: "1" }] }),
+        body: JSON.stringify({ entities: [{ entity_id: 1 }] }),
       }),
       res,
     );
@@ -119,7 +118,7 @@ describe("createTravelWebhook", () => {
     expect(typeof parsed.error).toBe("string");
   });
 
-  it("writes sanitized rows on happy path", async () => {
+  it("ingests nested hours/items/tags and normalizes them", async () => {
     const store = createStore();
     const handler = createTravelWebhook(store, cfg()).handler;
     const res = createMockServerResponse();
@@ -127,13 +126,22 @@ describe("createTravelWebhook", () => {
       createReq({
         headers: { "x-webhook-secret": "test-secret" },
         body: JSON.stringify({
-          items: [
+          entities: [
             {
-              id: "t1",
+              entity_id: 1,
+              name: "Sri Padmavati\u2028Temple",
               category: "temple",
-              name: "Tirupati\u2028Temple",
-              region: "Andhra",
-              summary: "Hill\u0000top",
+              region: "tirupati",
+              phone: "1.80E+11",
+              hours: [
+                { day: "all", opening_time: "7:00 AM", closing_time: "11:30 AM" },
+                { day: "all", opening_time: "12:30 PM", closing_time: "6:00 PM" },
+              ],
+              items: [
+                { item_id: 1, item_name: "Sarva Darshanam", item_type: "darshan", price_label: "Free" },
+                { item_id: 2, item_name: "Padmavathi Parinayam", item_type: "seva", price_label: "500" },
+              ],
+              tags: ["Goddess Padmavati", "  PADMAVATI  ", "padmavati"],
             },
           ],
         }),
@@ -141,10 +149,62 @@ describe("createTravelWebhook", () => {
       res,
     );
     expect(res.statusCode).toBe(200);
-    const stored = store.getById("t1");
-    expect(stored?.name).toBe("TirupatiTemple");
-    expect(stored?.summary).toBe("Hilltop");
-    expect(stored?.region).toBe("Andhra");
+    const detail = store.getEntity(1);
+    expect(detail?.name).toBe("SriPadmavatiTemple");
+    expect(detail?.phone).toBe("180000000000");
+    expect(detail?.hours).toHaveLength(2);
+    expect(detail?.hours[0]?.opening_time).toBe("07:00");
+    expect(detail?.hours[1]?.closing_time).toBe("18:00");
+    expect(detail?.items).toHaveLength(2);
+    expect(detail?.items[1]?.price_amount).toBe(50_000);
+    // Two casing variants of "padmavati" deduped to one tag_norm.
+    expect(detail?.tags.map((t) => t.tag_norm).toSorted()).toEqual([
+      "goddess padmavati",
+      "padmavati",
+    ]);
+  });
+
+  it("re-ingest replaces nested rows", async () => {
+    const store = createStore();
+    const handler = createTravelWebhook(store, cfg()).handler;
+    await handler(
+      createReq({
+        headers: { "x-webhook-secret": "test-secret" },
+        body: JSON.stringify({
+          entities: [
+            {
+              entity_id: 7,
+              name: "X",
+              category: "temple",
+              hours: [{ day: "all", opening_time: "07:00", closing_time: "09:00" }],
+              tags: ["Old"],
+            },
+          ],
+        }),
+      }),
+      createMockServerResponse(),
+    );
+    await handler(
+      createReq({
+        headers: { "x-webhook-secret": "test-secret" },
+        body: JSON.stringify({
+          entities: [
+            {
+              entity_id: 7,
+              name: "X",
+              category: "temple",
+              hours: [{ day: "mon", opening_time: "08:00", closing_time: "10:00" }],
+              tags: ["New"],
+            },
+          ],
+        }),
+      }),
+      createMockServerResponse(),
+    );
+    const detail = store.getEntity(7);
+    expect(detail?.hours).toHaveLength(1);
+    expect(detail?.hours[0]?.day).toBe("mon");
+    expect(detail?.tags.map((t) => t.tag_norm)).toEqual(["new"]);
   });
 
   it("returns 413 when the body exceeds the configured limit", async () => {
