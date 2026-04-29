@@ -130,12 +130,13 @@ RUN --mount=type=cache,id=openclaw-pnpm-store,target=/root/.local/share/pnpm/sto
       printf '  - %s/%s\n' "$OPENCLAW_BUNDLED_PLUGIN_DIR" "$ext" >> /tmp/pnpm-workspace.runtime.yaml; \
     done && \
     cp /tmp/pnpm-workspace.runtime.yaml pnpm-workspace.yaml && \
-    CI=true NPM_CONFIG_FROZEN_LOCKFILE=false \
-      pnpm prune --prod \
-        --config.fetch-retries=10 \
-        --config.fetch-retry-mintimeout=20000 \
-        --config.fetch-retry-maxtimeout=120000 \
-        --config.network-concurrency=4 && \
+    CI=true \
+    NPM_CONFIG_FROZEN_LOCKFILE=false \
+    NPM_CONFIG_FETCH_RETRIES=10 \
+    NPM_CONFIG_FETCH_RETRY_MINTIMEOUT=20000 \
+    NPM_CONFIG_FETCH_RETRY_MAXTIMEOUT=120000 \
+    NPM_CONFIG_NETWORK_CONCURRENCY=4 \
+      pnpm prune --prod && \
     cd /app && npm rebuild better-sqlite3 && \
     test -f /app/node_modules/better-sqlite3/build/Release/better_sqlite3.node && \
     find dist -type f \( -name '*.d.ts' -o -name '*.d.mts' -o -name '*.d.cts' -o -name '*.map' \) -delete
