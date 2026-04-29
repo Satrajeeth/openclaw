@@ -75,6 +75,11 @@ COPY --from=ext-deps /out/ ./${OPENCLAW_BUNDLED_PLUGIN_DIR}/
 RUN --mount=type=cache,id=openclaw-pnpm-store,target=/root/.local/share/pnpm/store,sharing=locked \
     NODE_OPTIONS=--max-old-space-size=2048 pnpm install --no-frozen-lockfile
 
+# Native deps (e.g. better-sqlite3) used only by bundled plugins are sometimes
+# skipped by pnpm's onlyBuiltDependencies path when they live in a workspace
+# member's deps. Force their install scripts so prebuilt binaries are fetched.
+RUN pnpm rebuild better-sqlite3
+
 COPY . .
 
 # Normalize extension paths now so runtime COPY preserves safe modes
