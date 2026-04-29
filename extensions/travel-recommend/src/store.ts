@@ -6,6 +6,17 @@ import type { TravelPluginConfig } from "./config.js";
 const require = createRequire(import.meta.url);
 const Database = require("better-sqlite3");
 
+function resolveDbPath(storePath: string | undefined): string {
+  if (storePath === ":memory:") return ":memory:";
+  if (storePath && storePath.length > 0) return path.resolve(storePath);
+  // Default: place under the OpenClaw state dir so it works in any env
+  // (host or container) without baking in absolute host paths.
+  const stateDir =
+    process.env.OPENCLAW_STATE_DIR ||
+    path.join(process.env.HOME || "/", ".openclaw");
+  return path.join(stateDir, "travel-recommend", "travel.db");
+}
+
 export type EntityRow = {
   entity_id: number;
   name: string;
@@ -108,8 +119,7 @@ export class TravelStore {
   private db: DatabaseInstance;
 
   constructor(config: TravelPluginConfig) {
-    const dbPath =
-      config.storePath === ":memory:" ? ":memory:" : path.resolve(config.storePath);
+    const dbPath = resolveDbPath(config.storePath);
     if (dbPath !== ":memory:") {
       mkdirSync(path.dirname(dbPath), { recursive: true });
     }
