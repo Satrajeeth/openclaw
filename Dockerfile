@@ -75,10 +75,18 @@ COPY --from=ext-deps /out/ ./${OPENCLAW_BUNDLED_PLUGIN_DIR}/
 RUN --mount=type=cache,id=openclaw-pnpm-store,target=/root/.local/share/pnpm/store,sharing=locked \
     NODE_OPTIONS=--max-old-space-size=2048 pnpm install --no-frozen-lockfile
 
-# Native deps (e.g. better-sqlite3) used only by bundled plugins are sometimes
-# skipped by pnpm's onlyBuiltDependencies path when they live in a workspace
-# member's deps. Force their install scripts so prebuilt binaries are fetched.
-RUN pnpm rebuild better-sqlite3
+# Native deps (e.g. better-sqlite3) used only by bundled plugins get skipped by
+# pnpm's hoisted-install path when they live in a workspace member's deps.
+# Force the install lifecycle directly via npm rebuild so prebuild-install can
+# fetch the prebuilt binary, and fall back to source compile if no prebuilt
+# matches the current Node ABI. Verify the .node file actually lands so we
+# fail the build loudly instead of at runtime.
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+      python3 build-essential && \
+    rm -rf /var/lib/apt/lists/* && \
+    cd /app && npm rebuild better-sqlite3 && \
+    test -f /app/node_modules/better-sqlite3/build/Release/better_sqlite3.node
 
 COPY . .
 
