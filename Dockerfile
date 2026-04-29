@@ -111,7 +111,7 @@ ARG OPENCLAW_BUNDLED_PLUGIN_DIR
 # the root, `ui`, and opted-in plugin manifests into the install layer, so
 # prune must not rediscover unrelated workspaces from the later full source
 # copy.
-RUN printf 'packages:\n  - .\n  - ui\n' > /tmp/pnpm-workspace.runtime.yaml && \
+RUN printf 'packages:\n  - .\n  - ui\n  - packages/*\n' > /tmp/pnpm-workspace.runtime.yaml && \
     for ext in $OPENCLAW_EXTENSIONS; do \
       printf '  - %s/%s\n' "$OPENCLAW_BUNDLED_PLUGIN_DIR" "$ext" >> /tmp/pnpm-workspace.runtime.yaml; \
     done && \
