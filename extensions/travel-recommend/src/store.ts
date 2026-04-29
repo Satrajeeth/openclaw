@@ -1,3 +1,4 @@
+import { mkdirSync } from "node:fs";
 import { createRequire } from "node:module";
 import path from "node:path";
 import type { TravelPluginConfig } from "./config.js";
@@ -109,6 +110,9 @@ export class TravelStore {
   constructor(config: TravelPluginConfig) {
     const dbPath =
       config.storePath === ":memory:" ? ":memory:" : path.resolve(config.storePath);
+    if (dbPath !== ":memory:") {
+      mkdirSync(path.dirname(dbPath), { recursive: true });
+    }
     this.db = new Database(dbPath);
     this.init();
   }
